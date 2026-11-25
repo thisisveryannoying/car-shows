@@ -1,0 +1,68 @@
+# Photo credits
+
+The event photos are from Wikimedia Commons, used under the open licences shown. They were taken at UK car events and show the kind of cars each type of event draws; they are not photos of the events listed in the app. Each photo is also credited on its event card.
+
+- img/events/classic-0.jpg : 2015-09-12 Goodwood Ferrari. By Ady (flickr user), CC BY 2.0. https://commons.wikimedia.org/wiki/File:2015-09-12_Goodwood_Ferrari.jpg
+- img/events/classic-1.jpg : 2024 NEC Classic Motor Show 100. By Anders Bot, CC BY 2.0. https://commons.wikimedia.org/wiki/File:2024_NEC_Classic_Motor_Show_100.jpg
+- img/events/classic-2.jpg : 2015-09-12 Goodwood Ferrari 212 0215EL. By Ady (flickr user), CC BY 2.0. https://commons.wikimedia.org/wiki/File:2015-09-12_Goodwood_Ferrari_212_0215EL.jpg
+- img/events/classic-3.jpg : Beaulieu National Motor Museum 18-09-2012 (8444664909). By Karen Roe from Bury St Edmunds, Suffolk, UK, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Beaulieu_National_Motor_Museum_18-09-2012_(8444664909).jpg
+- img/events/classic-4.jpg : 2024 NEC Classic Motor Show 103. By Anders Bot, CC BY 2.0. https://commons.wikimedia.org/wiki/File:2024_NEC_Classic_Motor_Show_103.jpg
+- img/events/classic-5.jpg : 2015-09-12 Goodwood Ferrari 250 0352MM. By Ady (flickr user), CC BY 2.0. https://commons.wikimedia.org/wiki/File:2015-09-12_Goodwood_Ferrari_250_0352MM.jpg
+- img/events/classic-6.jpg : International Autojumble Classic Cars for Sale. By Aliimagic, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:International_Autojumble_Classic_Cars_for_Sale.jpg
+- img/events/classic-7.jpg : 2015-09-12 Goodwood Ferrari 250 2119GT. By Ady (flickr user), CC BY 2.0. https://commons.wikimedia.org/wiki/File:2015-09-12_Goodwood_Ferrari_250_2119GT.jpg
+- img/events/supercar-0.jpg : Ferrari F12 TRS - 2014 Goodwood Festival of Speed - 01. By Michelin LIVE UK from Stoke-On-Trent, UK, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Ferrari_F12_TRS_-_2014_Goodwood_Festival_of_Speed_-_01.jpg
+- img/events/supercar-1.jpg : 2011 Koenigsegg Agera N 5.3. By Liam Walker, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:2011_Koenigsegg_Agera_N_5.3.jpg
+- img/events/supercar-2.jpg : Veyron in Supercar Paddock (4762206458). By fusen, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Veyron_in_Supercar_Paddock_(4762206458).jpg
+- img/events/supercar-3.jpg : 2013-2018 Bentley Flying Spur. By Vauxford, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:2013-2018_Bentley_Flying_Spur.jpg
+- img/events/supercar-4.jpg : 2020 Aspark Owl. By Dylan Johnson, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:2020_Aspark_Owl.jpg
+- img/events/supercar-5.jpg : Goodwood Festival of Speed (53865258255). By Francisco Antunes from Manchester, United Kingdom, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Goodwood_Festival_of_Speed_(53865258255).jpg
+- img/events/supercar-6.jpg : 2001 Aston Martin Vanquish Zagato Roadster. By John Tiffin, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:2001_Aston_Martin_Vanquish_Zagato_Roadster.jpg
+- img/events/supercar-7.jpg : 2020 Brabham BT62 R. By Dylan Johnson, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:2020_Brabham_BT62_R.jpg
+- img/events/jdm-0.jpg : Civic Type R EK9 Japfest '14. By Mathew Bedworth, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Civic_Type_R_EK9_Japfest_%2714.jpg
+- img/events/jdm-1.jpg : 1992 Nissan Skyline GT-R 4. By Calreyn88, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1992_Nissan_Skyline_GT-R_4.jpg
+- img/events/jdm-2.jpg : 1984 Toyota Celica Supra 2.8 (53630313619). By Kieran White from Manchester, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1984_Toyota_Celica_Supra_2.8_(53630313619).jpg
+- img/events/jdm-3.jpg : 1991 Honda NSX 4. By Calreyn88, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1991_Honda_NSX_4.jpg
+- img/events/jdm-4.jpg : EK9 Honda Civic Type R IMG 7754. By Richard Hunter, CC BY 2.0. https://commons.wikimedia.org/wiki/File:EK9_Honda_Civic_Type_R_IMG_7754.jpg
+- img/events/jdm-5.jpg : 1992 Nissan Skyline GT-R Nismo. By Calreyn88, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1992_Nissan_Skyline_GT-R_Nismo.jpg
+- img/events/jdm-6.jpg : 1993 Toyota Supra 3.0 (52627572293). By Kieran White from Manchester, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1993_Toyota_Supra_3.0_(52627572293).jpg
+- img/events/jdm-7.jpg : Toyota Sprinter Trueno GT APEX coupé 04. By Richard Hunter, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Toyota_Sprinter_Trueno_GT_APEX_coup%C3%A9_04.jpg
+- img/events/muscle-0.jpg : 1969 Ford Mustang Boss 302 Goodwood, 2009 (01). By Bahnfrend, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1969_Ford_Mustang_Boss_302_Goodwood,_2009_(01).jpg
+- img/events/muscle-1.jpg : 1970 Chevrolet Camaro Z28 - Flickr - exfordy. By Brian Snelson from Hockley, Essex, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1970_Chevrolet_Camaro_Z28_-_Flickr_-_exfordy.jpg
+- img/events/muscle-2.jpg : 1968 Dodge Charger 440 R T Magnum (44208906395). By David Merrett from Daventry, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1968_Dodge_Charger_440_R_T_Magnum_(44208906395).jpg
+- img/events/muscle-3.jpg : 1972 Ford Mustang Mach1 blu. By MrWalkr, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1972_Ford_Mustang_Mach1_blu.jpg
+- img/events/muscle-4.jpg : Mustang Fastback - Festival of Power Santa Pod 2016 (26064952475). By Airwolfhound from Hertfordshire, UK, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Mustang_Fastback_-_Festival_of_Power_Santa_Pod_2016_(26064952475).jpg
+- img/events/muscle-5.jpg : 2008 Ford Mustang GT Roush. By Calreyn88, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:2008_Ford_Mustang_GT_Roush.jpg
+- img/events/muscle-6.jpg : 1969DodgeChargerDaytona. By Brian Snelson, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1969DodgeChargerDaytona.jpg
+- img/events/muscle-7.jpg : 2013 S197 Ford Mustang GT V. By MrWalkr, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:2013_S197_Ford_Mustang_GT_V.jpg
+- img/events/meet-0.jpg : View of a Bentley in the Coffee and Cars event at the Museum of Power - geograph.org.uk - 6164158. By Robert Lamb, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:View_of_a_Bentley_in_the_Coffee_and_Cars_event_at_the_Museum_of_Power_-_geograph.org.uk_-_6164158.jpg
+- img/events/meet-1.jpg : View of a Chevrolet Camaro leaving the Coffee and Cars event at the Museum of Power - geograph.org.uk - 6164106. By Robert Lamb, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:View_of_a_Chevrolet_Camaro_leaving_the_Coffee_and_Cars_event_at_the_Museum_of_Power_-_geograph.org.uk_-_6164106.jpg
+- img/events/meet-2.jpg : View of a Chevrolet Corvette in the Coffee and Cars event at the Museum of Power - geograph.org.uk - 6163889. By Robert Lamb, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:View_of_a_Chevrolet_Corvette_in_the_Coffee_and_Cars_event_at_the_Museum_of_Power_-_geograph.org.uk_-_6163889.jpg
+- img/events/meet-3.jpg : Classic Car rally exhibit at Brooklands Museum - geograph.org.uk - 4794235. By Roger Davies, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Classic_Car_rally_exhibit_at_Brooklands_Museum_-_geograph.org.uk_-_4794235.jpg
+- img/events/meet-4.jpg : View of a Chevrolet in the Coffee and Cars event at the Museum of Power - geograph.org.uk - 6164254. By Robert Lamb, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:View_of_a_Chevrolet_in_the_Coffee_and_Cars_event_at_the_Museum_of_Power_-_geograph.org.uk_-_6164254.jpg
+- img/events/meet-5.jpg : View of a Citroen Acadiane in the Coffee and Cars event at the Museum of Power - geograph.org.uk - 6164215. By Robert Lamb, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:View_of_a_Citroen_Acadiane_in_the_Coffee_and_Cars_event_at_the_Museum_of_Power_-_geograph.org.uk_-_6164215.jpg
+- img/events/meet-6.jpg : MORGAN CARS AT BROOKLANDS (10121747594). By Wikimedia Commons contributor, CC BY 2.0. https://commons.wikimedia.org/wiki/File:MORGAN_CARS_AT_BROOKLANDS_(10121747594).jpg
+- img/events/meet-7.jpg : @Brooklands Museum (1). By Dinesh Advani, CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:@Brooklands_Museum_(1).JPG
+- img/events/track-0.jpg : Castle Combe Circuit MMB 08 Caterhams. By mattbuck (category), CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Castle_Combe_Circuit_MMB_08_Caterhams.jpg
+- img/events/track-1.jpg : 1909 FL Sports in action at Prescott hill climb (20321639625). By Dave_S. from Witney, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1909_FL_Sports_in_action_at_Prescott_hill_climb_(20321639625).jpg
+- img/events/track-2.jpg : 1959 Cooper T51 Donington Park 2023 01. By Julian Herzog (Website), CC BY 4.0. https://commons.wikimedia.org/wiki/File:1959_Cooper_T51_Donington_Park_2023_01.jpg
+- img/events/track-3.jpg : Brands-hatch. By Whiters, Public domain. https://commons.wikimedia.org/wiki/File:Brands-hatch.jpg
+- img/events/track-4.jpg : 1922 Bugatti T22 (20353134361). By Dave_S. from Witney, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1922_Bugatti_T22_(20353134361).jpg
+- img/events/track-5.jpg : 1961 Cooper T53 Donington Park 2023 01. By Julian Herzog (Website), CC BY 4.0. https://commons.wikimedia.org/wiki/File:1961_Cooper_T53_Donington_Park_2023_01.jpg
+- img/events/track-6.jpg : Bugatti-type-35-prescott-hillclimb-202500001 02. By ChristopherJClarke, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Bugatti-type-35-prescott-hillclimb-202500001_02.jpg
+- img/events/track-7.jpg : 1965 Cooper Monaco King Cobra Donington Park 2023 01. By Julian Herzog (Website), CC BY 4.0. https://commons.wikimedia.org/wiki/File:1965_Cooper_Monaco_King_Cobra_Donington_Park_2023_01.jpg
+- img/events/offroad-0.jpg : 2015 Land Rover Defender 90 Heritage 2.2 TD D (52446890898). By Kieran White from Manchester, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:2015_Land_Rover_Defender_90_Heritage_2.2_TD_D_(52446890898).jpg
+- img/events/offroad-1.jpg : 1949 Land Rover Series I. By Calreyn88, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1949_Land_Rover_Series_I.jpg
+- img/events/offroad-2.jpg : 144-365 Defender pickup. By dickinsonjohn02, Public domain. https://commons.wikimedia.org/wiki/File:144-365_Defender_pickup.jpg
+- img/events/offroad-3.jpg : 1970 Land Rover Range Rover 3.5. By Vauxford, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1970_Land_Rover_Range_Rover_3.5.jpg
+- img/events/offroad-4.jpg : 1986.landrover.90.arp. By Wikimedia Commons contributor, Public domain. https://commons.wikimedia.org/wiki/File:1986.landrover.90.arp.jpg
+- img/events/offroad-5.jpg : 1970 Range Rover. By Calreyn88, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1970_Range_Rover.jpg
+- img/events/offroad-6.jpg : Land Rover Defender (37 GUM) - 7 June 2026. By Aethonatic, CC0. https://commons.wikimedia.org/wiki/File:Land_Rover_Defender_(37_GUM)_-_7_June_2026.jpg
+- img/events/offroad-7.jpg : Land Rover Defender (B16 PKG) - 21 June 2026. By Aethonatic, CC0. https://commons.wikimedia.org/wiki/File:Land_Rover_Defender_(B16_PKG)_-_21_June_2026.jpg
+- img/events/auction-0.jpg : 1932 Alfa Romeo 2300 Spider Corto. By Calreyn88, CC0. https://commons.wikimedia.org/wiki/File:1932_Alfa_Romeo_2300_Spider_Corto.jpg
+- img/events/auction-1.jpg : Bonhams - The Paris Sale 2012 - Bentley 6½ 8-Litre Tourer - 1929 - 002. By Thesupermat, CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Bonhams_-_The_Paris_Sale_2012_-_Bentley_6%C2%BD_8-Litre_Tourer_-_1929_-_002.jpg
+- img/events/auction-2.jpg : Ferrari 375 Plus Spider by Pinin Farina (55035890293). By Alexandre Prevot from Nancy, France, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Ferrari_375_Plus_Spider_by_Pinin_Farina_(55035890293).jpg
+- img/events/auction-3.jpg : 1963 Elva Mk7 (20327444191). By David Merrett from Daventry, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1963_Elva_Mk7_(20327444191).jpg
+- img/events/auction-4.jpg : 1954 Austin Healey BN1. By Calreyn88, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:1954_Austin_Healey_BN1.jpg
+- img/events/auction-5.jpg : 1969 Ferrari 365 GTB 4 Daytona Competizione Group 4 (31989277527). By David Merrett from Daventry, England, CC BY 2.0. https://commons.wikimedia.org/wiki/File:1969_Ferrari_365_GTB_4_Daytona_Competizione_Group_4_(31989277527).jpg
+- img/events/auction-6.jpg : 1957 Aston Martin DB2 4. By Calreyn88, CC BY 4.0. https://commons.wikimedia.org/wiki/File:1957_Aston_Martin_DB2_4.jpg
+- img/events/auction-7.jpg : 1958 Aston Martin DB Mark III 4. By Calreyn88, CC0. https://commons.wikimedia.org/wiki/File:1958_Aston_Martin_DB_Mark_III_4.jpg

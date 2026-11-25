@@ -1,0 +1,5 @@
+# Local tools and settings that shouldn't go on GitHub
+tools/cloudflared.exe
+.claude/settings.local.json
+.env
+*.log
