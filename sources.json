@@ -1,53 +1,443 @@
 {
   "_about": "Pages the updater reads for real UK car events. Official organisers, venues and clubs only, not directories or ticket resellers. Set \"enabled\": false to pause one. The updater adds more by itself: \"followed\" ones are further pages of the same site, \"auto\" ones come from the weekly search.",
   "sources": [
-    { "name": "British Motor Museum, Gaydon", "url": "https://www.britishmotormuseum.co.uk/whats-on", "enabled": true },
-    { "name": "Brooklands Museum", "url": "https://www.brooklandsmuseum.com/whats-on/calendar/", "enabled": true },
-    { "name": "Bicester Motion", "url": "https://bicestermotion.com/calendar", "enabled": true },
-    { "name": "Beaulieu", "url": "https://www.beaulieu.co.uk/events/", "enabled": true },
-    { "name": "Goodwood", "url": "https://www.goodwood.com/motorsport/", "enabled": true },
-    { "name": "Goodwood Breakfast Club", "url": "https://www.goodwood.com/motorsport/breakfast-club/", "enabled": true },
-    { "name": "Silverstone", "url": "https://www.silverstone.co.uk/events", "enabled": true },
-    { "name": "Japfest", "url": "https://japfest.co.uk/", "enabled": true },
-    { "name": "Great British Car Journey", "url": "https://greatbritishcarjourney.com/whats-on/", "enabled": true },
-    { "name": "Caffeine & Machine", "url": "https://caffeineandmachine.com/events/", "enabled": false, "note": "refuses automated visits (HTTP 403)" },
-    { "name": "Ace Cafe London", "url": "https://www.ace-cafe-london.com/events/", "enabled": true },
-    { "name": "Iconic Auctioneers", "url": "https://www.iconicauctioneers.com/", "enabled": false, "note": "page is built by scripts, no readable text" },
-    { "name": "Anglia Car Auctions", "url": "https://angliacarauctions.co.uk/auctions", "enabled": true },
-    { "name": "MSV Trackdays", "url": "https://msvtrackdays.com/", "enabled": false, "note": "robots.txt asks bots not to read it" },
-    { "name": "Thruxton", "url": "https://thruxtonracing.co.uk/", "enabled": true },
-    { "name": "Lakeland Motor Museum", "url": "https://www.lakelandmotormuseum.co.uk/about/events", "enabled": true },
-
-    { "name": "SWVA", "url": "https://www.swva.co.uk/classic-auction-calendar", "enabled": true },
-    { "name": "Morris Leslie", "url": "https://www.morrisleslie.com/auctions", "enabled": true },
-    { "name": "Haynes Motor Museum", "url": "https://www.haynesmuseum.org/whats-on/motoring-events/", "enabled": true },
-    { "name": "FBHVC (historic vehicle clubs)", "url": "https://www.fbhvc.co.uk/events", "enabled": true },
-    { "name": "GLASS (green lanes)", "url": "https://www.glass-uk.org/events", "enabled": true },
-    { "name": "Brands Hatch", "url": "https://www.brandshatch.co.uk/whats-on", "enabled": true },
-    { "name": "Castle Combe Circuit", "url": "https://www.castlecombecircuit.co.uk/", "enabled": true },
-    { "name": "Knockhill", "url": "https://www.knockhill.com/", "enabled": true },
-    { "name": "Anglesey Circuit", "url": "https://www.angleseycircuit.com/", "enabled": true },
-    { "name": "Croft Circuit", "url": "https://www.croftcircuit.co.uk/", "enabled": true },
-    { "name": "Lydden Hill", "url": "https://www.lyddenhill.co.uk/", "enabled": true },
-    { "name": "Blyton Park", "url": "https://www.blytonpark.co.uk/", "enabled": true },
-    { "name": "Pembrey Circuit", "url": "https://www.pembreycircuit.co.uk/", "enabled": true },
-    { "name": "Santa Pod Raceway", "url": "https://santapod.co.uk/", "enabled": true },
-    { "name": "ExCeL London", "url": "https://www.excel.london/whats-on", "enabled": true },
-    { "name": "NEC Classic Motor Show", "url": "https://www.necclassicmotorshow.com/", "enabled": true },
-    { "name": "4x4 Expo", "url": "https://4x4expo.ticketsrv.co.uk", "enabled": true },
-    { "name": "Newark Showground", "url": "https://www.newarkshowground.com/events", "enabled": true },
-    { "name": "Three Counties Showground", "url": "https://www.threecounties.co.uk/events", "enabled": true },
-    { "name": "MG Owners Club", "url": "https://www.mgownersclub.co.uk/events", "enabled": true },
-    { "name": "Porsche Club GB", "url": "https://www.porscheclubgb.com/events", "enabled": true },
-    { "name": "Riley Motor Club", "url": "https://rileymotorclub.org/events-2", "enabled": true },
-    { "name": "TR Register", "url": "https://www.tr-register.co.uk/events", "enabled": true },
-    { "name": "Grampian Transport Museum", "url": "https://www.gtm.org.uk/", "enabled": true },
-    { "name": "Atwell-Wilson Motor Museum", "url": "https://www.atwellwilson.org.uk/", "enabled": true },
-    { "name": "Ultimate Street Car", "url": "https://www.ultimatestreetcar.co.uk/", "enabled": true },
-    { "name": "Modified Nationals", "url": "https://www.modifiednationals.co.uk/", "enabled": true },
-    { "name": "Concours of Elegance", "url": "https://www.concoursofelegance.co.uk/", "enabled": true },
-    { "name": "London Classic Car Show", "url": "https://www.thelondonclassiccarshow.co.uk/", "enabled": true },
-    { "name": "Doune Hill Climb", "url": "https://www.dounehillclimb.co.uk/", "enabled": true },
-    { "name": "Hagerty UK events", "url": "https://www.hagerty.co.uk/official-events/", "enabled": true }
+    {
+      "name": "British Motor Museum, Gaydon",
+      "url": "https://www.britishmotormuseum.co.uk/whats-on",
+      "enabled": true
+    },
+    {
+      "name": "Brooklands Museum",
+      "url": "https://www.brooklandsmuseum.com/whats-on/calendar/",
+      "enabled": true
+    },
+    {
+      "name": "Bicester Motion",
+      "url": "https://bicestermotion.com/calendar",
+      "enabled": true
+    },
+    {
+      "name": "Beaulieu",
+      "url": "https://www.beaulieu.co.uk/events/",
+      "enabled": true
+    },
+    {
+      "name": "Goodwood",
+      "url": "https://www.goodwood.com/motorsport/",
+      "enabled": true
+    },
+    {
+      "name": "Goodwood Breakfast Club",
+      "url": "https://www.goodwood.com/motorsport/breakfast-club/",
+      "enabled": true
+    },
+    {
+      "name": "Silverstone",
+      "url": "https://www.silverstone.co.uk/events",
+      "enabled": true
+    },
+    {
+      "name": "Japfest",
+      "url": "https://japfest.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Great British Car Journey",
+      "url": "https://greatbritishcarjourney.com/whats-on/",
+      "enabled": true
+    },
+    {
+      "name": "Caffeine & Machine",
+      "url": "https://caffeineandmachine.com/events/",
+      "enabled": false,
+      "note": "refuses automated visits (HTTP 403)"
+    },
+    {
+      "name": "Ace Cafe London",
+      "url": "https://www.ace-cafe-london.com/events/",
+      "enabled": true
+    },
+    {
+      "name": "Iconic Auctioneers",
+      "url": "https://www.iconicauctioneers.com/",
+      "enabled": false,
+      "note": "page is built by scripts, no readable text"
+    },
+    {
+      "name": "Anglia Car Auctions",
+      "url": "https://angliacarauctions.co.uk/auctions",
+      "enabled": true
+    },
+    {
+      "name": "MSV Trackdays",
+      "url": "https://msvtrackdays.com/",
+      "enabled": false,
+      "note": "robots.txt asks bots not to read it"
+    },
+    {
+      "name": "Thruxton",
+      "url": "https://thruxtonracing.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Lakeland Motor Museum",
+      "url": "https://www.lakelandmotormuseum.co.uk/about/events",
+      "enabled": true
+    },
+    {
+      "name": "SWVA",
+      "url": "https://www.swva.co.uk/classic-auction-calendar",
+      "enabled": true
+    },
+    {
+      "name": "Morris Leslie",
+      "url": "https://www.morrisleslie.com/auctions",
+      "enabled": true
+    },
+    {
+      "name": "Haynes Motor Museum",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "enabled": true
+    },
+    {
+      "name": "FBHVC (historic vehicle clubs)",
+      "url": "https://www.fbhvc.co.uk/events",
+      "enabled": true
+    },
+    {
+      "name": "GLASS (green lanes)",
+      "url": "https://www.glass-uk.org/events",
+      "enabled": true
+    },
+    {
+      "name": "Brands Hatch",
+      "url": "https://www.brandshatch.co.uk/whats-on",
+      "enabled": true
+    },
+    {
+      "name": "Castle Combe Circuit",
+      "url": "https://www.castlecombecircuit.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Knockhill",
+      "url": "https://www.knockhill.com/",
+      "enabled": true
+    },
+    {
+      "name": "Anglesey Circuit",
+      "url": "https://www.angleseycircuit.com/",
+      "enabled": true
+    },
+    {
+      "name": "Croft Circuit",
+      "url": "https://www.croftcircuit.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Lydden Hill",
+      "url": "https://www.lyddenhill.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Blyton Park",
+      "url": "https://www.blytonpark.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Pembrey Circuit",
+      "url": "https://www.pembreycircuit.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Santa Pod Raceway",
+      "url": "https://santapod.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "ExCeL London",
+      "url": "https://www.excel.london/whats-on",
+      "enabled": true
+    },
+    {
+      "name": "NEC Classic Motor Show",
+      "url": "https://www.necclassicmotorshow.com/",
+      "enabled": true
+    },
+    {
+      "name": "4x4 Expo",
+      "url": "https://4x4expo.ticketsrv.co.uk",
+      "enabled": true
+    },
+    {
+      "name": "Newark Showground",
+      "url": "https://www.newarkshowground.com/events",
+      "enabled": true
+    },
+    {
+      "name": "Three Counties Showground",
+      "url": "https://www.threecounties.co.uk/events",
+      "enabled": true
+    },
+    {
+      "name": "MG Owners Club",
+      "url": "https://www.mgownersclub.co.uk/events",
+      "enabled": true
+    },
+    {
+      "name": "Porsche Club GB",
+      "url": "https://www.porscheclubgb.com/events",
+      "enabled": true
+    },
+    {
+      "name": "Riley Motor Club",
+      "url": "https://rileymotorclub.org/events-2",
+      "enabled": true
+    },
+    {
+      "name": "TR Register",
+      "url": "https://www.tr-register.co.uk/events",
+      "enabled": true
+    },
+    {
+      "name": "Grampian Transport Museum",
+      "url": "https://www.gtm.org.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Atwell-Wilson Motor Museum",
+      "url": "https://www.atwellwilson.org.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Ultimate Street Car",
+      "url": "https://www.ultimatestreetcar.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Modified Nationals",
+      "url": "https://www.modifiednationals.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Concours of Elegance",
+      "url": "https://www.concoursofelegance.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "London Classic Car Show",
+      "url": "https://www.thelondonclassiccarshow.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Doune Hill Climb",
+      "url": "https://www.dounehillclimb.co.uk/",
+      "enabled": true
+    },
+    {
+      "name": "Hagerty UK events",
+      "url": "https://www.hagerty.co.uk/official-events/",
+      "enabled": true
+    },
+    {
+      "name": "Camel Vale Motor Club",
+      "url": "https://camelvalemotorclub.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Cornwall"
+    },
+    {
+      "name": "BMW Car Club GB - Cornwall Region",
+      "url": "https://bmwcarclubgb.uk/2026/01/19/2026-cornwall-region-events-list/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Cornwall"
+    },
+    {
+      "name": "Fowey Classic Car Show and Parade",
+      "url": "https://www.foweyclassiccar.com/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Cornwall"
+    },
+    {
+      "name": "Fowey Regatta",
+      "url": "https://www.foweyregatta.co.uk/car-show",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Cornwall"
+    },
+    {
+      "name": "Triumph Sports Six Club",
+      "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Cornwall"
+    },
+    {
+      "name": "Thruxton (more)",
+      "url": "https://thruxtonracing.co.uk/events",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://thruxtonracing.co.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Thruxton (more)",
+      "url": "https://thruxtonracing.co.uk/events?category=driving-experiences",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://thruxtonracing.co.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Goodwood Breakfast Club (more)",
+      "url": "https://www.goodwood.com/motorsport/grrc-membership/events-calendar/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.goodwood.com/motorsport/breakfast-club/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Goodwood Breakfast Club (more)",
+      "url": "https://www.goodwood.com/whats-on/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.goodwood.com/motorsport/breakfast-club/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=2",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=3",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "SWVA (more)",
+      "url": "https://www.swva.co.uk/car-auction-calendar",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.swva.co.uk/classic-auction-calendar",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Knockhill (more)",
+      "url": "https://www.knockhill.com/events/Knockhill-Racing-fixtures",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.knockhill.com/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Knockhill (more)",
+      "url": "https://www.knockhill.com/trackdays/trackdayEvents",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.knockhill.com/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Knockhill (more)",
+      "url": "https://www.knockhill.com/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.knockhill.com/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Santa Pod Raceway (more)",
+      "url": "https://santapod.co.uk/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://santapod.co.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Porsche Club GB (more)",
+      "url": "https://www.porscheclubgb.com/Events/national-events-calendar",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.porscheclubgb.com/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Grampian Transport Museum (more)",
+      "url": "https://www.gtm.org.uk/events",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.gtm.org.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Fowey Classic Car Show and Parade (more)",
+      "url": "https://www.foweyclassiccar.com/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.foweyclassiccar.com/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Hagerty UK events (more)",
+      "url": "https://www.hagerty.co.uk/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.hagerty.co.uk/official-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events_archive.asp?month=11&year=2026",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events_archive.asp?month=12&year=2026",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events_archive.asp?month=1&year=2027",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events_archive.asp?month=2&year=2027",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events.asp",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    }
   ]
 }
