@@ -16,6 +16,7 @@ $routes = @{
   '/fonts/inter-latin-wght-normal.woff2' = @('fonts\inter-latin-wght-normal.woff2', 'font/woff2')
   '/vendor/maplibre-gl.js'  = @('vendor\maplibre-gl.js', 'text/javascript; charset=utf-8')
   '/vendor/maplibre-gl.css' = @('vendor\maplibre-gl.css', 'text/css; charset=utf-8')
+  '/events.json'  = @('events.json', 'application/json; charset=utf-8')   # real events, written by the updater
 }
 Get-ChildItem (Join-Path $root 'img\events') -Filter *.jpg -File -ErrorAction SilentlyContinue | ForEach-Object {
   $routes['/img/events/' + $_.Name] = @(('img\events\' + $_.Name), 'image/jpeg')

@@ -3,3 +3,4 @@ tools/cloudflared.exe
 .claude/settings.local.json
 .env
 *.log
+node_modules/

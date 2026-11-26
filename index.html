@@ -1484,6 +1484,9 @@ a{color:var(--accent)}
 .ef-price span{font-size:0.75rem;line-height:1rem;color:var(--muted)}
 .ev-foot .btn-2{width:auto;flex:1;max-width:210px;margin-left:auto;min-height:50px}
 .pt,.ev-rows{border-radius:var(--R)}
+/* Real listings: a link to the organiser's page under the description; no timeline when the times aren't known */
+.ev-org{display:inline-flex;align-items:center;gap:4px;margin-top:10px;font-size:0.9375rem;font-weight:600;color:var(--action);text-decoration:none}
+.ev-tl:empty{display:none}
 
 /* ================= Solid, flat look: no glass anywhere =================
    Every floating layer is a solid surface from the palette with a soft shadow; no blur, rims, glints or lenses.
@@ -1636,7 +1639,7 @@ a{color:var(--accent)}
       <div class="lhead"><h2 class="ltitle">Shows nearby</h2></div>
       <div class="summary" id="summary" aria-live="polite"></div>
       <div class="list" id="list"></div>
-      <div class="note">Places and distances are real, events are sample data.<br>Check details with the organiser before attending.<br><button class="linkbtn" id="setLink">Profile, settings and privacy</button></div>
+      <div class="note"><span id="evNote">Places and distances are real, events are sample data.</span><br>Check details with the organiser before attending.<br><button class="linkbtn" id="setLink">Profile, settings and privacy</button></div>
     </div></div>
   </main>
   <!-- Page title, App Store style: today's date above the tab's name, settings on the right -->
@@ -2271,6 +2274,42 @@ function generate({pc, town, places, lat:cLat, lon:cLon}){
   return out;
 }
 
+/* Real events: events.json, written a few times a day by the updater (scripts/update-events.mjs) from organisers'
+   own pages. Loaded once; if it's missing or empty the app shows the sample events instead. */
+let realEvents = null;
+const realReady = fetch('events.json', {cache:'no-cache'})
+  .then(r => r.ok ? r.json() : null)
+  .then(j => { realEvents = Array.isArray(j?.events) && j.events.length ? j.events : null; })
+  .catch(() => { realEvents = null; });
+// "2026-12-05T10:00" as local UK time (new Date() would read a date-only string as UTC midnight)
+function localDate(s){
+  const m = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(s || ''); if (!m) return null;
+  return new Date(+m[1], +m[2] - 1, +m[3], m[4] ? +m[4] : 9, m[5] ? +m[5] : 0);
+}
+function fromReal(list, {lat:cLat, lon:cLon}){
+  const out = [];
+  for (const r of list){
+    const date = localDate(r.start); if (!date || !TYPES[r.type]) continue;
+    const end = localDate(r.end), endKnown = !!(r.end && r.end.includes('T'));
+    const look = r.priceLook, bring = r.priceCar;
+    const known = [r.mode === 'enter' ? null : look, r.mode === 'spectate' ? null : bring].filter(v => v != null);
+    out.push({
+      id: r.id, type: r.type, date, end, real: true, timeKnown: !!r.timeKnown, endKnown,
+      lat: r.lat, lon: r.lon, name: r.name, venue: r.venue || r.town, town: r.town,
+      miles: Math.round(Math.max(.3, toMiles({lat:cLat, lon:cLon}, {lat:r.lat, lon:r.lon})) * 10) / 10,
+      look: look ?? undefined, bring: bring ?? undefined,
+      price: known.length ? Math.min(...known) : Infinity,   // unknown prices sort last and drop out of price filters
+      turnout: 0, mode: ['enter', 'spectate', 'both'].includes(r.mode) ? r.mode : 'both',
+      desc: r.desc, url: r.url, source: r.source,
+    });
+  }
+  // Same photo spreading as the sample events: each show of a type gets the next picture, in date order
+  const seen = {};
+  for (const e of [...out].sort((a, b) => a.date - b.date)){ const k = seen[e.type] = (seen[e.type] ?? -1) + 1; e.ph = k + ((hash(e.type) >>> 0) % 8); }
+  return out;
+}
+const usingReal = () => !!realEvents;
+
 /* A drawn picture for each event: sky, hills and a few cars. It is made on the device from the event's own
    details, so no photo is copied and no image is requested from anywhere. Real photos would need the organiser's permission. */
 const sceneCache = new Map();
@@ -2520,12 +2559,14 @@ const fTime  = d => d.toLocaleTimeString('en-GB',{hour:'2-digit', minute:'2-digi
 // Finish time: how long each kind of show usually runs (sample data). Evening meets are short, and nothing runs past 11pm
 const DUR_H = {classic:5, supercar:4, jdm:4, muscle:4, meet:2.5, track:7, offroad:6, auction:4};
 function endOf(e){
+  if (e.real) return e.end && e.end > e.date && e.end.toDateString() === e.date.toDateString() ? e.end : new Date(e.date.getTime() + (DUR_H[e.type] ?? 4) * 3600000);
   const h = e.date.getHours() >= 17 ? Math.min(DUR_H[e.type] ?? 4, 3) : (DUR_H[e.type] ?? 4);
   const d = new Date(e.date.getTime() + h * 3600000), cap = new Date(e.date); cap.setHours(23, 0, 0, 0);
   return d > cap ? cap : d;
 }
 const f12 = d => `${d.getHours() % 12 || 12}:${String(d.getMinutes()).padStart(2, '0')}`;   // 12-hour, as in "12:00 – 5:00"
-const fRange = e => `${f12(e.date)} – ${f12(endOf(e))}`;
+// Real listings without a start time say so, rather than showing a made-up one; with a start but no finish, just the start
+const fRange = e => e.real && !e.timeKnown ? 'Times TBC' : e.real && !e.endKnown ? `From ${f12(e.date)}` : `${f12(e.date)} – ${f12(endOf(e))}`;
 const fDow   = d => d.toLocaleDateString('en-GB',{weekday:'short'});
 const fMon   = d => d.toLocaleDateString('en-GB',{month:'short'});
 const fDateL = d => d.toLocaleDateString('en-GB',{weekday:'long', day:'numeric', month:'long'});
@@ -2568,7 +2609,7 @@ function setMapTheme(){ if (map) map.setStyle(mapStyle(isDark())); }
 function pinEl(e, label){
   const free = e.price === 0, el = document.createElement('div');
   el.className = 'mkwrap'; el.tabIndex = 0; el.setAttribute('role', 'button'); el.setAttribute('aria-label', label); el.title = label;
-  el.innerHTML = `<div class="mk ${free?'free':'paid'}">${free ? 'Free' : '£' + e.price}</div>`;   // a price tag, like a booking map
+  el.innerHTML = `<div class="mk ${free?'free':'paid'}">${free ? 'Free' : isFinite(e.price) ? '£' + e.price : 'TBC'}</div>`;   // a price tag, like a booking map
   return el;
 }
 function renderMap(list){
@@ -3125,11 +3166,11 @@ function inDays(d){
   return n <= 0 ? 'Today' : n === 1 ? 'Tomorrow' : `In ${n} days`;
 }
 const FEATURED = [
-  {cap:'Coming up next',  icon:'cal',    pick:L => L.sort((a,b) => a.date - b.date),                              note:e => `${inDays(e.date)}, ${fTime(e.date)}`},
+  {cap:'Coming up next',  icon:'cal',    pick:L => L.sort((a,b) => a.date - b.date),                              note:e => e.real && !e.timeKnown ? inDays(e.date) : `${inDays(e.date)}, ${fTime(e.date)}`},
   {cap:'Closest to you',  icon:'pin',    pick:L => L.sort((a,b) => a.miles - b.miles),                            note:e => `Just ${fDist(e.miles)} ${dUnit()} from you`},
-  {cap:'Biggest turnout', icon:'people', pick:L => L.sort((a,b) => b.turnout - a.turnout),                        note:e => `Around ${fNum(e.turnout)} usually go`},
+  {cap:'Biggest turnout', icon:'people', pick:L => L.filter(e => e.turnout > 0).sort((a,b) => b.turnout - a.turnout), note:e => `Around ${fNum(e.turnout)} usually go`},   // real listings don't say, so this one sits out
   {cap:'Free to attend',  icon:'tag',    pick:L => L.filter(e => e.price === 0).sort((a,b) => a.date - b.date),   note:() => 'No entry fee'},
-  {cap:'Cheapest entry',  icon:'tag',    pick:L => L.filter(e => e.price > 0).sort((a,b) => a.price - b.price || a.date - b.date), note:e => `£${e.price} entry`},
+  {cap:'Cheapest entry',  icon:'tag',    pick:L => L.filter(e => e.price > 0 && isFinite(e.price)).sort((a,b) => a.price - b.price || a.date - b.date), note:e => `£${e.price} entry`},
   {cap:'This weekend',    icon:'flag',   pick:L => L.filter(e => thisWeekend(e.date)).sort((a,b) => b.turnout - a.turnout), note:e => fDateL(e.date)},
 ];
 let featKey = '';
@@ -3720,6 +3761,8 @@ let evCurrent = null, evOpener = null;
 /* Two prices: just looking, and bringing a car. null = not open to that group (visitors-only or entrants-only events).
    Sample data only carries the per-car price; the visitor price is derived from it, steadily per event. Real listings will carry both. */
 function prices(e){
+  // Real listings carry their own prices; undefined = the page didn't say
+  if (e.real) return {look:e.mode === 'enter' ? null : (e.look ?? undefined), bring:e.mode === 'spectate' ? null : (e.bring ?? undefined)};
   const look = e.price === 0 ? 0 : ((hash(e.id + 'look') >>> 0) % 3 === 0 ? 0 : Math.max(3, Math.round(e.price * 0.5)));
   if (e.mode === 'spectate') return {look:e.price, bring:null};
   if (e.mode === 'enter') return {look:null, bring:e.price};
@@ -3757,7 +3800,7 @@ function fillEvent(e){
   $('#evImg').innerHTML = `<img onload="imgIn(this)" src="${photoFor(e).src}" alt="Photo from a UK car event of the kind of car you might see (${esc(TYPES[e.type])}), not this event" width="800" height="533" decoding="async" data-ev="${e.id}" onerror="artFallback(this)"><a class="ev-cap" href="${photoFor(e).page}" target="_blank" rel="noopener noreferrer">Photo · ${esc(photoFor(e).by)} · ${photoFor(e).lic}</a>`;
   const ps = priceSummary(e);
   // What it costs, in one line: "£15 per person", "£5 to look, £10 per car", "Free"
-  const what = ps.free && !ps.small ? 'Free' : ps.free ? `Free to look, £${p.bring} per car`
+  const what = ps.unknown ? 'Price not listed yet, check with the organiser' : ps.free && !ps.small ? 'Free' : ps.free ? `Free to look, £${p.bring} per car`
     : p.look != null && p.bring != null ? `£${p.look} to look, £${p.bring} per car` : `${ps.big} ${ps.small}`;
   const steps = schedule(e);
   /* Three plain sections in one box, nothing else: When (the date and the day's timeline), Where (the venue and how
@@ -3778,7 +3821,8 @@ function fillEvent(e){
         <h2 class="ev-what-n" id="evTitle">${esc(e.name)}</h2>
         <span class="ev-what-t">${esc(TYPES[e.type])}</span>
         <b class="ev-what-p num">${what}</b>
-        <p class="ev-what-d">${DESC[e.type]}</p>
+        ${(e.real ? e.desc : DESC[e.type]) ? `<p class="ev-what-d">${esc(e.real ? e.desc : DESC[e.type])}</p>` : ''}
+        ${orgUrl && e.real ? `<a class="ev-org" href="${esc(orgUrl)}" target="_blank" rel="noopener noreferrer" aria-label="More from the organiser, ${esc(e.source || '')}">More from the organiser ›</a>` : ''}
       </section>
     </div>`;
   // The foot: Save and Add to calendar
@@ -3791,6 +3835,8 @@ function schedule(e){
   const s = e.date, end = endOf(e), at = (d, m) => new Date(d.getTime() + m * 60000);
   const t = d => `${d.getHours() % 12 || 12}:${String(d.getMinutes()).padStart(2, '0')}${d.getHours() < 12 ? 'am' : 'pm'}`;
   const mins = (end - s) / 60000;
+  // Real listings: only what the organiser says (opening, and closing if given); nothing made up in between
+  if (e.real) return !e.timeKnown ? [] : [{t:t(s), what:'Opens', key:true}, ...(e.endKnown ? [{t:t(end), what:'Closes', key:false}] : [])];
   const plan = {
     auction: [[0, 'Viewing opens'], [Math.min(60, mins / 3), 'Bidding opens', true], [mins, 'Close']],
     track:   [[0, 'Sign-on and briefing'], [Math.min(60, mins / 4), 'Track opens', true], [mins, 'Last session ends']],
@@ -3803,14 +3849,19 @@ function schedule(e){
    Spans only, because Featured cards are buttons. "Entry for everyone" is left out: a plain Free says it. */
 function cardFoot(e, label){
   const ps = priceSummary(e), note = ps.small;
-  const price = ps.free
-    ? `<span class="lc-from">${note ? `<span>${note}</span>` : ''}<b class="free">Free<small class="lc-entry">entry</small></b></span>`
+  const price = ps.unknown
+    ? `<span class="lc-from"><span>Price</span><b class="num">TBC</b></span>`
+    : ps.free
+    ?`<span class="lc-from">${note ? `<span>${note}</span>` : ''}<b class="free">Free<small class="lc-entry">entry</small></b></span>`
     : `<span class="lc-from"><span>From</span><b class="num">${ps.big}<small class="lc-entry">entry</small></b></span>`;
   return `<span class="lc-foot">${price}</span>`;   // no Details button: the whole card opens the show
 }
 /* One price line used everywhere a show's cost is summed up (listing cards and the event page's foot), so they always agree */
 function priceSummary(e){
-  const {look, bring} = prices(e);
+  let {look, bring} = prices(e);
+  // A real listing whose page gives no price for anyone it's open to (null = not open to that group, undefined = not stated)
+  if ((look === undefined || bring === undefined) && look !== 0 && bring !== 0 && !(look > 0) && !(bring > 0)) return {big:'TBC', small:'', unknown:true};
+  if (look === undefined) look = null; if (bring === undefined) bring = null;
   if ((look === 0 || look === null) && (bring === 0 || bring === null)) return {big:'Free', small:'', free:true};   // a plain Free says it all
   if (look === 0) return {big:'Free', small:`to look · £${bring} per car`, free:true};
   if (look === null) return {big:'£' + bring, small:'per car'};
@@ -4221,7 +4272,7 @@ async function applyPostcode(pc, label){
   place = found;
   if (label) place.town = label;   // a town picked by name keeps that name, not the council district
   store.set('cs.place', label ? {pc: place.pc, label} : {pc: place.pc});
-  start();
+  await start();
   return true;
 }
 pcBtn.onclick = async () => {
@@ -4561,7 +4612,7 @@ function renderSettings(){
       ${infoRow('Postcode data', `Postcode lookups use postcodes.io. Contains OS data © Crown copyright and database right ${DATA_YEAR}. Contains Royal Mail data © Royal Mail copyright and database right ${DATA_YEAR}. Contains National Statistics data © Crown copyright and database right ${DATA_YEAR}. Licensed under the Open Government Licence v3.0.`)}
       ${infoRow('Font', 'Inter, used under the SIL Open Font Licence 1.1.')}
       ${infoRow('Pictures', 'Event pictures are photos from UK car events, from Wikimedia Commons under open licences. Each is credited on its event card. They show the kind of cars to expect, not the event, venue or cars listed.')}
-      ${infoRow('Events', 'Event listings in this version are sample data. Always check details with the organiser before attending.')}
+      ${infoRow('Events', usingReal() ? 'Listings are read automatically from organisers’ own websites a few times a day, so they can be out of date or wrong. Always check details with the organiser before attending.' : 'Event listings in this version are sample data. Always check details with the organiser before attending.')}
     </div>`;
   if (fk) $(`#setBody [data-key="${fk}"]`)?.focus();
 }
@@ -4624,8 +4675,10 @@ $('#setBody').addEventListener('click', async e => {
 });
 
 /* ---------- Start-up ---------- */
-function start(){
-  events = generate(place);
+async function start(){
+  await realReady;
+  events = realEvents ? fromReal(realEvents, place) : generate(place);
+  $('#evNote').textContent = realEvents ? 'Real events from organisers’ own pages, updated a few times a day.' : 'Places and distances are real, events are sample data.';
   hideOnboard();
   if ($('#sheet').classList.contains('open') && sheetKeys.length > 1) drawSheet();   // refresh the Location row
   initMap();
@@ -4648,7 +4701,7 @@ function start(){
 }
 async function loadSaved(pc){
   setStatus('Finding shows…'); showSkeleton();
-  try { const found = await resolvePostcode(pc); if (!found) throw new Error('none'); place = found; const lb = store.get('cs.place', null)?.label; if (lb) place.town = lb; start(); }
+  try { const found = await resolvePostcode(pc); if (!found) throw new Error('none'); place = found; const lb = store.get('cs.place', null)?.label; if (lb) place.town = lb; await start(); }
   catch { setStatus(''); place = {pc}; showPostcode(); $('#pcErr').textContent = "Couldn't load your area. Check your connection and try again."; }
 }
 function boot(){

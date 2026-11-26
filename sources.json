@@ -1,0 +1,20 @@
+{
+  "_about": "Pages the updater reads for real UK car events. Official organisers and venues only, not directories or ticket resellers. Set \"enabled\": false to pause one. The weekly discovery run adds new ones with \"added\": \"auto\".",
+  "sources": [
+    { "name": "British Motor Museum, Gaydon", "url": "https://www.britishmotormuseum.co.uk/whats-on", "enabled": true },
+    { "name": "Brooklands Museum", "url": "https://www.brooklandsmuseum.com/whats-on/calendar/", "enabled": true },
+    { "name": "Bicester Motion", "url": "https://bicestermotion.com/calendar", "enabled": true },
+    { "name": "Beaulieu", "url": "https://www.beaulieu.co.uk/events/", "enabled": true },
+    { "name": "Goodwood", "url": "https://www.goodwood.com/motorsport/", "enabled": true },
+    { "name": "Silverstone", "url": "https://www.silverstone.co.uk/events", "enabled": true },
+    { "name": "Japfest", "url": "https://japfest.co.uk/", "enabled": true },
+    { "name": "Great British Car Journey", "url": "https://greatbritishcarjourney.com/whats-on/", "enabled": true },
+    { "name": "Caffeine & Machine", "url": "https://caffeineandmachine.com/events/", "enabled": true },
+    { "name": "Ace Cafe London", "url": "https://www.ace-cafe-london.com/events/", "enabled": true },
+    { "name": "Iconic Auctioneers", "url": "https://www.iconicauctioneers.com/", "enabled": true },
+    { "name": "Anglia Car Auctions", "url": "https://angliacarauctions.co.uk/auctions", "enabled": true },
+    { "name": "MSV Trackdays", "url": "https://msvtrackdays.com/", "enabled": true },
+    { "name": "Thruxton", "url": "https://thruxtonracing.co.uk/", "enabled": true },
+    { "name": "Lakeland Motor Museum", "url": "https://www.lakelandmotormuseum.co.uk/about/events", "enabled": true }
+  ]
+}

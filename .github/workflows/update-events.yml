@@ -1,0 +1,60 @@
+# Keeps events.json up to date with real UK car events.
+# Runs every 6 hours. Pages that haven't changed cost nothing; changed ones are read by Claude at batch (half) price.
+# Mondays' early run also looks for new organiser pages. You can run it by hand from the Actions tab.
+name: Update events
+
+on:
+  schedule:
+    - cron: '17 3,9,15,21 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'How to run'
+        type: choice
+        default: normal
+        options: [normal, dry-run, quick-test, discover]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-events
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install --no-audit --no-fund
+
+      - name: Update events
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODE: ${{ github.event.inputs.mode || 'normal' }}
+        run: |
+          ARGS=""
+          case "$MODE" in
+            dry-run)    ARGS="--dry-run" ;;
+            quick-test) ARGS="--sync --limit=2" ;;
+            discover)   ARGS="--discover" ;;
+          esac
+          # Monday's 03:17 scheduled run also looks for new sources
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%u)" = "1" ] && [ "$(date -u +%H)" = "03" ]; then ARGS="$ARGS --discover"; fi
+          node scripts/update-events.mjs $ARGS
+
+      - name: Save the results
+        run: |
+          git config user.name "events-updater"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in events.json data sources.json; do if [ -e "$f" ]; then git add "$f"; fi; done
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Update events ($(date -u +%Y-%m-%d\ %H:%M) UTC)"
+          git pull --rebase
+          git push

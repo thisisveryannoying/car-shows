@@ -12,6 +12,7 @@ $routes = @{
   '/fonts/inter-latin-wght-normal.woff2' = @('fonts\inter-latin-wght-normal.woff2', 'font/woff2')
   '/vendor/maplibre-gl.js'  = @('vendor\maplibre-gl.js', 'text/javascript; charset=utf-8')
   '/vendor/maplibre-gl.css' = @('vendor\maplibre-gl.css', 'text/css; charset=utf-8')
+  '/events.json'  = @('events.json', 'application/json; charset=utf-8')   # real events, written by the updater (pull it in GitHub Desktop)
 }
 # Event photos: each .jpg directly inside img\events gets a route, and nothing else in that folder does
 Get-ChildItem (Join-Path $root 'img\events') -Filter *.jpg -File -ErrorAction SilentlyContinue | ForEach-Object {

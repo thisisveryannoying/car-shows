@@ -1,0 +1,14 @@
+{
+  "name": "car-shows-updater",
+  "private": true,
+  "type": "module",
+  "description": "Finds real UK car events on organisers' pages and writes events.json for the app.",
+  "scripts": {
+    "update": "node scripts/update-events.mjs",
+    "dry-run": "node scripts/update-events.mjs --dry-run"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.10.0"
+  }
+}
