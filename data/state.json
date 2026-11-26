@@ -1,8 +1,8 @@
 {
   "pages": {
     "https://www.britishmotormuseum.co.uk/whats-on": {
-      "lastFetch": "2026-11-26T18:08:13.668Z",
-      "lastOk": "2026-11-26T18:08:13.668Z",
+      "lastFetch": "2026-11-26T22:13:23.402Z",
+      "lastOk": "2026-11-26T22:13:23.402Z",
       "events": [
         {
           "id": "rf74962c8f94b412de274e930",
@@ -50,8 +50,8 @@
       "error": null
     },
     "https://www.brooklandsmuseum.com/whats-on/calendar/": {
-      "lastFetch": "2026-11-26T18:08:14.097Z",
-      "lastOk": "2026-11-26T18:08:14.097Z",
+      "lastFetch": "2026-11-26T22:13:24.058Z",
+      "lastOk": "2026-11-26T22:13:24.058Z",
       "events": [
         {
           "id": "r53d38ce05d4242249f183eab",
@@ -79,16 +79,16 @@
       "error": null
     },
     "https://bicestermotion.com/calendar": {
-      "lastFetch": "2026-11-26T18:08:14.438Z",
-      "lastOk": "2026-11-26T18:08:14.438Z",
+      "lastFetch": "2026-11-26T22:13:24.247Z",
+      "lastOk": "2026-11-26T22:13:24.247Z",
       "events": [],
       "hash": "0bd2b4f458ed835f36990568",
       "lastExtract": "2026-11-26T16:35:57.826Z",
       "error": null
     },
     "https://www.beaulieu.co.uk/events/": {
-      "lastFetch": "2026-11-26T18:08:14.392Z",
-      "lastOk": "2026-11-26T18:08:14.392Z",
+      "lastFetch": "2026-11-26T22:13:24.105Z",
+      "lastOk": "2026-11-26T22:13:24.105Z",
       "events": [
         {
           "id": "r2558aeede53e759d5b5517ff",
@@ -556,16 +556,16 @@
       "error": null
     },
     "https://www.goodwood.com/motorsport/": {
-      "lastFetch": "2026-11-26T18:08:14.534Z",
-      "lastOk": "2026-11-26T18:08:14.534Z",
+      "lastFetch": "2026-11-26T22:13:23.821Z",
+      "lastOk": "2026-11-26T22:13:23.821Z",
       "events": [],
       "hash": "8c6bc8620557a0f528627174",
       "lastExtract": "2026-11-26T16:35:58.153Z",
       "error": null
     },
     "https://www.silverstone.co.uk/events": {
-      "lastFetch": "2026-11-26T18:08:15.179Z",
-      "lastOk": "2026-11-26T18:08:15.179Z",
+      "lastFetch": "2026-11-26T22:13:24.990Z",
+      "lastOk": "2026-11-26T22:13:24.990Z",
       "events": [
         {
           "id": "r768d9190d0da85c491beec40",
@@ -713,16 +713,16 @@
       "error": null
     },
     "https://japfest.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:15.306Z",
-      "lastOk": "2026-11-26T18:08:15.306Z",
+      "lastFetch": "2026-11-26T22:13:25.226Z",
+      "lastOk": "2026-11-26T22:13:25.226Z",
       "events": [],
       "hash": "5e31cd4d5df9c704dce0252d",
       "lastExtract": "2026-11-26T16:35:58.405Z",
       "error": null
     },
     "https://greatbritishcarjourney.com/whats-on/": {
-      "lastFetch": "2026-11-26T18:08:14.631Z",
-      "lastOk": "2026-11-26T18:08:14.631Z",
+      "lastFetch": "2026-11-26T22:13:24.435Z",
+      "lastOk": "2026-11-26T22:13:24.435Z",
       "events": [
         {
           "id": "r25ebad24b5dba4c2b3f38c8a",
@@ -874,8 +874,8 @@
       "lastFetch": "2026-11-26T17:35:56.562Z"
     },
     "https://www.ace-cafe-london.com/events/": {
-      "lastFetch": "2026-11-26T18:08:15.042Z",
-      "lastOk": "2026-11-26T18:08:15.042Z",
+      "lastFetch": "2026-11-26T22:13:24.902Z",
+      "lastOk": "2026-11-26T22:13:24.902Z",
       "events": [],
       "hash": "c19a192dff1f2561798a1b02",
       "lastExtract": "2026-11-26T16:35:58.668Z",
@@ -887,8 +887,8 @@
       "error": "almost no text (page probably built by scripts)"
     },
     "https://angliacarauctions.co.uk/auctions": {
-      "lastFetch": "2026-11-26T18:08:15.708Z",
-      "lastOk": "2026-11-26T18:08:15.708Z",
+      "lastFetch": "2026-11-26T22:13:25.626Z",
+      "lastOk": "2026-11-26T22:13:25.626Z",
       "events": [
         {
           "id": "rf1163777271e9a2e258c3356",
@@ -959,8 +959,8 @@
       "error": "robots.txt asks bots not to read this page"
     },
     "https://thruxtonracing.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:15.346Z",
-      "lastOk": "2026-11-26T18:08:15.346Z",
+      "lastFetch": "2026-11-26T22:13:25.884Z",
+      "lastOk": "2026-11-26T22:13:25.884Z",
       "events": [
         {
           "id": "r47eabbddff0bf7fa61817950",
@@ -977,7 +977,7 @@
           "priceLook": null,
           "priceCar": null,
           "mode": "enter",
-          "desc": "Skid pan sessions where you learn car control in wet and low-grip conditions. Call the office for availability.",
+          "desc": "The skid pan is open for bookable experiences where you learn car control on a low-grip surface. Call 01264 882222 for availability.",
           "url": "https://thruxtonracing.co.uk/driving-experiences/skidpan",
           "source": "Thruxton",
           "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -997,7 +997,7 @@
           "priceLook": null,
           "priceCar": null,
           "mode": "enter",
-          "desc": "4x4 off-road driving experiences over challenging terrain in purpose-built vehicles.",
+          "desc": "Bookable 4x4 off-road driving experiences over purpose-built terrain. Call 01264 882222 for availability.",
           "url": "https://thruxtonracing.co.uk/driving-experiences/4x4-offroad",
           "source": "Thruxton",
           "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -1017,7 +1017,7 @@
           "priceLook": null,
           "priceCar": null,
           "mode": "enter",
-          "desc": "Skid pan sessions where you learn car control in wet and low-grip conditions. Call the office for availability.",
+          "desc": "The skid pan is open for bookable experiences where you learn car control on a low-grip surface. Call 01264 882222 for availability.",
           "url": "https://thruxtonracing.co.uk/driving-experiences/skidpan",
           "source": "Thruxton",
           "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -1037,7 +1037,7 @@
           "priceLook": null,
           "priceCar": null,
           "mode": "enter",
-          "desc": "4x4 off-road driving experiences over challenging terrain in purpose-built vehicles.",
+          "desc": "Bookable 4x4 off-road driving experiences over purpose-built terrain. Call 01264 882222 for availability.",
           "url": "https://thruxtonracing.co.uk/driving-experiences/4x4-offroad",
           "source": "Thruxton",
           "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -1063,43 +1063,43 @@
           "sourceUrl": "https://thruxtonracing.co.uk/"
         }
       ],
-      "hash": "1241e5b2397c55217998285f",
-      "lastExtract": "2026-11-26T17:53:02.481Z",
+      "hash": "6016cb5513335dd415bf0897",
+      "lastExtract": "2026-11-26T22:17:09.177Z",
       "error": null
     },
     "https://www.lakelandmotormuseum.co.uk/about/events": {
-      "lastFetch": "2026-11-26T18:08:20.383Z",
-      "lastOk": "2026-11-26T18:08:20.383Z",
+      "lastFetch": "2026-11-26T22:13:30.833Z",
+      "lastOk": "2026-11-26T22:13:30.833Z",
       "events": [],
       "hash": "531a234d814c33240e513af5",
       "lastExtract": "2026-11-26T16:35:59.187Z",
       "error": null
     },
     "https://www.goodwood.com/motorsport/breakfast-club/": {
-      "lastFetch": "2026-11-26T18:08:13.997Z",
-      "lastOk": "2026-11-26T18:08:13.997Z",
+      "lastFetch": "2026-11-26T22:13:23.730Z",
+      "lastOk": "2026-11-26T22:13:23.730Z",
       "error": null,
       "events": [],
       "hash": "fc469b21866e4d6f24529b16",
       "lastExtract": "2026-11-26T17:53:02.481Z"
     },
     "https://www.swva.co.uk/classic-auction-calendar": {
-      "lastFetch": "2026-11-26T18:08:16.739Z",
-      "lastOk": "2026-11-26T18:08:16.739Z",
+      "lastFetch": "2026-11-26T22:13:26.864Z",
+      "lastOk": "2026-11-26T22:13:26.864Z",
       "error": null,
       "events": [],
       "hash": "da58d83582d56242c01669b7",
       "lastExtract": "2026-11-26T17:53:03.135Z"
     },
     "https://www.morrisleslie.com/auctions": {
-      "lastFetch": "2026-11-26T18:08:15.926Z",
+      "lastFetch": "2026-11-26T22:13:26.078Z",
       "lastOk": "2026-11-26T17:49:32.436Z",
       "error": "HTTP 403",
       "hash": "c19a192dff1f2561798a1b02"
     },
     "https://www.haynesmuseum.org/whats-on/motoring-events/": {
-      "lastFetch": "2026-11-26T18:08:16.833Z",
-      "lastOk": "2026-11-26T18:08:16.833Z",
+      "lastFetch": "2026-11-26T22:13:27.032Z",
+      "lastOk": "2026-11-26T22:13:27.032Z",
       "error": null,
       "events": [
         {
@@ -1207,8 +1207,8 @@
       "lastExtract": "2026-11-26T17:53:02.784Z"
     },
     "https://www.fbhvc.co.uk/events": {
-      "lastFetch": "2026-11-26T18:08:17.020Z",
-      "lastOk": "2026-11-26T18:08:17.020Z",
+      "lastFetch": "2026-11-26T22:13:27.020Z",
+      "lastOk": "2026-11-26T22:13:27.020Z",
       "error": null,
       "hash": "2cf496281e0c56e5a1ee3829",
       "events": [
@@ -1256,22 +1256,22 @@
       "lastExtract": "2026-11-26T18:11:59.442Z"
     },
     "https://www.glass-uk.org/events": {
-      "lastFetch": "2026-11-26T18:08:16.738Z",
-      "lastOk": "2026-11-26T18:08:16.738Z",
+      "lastFetch": "2026-11-26T22:13:27.113Z",
+      "lastOk": "2026-11-26T22:13:27.113Z",
       "error": null,
       "events": [],
       "hash": "2f8c468751a2b3b3e9a5d1fa",
       "lastExtract": "2026-11-26T17:53:02.481Z"
     },
     "https://www.brandshatch.co.uk/whats-on": {
-      "lastFetch": "2026-11-26T18:08:21.349Z",
-      "lastOk": "2026-11-26T18:08:21.349Z",
+      "lastFetch": "2026-11-26T22:13:31.361Z",
+      "lastOk": "2026-11-26T22:13:31.361Z",
       "error": null,
       "hash": "9c04ba06383eebcf2aa29619"
     },
     "https://www.castlecombecircuit.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:28.643Z",
-      "lastOk": "2026-11-26T18:08:28.643Z",
+      "lastFetch": "2026-11-26T22:13:37.902Z",
+      "lastOk": "2026-11-26T22:13:37.902Z",
       "error": null,
       "events": [
         {
@@ -1379,22 +1379,22 @@
       "lastExtract": "2026-11-26T17:53:03.882Z"
     },
     "https://www.knockhill.com/": {
-      "lastFetch": "2026-11-26T18:08:21.411Z",
-      "lastOk": "2026-11-26T18:08:21.411Z",
+      "lastFetch": "2026-11-26T22:13:32.016Z",
+      "lastOk": "2026-11-26T22:13:32.016Z",
       "error": null,
       "events": [],
-      "hash": "c538503a6bdc504aadf0a3c9",
+      "hash": "3920945a109fb3ddfbfd76f0",
       "lastExtract": "2026-11-26T17:53:03.135Z"
     },
     "https://www.angleseycircuit.com/": {
-      "lastFetch": "2026-11-26T18:08:22.404Z",
-      "lastOk": "2026-11-26T18:08:22.404Z",
+      "lastFetch": "2026-11-26T22:13:32.688Z",
+      "lastOk": "2026-11-26T22:13:32.688Z",
       "error": null,
       "hash": "be8c2ebb702fa70d315d60a4"
     },
     "https://www.croftcircuit.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:22.075Z",
-      "lastOk": "2026-11-26T18:08:22.075Z",
+      "lastFetch": "2026-11-26T22:13:32.760Z",
+      "lastOk": "2026-11-26T22:13:32.760Z",
       "error": null,
       "events": [
         {
@@ -1442,8 +1442,8 @@
       "lastExtract": "2026-11-26T17:53:03.428Z"
     },
     "https://www.lyddenhill.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:27.549Z",
-      "lastOk": "2026-11-26T18:08:27.549Z",
+      "lastFetch": "2026-11-26T22:13:38.348Z",
+      "lastOk": "2026-11-26T22:13:38.348Z",
       "error": null,
       "events": [
         {
@@ -1471,14 +1471,14 @@
       "lastExtract": "2026-11-26T17:53:03.562Z"
     },
     "https://www.blytonpark.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:30.901Z",
-      "lastOk": "2026-11-26T18:08:30.901Z",
+      "lastFetch": "2026-11-26T22:13:49.484Z",
+      "lastOk": "2026-11-26T22:13:49.484Z",
       "error": null,
       "hash": "bb30fcebcb3344733acfb81e"
     },
     "https://www.pembreycircuit.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:29.883Z",
-      "lastOk": "2026-11-26T18:08:29.883Z",
+      "lastFetch": "2026-11-26T22:13:39.948Z",
+      "lastOk": "2026-11-26T22:13:39.948Z",
       "error": null,
       "events": [
         {
@@ -1506,8 +1506,8 @@
       "lastExtract": "2026-11-26T17:53:05.036Z"
     },
     "https://santapod.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:29.628Z",
-      "lastOk": "2026-11-26T18:08:29.628Z",
+      "lastFetch": "2026-11-26T22:13:39.609Z",
+      "lastOk": "2026-11-26T22:13:39.609Z",
       "error": null,
       "events": [
         {
@@ -2155,8 +2155,8 @@
       "lastExtract": "2026-11-26T17:53:04.740Z"
     },
     "https://www.excel.london/whats-on": {
-      "lastFetch": "2026-11-26T18:08:29.672Z",
-      "lastOk": "2026-11-26T18:08:29.672Z",
+      "lastFetch": "2026-11-26T22:13:39.748Z",
+      "lastOk": "2026-11-26T22:13:39.748Z",
       "error": null,
       "events": [
         {
@@ -2224,8 +2224,8 @@
       "lastExtract": "2026-11-26T17:53:04.436Z"
     },
     "https://www.necclassicmotorshow.com/": {
-      "lastFetch": "2026-11-26T18:08:29.543Z",
-      "lastOk": "2026-11-26T18:08:29.543Z",
+      "lastFetch": "2026-11-26T22:13:39.488Z",
+      "lastOk": "2026-11-26T22:13:39.488Z",
       "error": null,
       "events": [
         {
@@ -2253,8 +2253,8 @@
       "lastExtract": "2026-11-26T17:53:04.017Z"
     },
     "https://4x4expo.ticketsrv.co.uk": {
-      "lastFetch": "2026-11-26T18:08:29.636Z",
-      "lastOk": "2026-11-26T18:08:29.636Z",
+      "lastFetch": "2026-11-26T22:13:39.586Z",
+      "lastOk": "2026-11-26T22:13:39.586Z",
       "error": null,
       "events": [
         {
@@ -2282,16 +2282,16 @@
       "lastExtract": "2026-11-26T17:53:04.298Z"
     },
     "https://www.newarkshowground.com/events": {
-      "lastFetch": "2026-11-26T18:08:42.669Z",
-      "lastOk": "2026-11-26T18:08:42.669Z",
+      "lastFetch": "2026-11-26T22:13:56.519Z",
+      "lastOk": "2026-11-26T22:13:56.519Z",
       "error": null,
       "events": [],
       "hash": "f001844232297bd5d5e05c3d",
       "lastExtract": "2026-11-26T17:53:05.699Z"
     },
     "https://www.threecounties.co.uk/events": {
-      "lastFetch": "2026-11-26T18:08:33.961Z",
-      "lastOk": "2026-11-26T18:08:33.961Z",
+      "lastFetch": "2026-11-26T22:13:52.713Z",
+      "lastOk": "2026-11-26T22:13:52.713Z",
       "error": null,
       "hash": "821c70eae231e901c5bfdfaf",
       "events": [
@@ -2359,16 +2359,16 @@
       "lastExtract": "2026-11-26T18:11:59.914Z"
     },
     "https://www.mgownersclub.co.uk/events": {
-      "lastFetch": "2026-11-26T18:08:34.519Z",
-      "lastOk": "2026-11-26T18:08:34.519Z",
+      "lastFetch": "2026-11-26T22:13:53.044Z",
+      "lastOk": "2026-11-26T22:13:53.044Z",
       "error": null,
       "hash": "ed997d6d0ebad3318c3c9492",
       "events": [],
       "lastExtract": "2026-11-26T18:11:59.914Z"
     },
     "https://www.porscheclubgb.com/events": {
-      "lastFetch": "2026-11-26T18:08:32.675Z",
-      "lastOk": "2026-11-26T18:08:32.675Z",
+      "lastFetch": "2026-11-26T22:13:51.220Z",
+      "lastOk": "2026-11-26T22:13:51.220Z",
       "error": null,
       "events": [
         {
@@ -2396,56 +2396,56 @@
       "lastExtract": "2026-11-26T17:53:05.698Z"
     },
     "https://rileymotorclub.org/events-2": {
-      "lastFetch": "2026-11-26T18:08:36.404Z",
+      "lastFetch": "2026-11-26T22:14:29.973Z",
       "lastOk": "2026-11-26T18:08:36.404Z",
-      "error": null,
+      "error": "The operation was aborted due to timeout",
       "hash": "b108a752848dd8ed54e045bc",
       "events": [],
       "lastExtract": "2026-11-26T18:11:59.914Z"
     },
     "https://www.tr-register.co.uk/events": {
-      "lastFetch": "2026-11-26T18:08:33.156Z",
-      "lastOk": "2026-11-26T18:08:33.156Z",
+      "lastFetch": "2026-11-26T22:13:51.605Z",
+      "lastOk": "2026-11-26T22:13:51.605Z",
       "error": null,
       "hash": "23e56d29c9006ff68d532fd0",
       "events": [],
       "lastExtract": "2026-11-26T18:11:59.686Z"
     },
     "https://www.gtm.org.uk/": {
-      "lastFetch": "2026-11-26T18:08:44.695Z",
-      "lastOk": "2026-11-26T18:08:44.695Z",
+      "lastFetch": "2026-11-26T22:14:32.110Z",
+      "lastOk": "2026-11-26T22:14:32.110Z",
       "error": null,
       "events": [],
       "hash": "2c8e54eb341d36eb6c17ff1d",
       "lastExtract": "2026-11-26T17:53:06.015Z"
     },
     "https://www.atwellwilson.org.uk/": {
-      "lastFetch": "2026-11-26T18:08:44.029Z",
-      "lastOk": "2026-11-26T18:08:44.029Z",
+      "lastFetch": "2026-11-26T22:14:32.385Z",
+      "lastOk": "2026-11-26T22:14:32.385Z",
       "error": null,
       "events": [],
       "hash": "9f190e49f87db84fa53b5639",
       "lastExtract": "2026-11-26T17:53:05.699Z"
     },
     "https://www.ultimatestreetcar.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:44.252Z",
-      "lastOk": "2026-11-26T18:08:44.252Z",
+      "lastFetch": "2026-11-26T22:14:31.583Z",
+      "lastOk": "2026-11-26T22:14:31.583Z",
       "error": null,
       "events": [],
       "hash": "8596d44e6d2f97bb05ea171b",
       "lastExtract": "2026-11-26T17:53:06.015Z"
     },
     "https://www.modifiednationals.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:43.195Z",
-      "lastOk": "2026-11-26T18:08:43.195Z",
+      "lastFetch": "2026-11-26T22:14:30.350Z",
+      "lastOk": "2026-11-26T22:14:30.350Z",
       "error": null,
       "events": [],
       "hash": "8e7c6ea047ea7d77bed30833",
       "lastExtract": "2026-11-26T17:53:05.699Z"
     },
     "https://www.concoursofelegance.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:44.785Z",
-      "lastOk": "2026-11-26T18:08:44.785Z",
+      "lastFetch": "2026-11-26T22:14:32.213Z",
+      "lastOk": "2026-11-26T22:14:32.213Z",
       "error": null,
       "events": [
         {
@@ -2493,16 +2493,16 @@
       "lastExtract": "2026-11-26T17:53:06.306Z"
     },
     "https://www.thelondonclassiccarshow.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:43.357Z",
-      "lastOk": "2026-11-26T18:08:43.357Z",
+      "lastFetch": "2026-11-26T22:14:30.618Z",
+      "lastOk": "2026-11-26T22:14:30.618Z",
       "error": null,
       "events": [],
       "hash": "6b6dcb836669ac1616200bb3",
       "lastExtract": "2026-11-26T17:53:05.699Z"
     },
     "https://www.dounehillclimb.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:47.057Z",
-      "lastOk": "2026-11-26T18:08:47.057Z",
+      "lastFetch": "2026-11-26T22:14:34.756Z",
+      "lastOk": "2026-11-26T22:14:34.756Z",
       "error": null,
       "events": [
         {
@@ -2590,8 +2590,8 @@
       "lastExtract": "2026-11-26T17:53:07.836Z"
     },
     "https://www.hagerty.co.uk/official-events/": {
-      "lastFetch": "2026-11-26T18:08:45.408Z",
-      "lastOk": "2026-11-26T18:08:45.408Z",
+      "lastFetch": "2026-11-26T22:14:33.211Z",
+      "lastOk": "2026-11-26T22:14:33.211Z",
       "error": null,
       "events": [
         {
@@ -2660,15 +2660,15 @@
     },
     "https://camelvalemotorclub.co.uk/": {
       "error": "HTTP 403",
-      "lastFetch": "2026-11-26T18:08:47.053Z"
+      "lastFetch": "2026-11-26T22:14:32.565Z"
     },
     "https://bmwcarclubgb.uk/2026/01/19/2026-cornwall-region-events-list/": {
       "error": "HTTP 403",
-      "lastFetch": "2026-11-26T18:08:45.836Z"
+      "lastFetch": "2026-11-26T22:14:33.542Z"
     },
     "https://www.foweyclassiccar.com/": {
-      "lastFetch": "2026-11-26T18:08:47.659Z",
-      "lastOk": "2026-11-26T18:08:47.659Z",
+      "lastFetch": "2026-11-26T22:14:36.466Z",
+      "lastOk": "2026-11-26T22:14:36.466Z",
       "error": null,
       "events": [
         {
@@ -2696,52 +2696,52 @@
       "lastExtract": "2026-11-26T17:53:06.590Z"
     },
     "https://www.foweyregatta.co.uk/car-show": {
-      "lastFetch": "2026-11-26T18:08:46.183Z",
-      "lastOk": "2026-11-26T18:08:46.183Z",
+      "lastFetch": "2026-11-26T22:14:32.755Z",
+      "lastOk": "2026-11-26T22:14:32.755Z",
       "error": null,
       "events": [],
       "hash": "e466653ebdfef6710098ba45",
       "lastExtract": "2026-11-26T17:53:06.306Z"
     },
     "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607": {
-      "lastFetch": "2026-11-26T18:08:48.359Z",
-      "lastOk": "2026-11-26T18:08:48.359Z",
+      "lastFetch": "2026-11-26T22:14:37.081Z",
+      "lastOk": "2026-11-26T22:14:37.081Z",
       "error": null,
       "events": [],
       "hash": "235f36a0d10c1f5a2ff6dd1d",
       "lastExtract": "2026-11-26T17:53:07.836Z"
     },
     "https://thruxtonracing.co.uk/events": {
-      "lastFetch": "2026-11-26T18:08:48.286Z",
-      "lastOk": "2026-11-26T18:08:48.286Z",
+      "lastFetch": "2026-11-26T22:14:37.141Z",
+      "lastOk": "2026-11-26T22:14:37.141Z",
       "error": null,
       "events": [],
       "hash": "0242827d81aa89298eba8eba",
       "lastExtract": "2026-11-26T18:11:59.914Z"
     },
     "https://thruxtonracing.co.uk/events?category=driving-experiences": {
-      "lastFetch": "2026-11-26T18:08:48.300Z",
-      "lastOk": "2026-11-26T18:08:48.300Z",
+      "lastFetch": "2026-11-26T22:14:37.186Z",
+      "lastOk": "2026-11-26T22:14:37.186Z",
       "error": null,
       "events": [],
       "hash": "0242827d81aa89298eba8eba",
       "lastExtract": "2026-11-26T18:11:59.914Z"
     },
     "https://www.goodwood.com/motorsport/grrc-membership/events-calendar/": {
-      "lastFetch": "2026-11-26T18:08:47.907Z",
-      "lastOk": "2026-11-26T18:08:47.907Z",
+      "lastFetch": "2026-11-26T22:14:37.389Z",
+      "lastOk": "2026-11-26T22:14:37.389Z",
       "error": null,
       "hash": "9d3c08d63a678dc124c7d5e6"
     },
     "https://www.goodwood.com/whats-on/": {
-      "lastFetch": "2026-11-26T18:08:47.861Z",
-      "lastOk": "2026-11-26T18:08:47.861Z",
+      "lastFetch": "2026-11-26T22:14:36.930Z",
+      "lastOk": "2026-11-26T22:14:36.930Z",
       "error": null,
       "hash": "9d3c08d63a678dc124c7d5e6"
     },
     "https://www.haynesmuseum.org/whats-on/motoring-events/?p=2": {
-      "lastFetch": "2026-11-26T18:08:47.930Z",
-      "lastOk": "2026-11-26T18:08:47.930Z",
+      "lastFetch": "2026-11-26T22:14:37.230Z",
+      "lastOk": "2026-11-26T22:14:37.230Z",
       "error": null,
       "events": [
         {
@@ -2849,24 +2849,24 @@
       "lastExtract": "2026-11-26T18:11:59.914Z"
     },
     "https://www.haynesmuseum.org/whats-on/motoring-events/?p=3": {
-      "lastFetch": "2026-11-26T18:08:48.526Z",
-      "lastOk": "2026-11-26T18:08:48.526Z",
+      "lastFetch": "2026-11-26T22:14:37.547Z",
+      "lastOk": "2026-11-26T22:14:37.547Z",
       "error": null,
       "events": [],
       "hash": "daadbd773e5c0e0ae104c973",
       "lastExtract": "2026-11-26T18:12:00.151Z"
     },
     "https://www.swva.co.uk/car-auction-calendar": {
-      "lastFetch": "2026-11-26T18:08:48.832Z",
-      "lastOk": "2026-11-26T18:08:48.832Z",
+      "lastFetch": "2026-11-26T22:14:38.070Z",
+      "lastOk": "2026-11-26T22:14:38.070Z",
       "error": null,
       "events": [],
       "hash": "bf1a29150607fd54c6024020",
       "lastExtract": "2026-11-26T18:12:00.401Z"
     },
     "https://www.knockhill.com/events/Knockhill-Racing-fixtures": {
-      "lastFetch": "2026-11-26T18:08:49.330Z",
-      "lastOk": "2026-11-26T18:08:49.330Z",
+      "lastFetch": "2026-11-26T22:14:38.945Z",
+      "lastOk": "2026-11-26T22:14:38.945Z",
       "error": null,
       "events": [
         {
@@ -3214,22 +3214,22 @@
       "lastExtract": "2026-11-26T18:12:01.139Z"
     },
     "https://www.knockhill.com/trackdays/trackdayEvents": {
-      "lastFetch": "2026-11-26T18:08:48.820Z",
-      "lastOk": "2026-11-26T18:08:48.820Z",
+      "lastFetch": "2026-11-26T22:14:38.275Z",
+      "lastOk": "2026-11-26T22:14:38.275Z",
       "error": null,
       "hash": "3fd014f9d840d710e1204ece"
     },
     "https://www.knockhill.com/events/": {
-      "lastFetch": "2026-11-26T18:08:48.912Z",
-      "lastOk": "2026-11-26T18:08:48.912Z",
+      "lastFetch": "2026-11-26T22:14:38.369Z",
+      "lastOk": "2026-11-26T22:14:38.369Z",
       "error": null,
       "events": [],
       "hash": "8e2d32c2268be78f1c455a4f",
       "lastExtract": "2026-11-26T18:12:00.886Z"
     },
     "https://santapod.co.uk/events/": {
-      "lastFetch": "2026-11-26T18:08:48.882Z",
-      "lastOk": "2026-11-26T18:08:48.882Z",
+      "lastFetch": "2026-11-26T22:14:38.476Z",
+      "lastOk": "2026-11-26T22:14:38.476Z",
       "error": null,
       "events": [
         {
@@ -4377,8 +4377,8 @@
       "lastExtract": "2026-11-26T18:12:00.402Z"
     },
     "https://www.porscheclubgb.com/Events/national-events-calendar": {
-      "lastFetch": "2026-11-26T18:08:51.428Z",
-      "lastOk": "2026-11-26T18:08:51.428Z",
+      "lastFetch": "2026-11-26T22:14:41.181Z",
+      "lastOk": "2026-11-26T22:14:41.181Z",
       "error": null,
       "events": [
         {
@@ -4426,8 +4426,8 @@
       "lastExtract": "2026-11-26T18:12:02.910Z"
     },
     "https://www.gtm.org.uk/events": {
-      "lastFetch": "2026-11-26T18:08:50.682Z",
-      "lastOk": "2026-11-26T18:08:50.682Z",
+      "lastFetch": "2026-11-26T22:14:40.114Z",
+      "lastOk": "2026-11-26T22:14:40.114Z",
       "error": null,
       "events": [
         {
@@ -4555,8 +4555,8 @@
       "lastExtract": "2026-11-26T18:12:02.035Z"
     },
     "https://www.foweyclassiccar.com/events/": {
-      "lastFetch": "2026-11-26T18:08:50.438Z",
-      "lastOk": "2026-11-26T18:08:50.438Z",
+      "lastFetch": "2026-11-26T22:14:39.162Z",
+      "lastOk": "2026-11-26T22:14:39.162Z",
       "error": null,
       "events": [
         {
@@ -4584,8 +4584,8 @@
       "lastExtract": "2026-11-26T18:12:01.899Z"
     },
     "https://www.hagerty.co.uk/events/": {
-      "lastFetch": "2026-11-26T18:08:50.002Z",
-      "lastOk": "2026-11-26T18:08:50.002Z",
+      "lastFetch": "2026-11-26T22:14:39.741Z",
+      "lastOk": "2026-11-26T22:14:39.741Z",
       "error": null,
       "events": [
         {
@@ -4653,16 +4653,16 @@
       "lastExtract": "2026-11-26T18:12:01.512Z"
     },
     "https://www.tssc.org.uk/tssc/events_archive.asp?month=11&year=2026": {
-      "lastFetch": "2026-11-26T18:08:49.463Z",
-      "lastOk": "2026-11-26T18:08:49.463Z",
+      "lastFetch": "2026-11-26T22:14:39.077Z",
+      "lastOk": "2026-11-26T22:14:39.077Z",
       "error": null,
       "events": [],
       "hash": "9b018063a0430596298a53bc",
       "lastExtract": "2026-11-26T18:12:01.372Z"
     },
     "https://www.tssc.org.uk/tssc/events_archive.asp?month=12&year=2026": {
-      "lastFetch": "2026-11-26T18:08:49.993Z",
-      "lastOk": "2026-11-26T18:08:49.993Z",
+      "lastFetch": "2026-11-26T22:14:39.658Z",
+      "lastOk": "2026-11-26T22:14:39.658Z",
       "error": null,
       "events": [
         {
@@ -4690,16 +4690,16 @@
       "lastExtract": "2026-11-26T18:12:01.512Z"
     },
     "https://www.tssc.org.uk/tssc/events_archive.asp?month=1&year=2027": {
-      "lastFetch": "2026-11-26T18:08:51.589Z",
-      "lastOk": "2026-11-26T18:08:51.589Z",
+      "lastFetch": "2026-11-26T22:14:41.339Z",
+      "lastOk": "2026-11-26T22:14:41.339Z",
       "error": null,
       "events": [],
       "hash": "2ca830d92e76d90f5c4b5c14",
       "lastExtract": "2026-11-26T18:12:03.136Z"
     },
     "https://www.tssc.org.uk/tssc/events_archive.asp?month=2&year=2027": {
-      "lastFetch": "2026-11-26T18:08:51.591Z",
-      "lastOk": "2026-11-26T18:08:51.591Z",
+      "lastFetch": "2026-11-26T22:14:41.335Z",
+      "lastOk": "2026-11-26T22:14:41.335Z",
       "error": null,
       "events": [
         {
@@ -4727,8 +4727,8 @@
       "lastExtract": "2026-11-26T18:12:03.274Z"
     },
     "https://www.tssc.org.uk/tssc/events.asp": {
-      "lastFetch": "2026-11-26T18:08:52.152Z",
-      "lastOk": "2026-11-26T18:08:52.152Z",
+      "lastFetch": "2026-11-26T22:14:41.959Z",
+      "lastOk": "2026-11-26T22:14:41.959Z",
       "error": null,
       "events": [
         {
@@ -4876,8 +4876,8 @@
       "lastExtract": "2026-11-26T18:12:04.157Z"
     },
     "https://www.idlecarclub.co.uk/events": {
-      "lastFetch": "2026-11-26T18:08:51.490Z",
-      "lastOk": "2026-11-26T18:08:51.490Z",
+      "lastFetch": "2026-11-26T22:14:41.279Z",
+      "lastOk": "2026-11-26T22:14:41.279Z",
       "error": null,
       "events": [
         {
@@ -4925,24 +4925,24 @@
       "lastExtract": "2026-11-26T18:12:03.136Z"
     },
     "https://www.shmc.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:52.174Z",
-      "lastOk": "2026-11-26T18:08:52.174Z",
+      "lastFetch": "2026-11-26T22:14:42.311Z",
+      "lastOk": "2026-11-26T22:14:42.311Z",
       "error": null,
       "events": [],
       "hash": "e36302070057bf5d75b7a08f",
       "lastExtract": "2026-11-26T18:12:04.157Z"
     },
     "https://www.lncmc.co.uk/events/": {
-      "lastFetch": "2026-11-26T18:08:52.179Z",
-      "lastOk": "2026-11-26T18:08:52.179Z",
+      "lastFetch": "2026-11-26T22:14:42.655Z",
+      "lastOk": "2026-11-26T22:14:42.655Z",
       "error": null,
       "events": [],
       "hash": "ff05a6a83c5fc42d784b61b1",
       "lastExtract": "2026-11-26T18:12:04.157Z"
     },
     "https://sidmouthclassiccarshow.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:55.047Z",
-      "lastOk": "2026-11-26T18:08:55.047Z",
+      "lastFetch": "2026-11-26T22:14:45.458Z",
+      "lastOk": "2026-11-26T22:14:45.458Z",
       "error": null,
       "events": [
         {
@@ -4970,16 +4970,16 @@
       "lastExtract": "2026-11-26T18:12:04.777Z"
     },
     "https://www.devonandcornwallmcs.com/events-2-1": {
-      "lastFetch": "2026-11-26T18:08:52.267Z",
-      "lastOk": "2026-11-26T18:08:52.267Z",
+      "lastFetch": "2026-11-26T22:14:42.925Z",
+      "lastOk": "2026-11-26T22:14:42.925Z",
       "error": null,
       "events": [],
       "hash": "cf7dccb66e9e07a4fb806d8d",
       "lastExtract": "2026-11-26T18:12:04.157Z"
     },
     "https://tcvs.riverdartrotary.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:55.896Z",
-      "lastOk": "2026-11-26T18:08:55.896Z",
+      "lastFetch": "2026-11-26T22:14:47.405Z",
+      "lastOk": "2026-11-26T22:14:47.405Z",
       "error": null,
       "events": [
         {
@@ -5007,8 +5007,8 @@
       "lastExtract": "2026-11-26T18:12:04.914Z"
     },
     "https://www.somersetandwiltshirelrc.co.uk/event-calender": {
-      "lastFetch": "2026-11-26T18:08:52.695Z",
-      "lastOk": "2026-11-26T18:08:52.695Z",
+      "lastFetch": "2026-11-26T22:14:43.266Z",
+      "lastOk": "2026-11-26T22:14:43.266Z",
       "error": null,
       "events": [
         {
@@ -5036,16 +5036,16 @@
       "lastExtract": "2026-11-26T18:12:04.410Z"
     },
     "https://www.vmccsomerset.co.uk/annual-events/": {
-      "lastFetch": "2026-11-26T18:08:53.447Z",
+      "lastFetch": "2026-11-26T22:14:43.482Z",
       "lastOk": "2026-11-26T18:08:53.447Z",
-      "error": null,
+      "error": "fetch failed",
       "events": [],
       "hash": "4d0e88c66bb6052b368b45da",
       "lastExtract": "2026-11-26T18:12:04.641Z"
     },
     "https://www.mgccsw.com/event/": {
-      "lastFetch": "2026-11-26T18:08:52.985Z",
-      "lastOk": "2026-11-26T18:08:52.985Z",
+      "lastFetch": "2026-11-26T22:14:43.903Z",
+      "lastOk": "2026-11-26T22:14:43.903Z",
       "error": null,
       "events": [
         {
@@ -5073,8 +5073,8 @@
       "lastExtract": "2026-11-26T18:12:04.641Z"
     },
     "https://www.ivcvc.co.uk/events-calendar": {
-      "lastFetch": "2026-11-26T18:08:55.951Z",
-      "lastOk": "2026-11-26T18:08:55.951Z",
+      "lastFetch": "2026-11-26T22:14:47.579Z",
+      "lastOk": "2026-11-26T22:14:47.579Z",
       "error": null,
       "events": [
         {
@@ -5322,8 +5322,8 @@
       "lastExtract": "2026-11-26T18:12:05.610Z"
     },
     "https://www.vscc.co.uk/page/events": {
-      "lastFetch": "2026-11-26T18:08:56.723Z",
-      "lastOk": "2026-11-26T18:08:56.723Z",
+      "lastFetch": "2026-11-26T22:14:48.636Z",
+      "lastOk": "2026-11-26T22:14:48.636Z",
       "error": null,
       "events": [
         {
@@ -5491,24 +5491,24 @@
       "lastExtract": "2026-11-26T18:12:12.085Z"
     },
     "https://www.johnhaynesclassic.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:56.145Z",
-      "lastOk": "2026-11-26T18:08:56.145Z",
+      "lastFetch": "2026-11-26T22:14:48.444Z",
+      "lastOk": "2026-11-26T22:14:48.444Z",
       "error": null,
       "events": [],
       "hash": "9379b423bad36efbca8107be",
       "lastExtract": "2026-11-26T18:12:05.610Z"
     },
     "https://www.comptonairfield.com/events/page/2/": {
-      "lastFetch": "2026-11-26T18:08:56.268Z",
-      "lastOk": "2026-11-26T18:08:56.268Z",
+      "lastFetch": "2026-11-26T22:14:48.016Z",
+      "lastOk": "2026-11-26T22:14:48.016Z",
       "error": null,
       "events": [],
       "hash": "dd03a706d113e0c174b61035",
       "lastExtract": "2026-11-26T18:12:06.019Z"
     },
     "https://www.transportofyesteryear.org.uk/event-calendar.html": {
-      "lastFetch": "2026-11-26T18:08:56.285Z",
-      "lastOk": "2026-11-26T18:08:56.285Z",
+      "lastFetch": "2026-11-26T22:14:48.081Z",
+      "lastOk": "2026-11-26T22:14:48.081Z",
       "error": null,
       "events": [
         {
@@ -6476,8 +6476,8 @@
       "lastExtract": "2026-11-26T18:12:10.211Z"
     },
     "https://www.dcvc.co.uk/club-diary.html": {
-      "lastFetch": "2026-11-26T18:08:56.243Z",
-      "lastOk": "2026-11-26T18:08:56.243Z",
+      "lastFetch": "2026-11-26T22:14:47.990Z",
+      "lastOk": "2026-11-26T22:14:47.990Z",
       "error": null,
       "events": [
         {
@@ -6565,32 +6565,32 @@
       "lastExtract": "2026-11-26T18:12:06.019Z"
     },
     "https://jecdorset.com/events-page/": {
-      "lastFetch": "2026-11-26T18:08:57.333Z",
-      "lastOk": "2026-11-26T18:08:57.333Z",
+      "lastFetch": "2026-11-26T22:14:50.562Z",
+      "lastOk": "2026-11-26T22:14:50.562Z",
       "error": null,
       "events": [],
       "hash": "9aef87af7bd3da1c88fc00d0",
       "lastExtract": "2026-11-26T18:12:12.223Z"
     },
     "https://apertaevents.com/events": {
-      "lastFetch": "2026-11-26T18:08:57.024Z",
-      "lastOk": "2026-11-26T18:08:57.024Z",
+      "lastFetch": "2026-11-26T22:14:49.981Z",
+      "lastOk": "2026-11-26T22:14:49.981Z",
       "error": null,
       "events": [],
       "hash": "18076c252bdddcefc19b6ad8",
       "lastExtract": "2026-11-26T18:12:12.223Z"
     },
     "https://www.despatchrally.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:56.798Z",
-      "lastOk": "2026-11-26T18:08:56.798Z",
+      "lastFetch": "2026-11-26T22:14:48.875Z",
+      "lastOk": "2026-11-26T22:14:48.875Z",
       "error": null,
       "events": [],
       "hash": "3919b93553be29c57ceaa332",
       "lastExtract": "2026-11-26T18:12:12.085Z"
     },
     "https://www.wiltonlegends.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:56.956Z",
-      "lastOk": "2026-11-26T18:08:56.956Z",
+      "lastFetch": "2026-11-26T22:14:49.702Z",
+      "lastOk": "2026-11-26T22:14:49.702Z",
       "error": null,
       "events": [
         {
@@ -6638,8 +6638,8 @@
       "lastExtract": "2026-11-26T18:12:12.222Z"
     },
     "https://www.concourshouse.co.uk/calendar": {
-      "lastFetch": "2026-11-26T18:08:56.825Z",
-      "lastOk": "2026-11-26T18:08:56.825Z",
+      "lastFetch": "2026-11-26T22:14:49.023Z",
+      "lastOk": "2026-11-26T22:14:49.023Z",
       "error": null,
       "events": [
         {
@@ -6667,16 +6667,16 @@
       "lastExtract": "2026-11-26T18:12:12.085Z"
     },
     "https://www.whitehorse-cve.com/events": {
-      "lastFetch": "2026-11-26T18:08:56.788Z",
-      "lastOk": "2026-11-26T18:08:56.788Z",
+      "lastFetch": "2026-11-26T22:14:48.981Z",
+      "lastOk": "2026-11-26T22:14:48.981Z",
       "error": null,
       "events": [],
       "hash": "e35e91c696ebb6e359773f57",
       "lastExtract": "2026-11-26T18:12:12.085Z"
     },
     "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/": {
-      "lastFetch": "2026-11-26T18:08:57.420Z",
-      "lastOk": "2026-11-26T18:08:57.420Z",
+      "lastFetch": "2026-11-26T22:14:50.680Z",
+      "lastOk": "2026-11-26T22:14:50.680Z",
       "error": null,
       "events": [
         {
@@ -6704,12 +6704,1152 @@
       "lastExtract": "2026-11-26T18:12:12.359Z"
     },
     "https://www.vintagenostalgiafestival.co.uk/": {
-      "lastFetch": "2026-11-26T18:08:57.389Z",
-      "lastOk": "2026-11-26T18:08:57.389Z",
+      "lastFetch": "2026-11-26T22:14:50.751Z",
+      "lastOk": "2026-11-26T22:14:50.751Z",
       "error": null,
       "events": [],
       "hash": "fdf6f1e29f7fa7fcd4c039b3",
       "lastExtract": "2026-11-26T18:12:12.223Z"
+    },
+    "https://www.tr-register.co.uk/news-events/local-events": {
+      "lastFetch": "2026-11-26T22:14:51.605Z",
+      "lastOk": "2026-11-26T22:14:51.605Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r22dda0a2f33e8392f9fc5d00",
+          "name": "Brunel TRs at Long Ashton Cars and Coffee (Greedy Goose)",
+          "type": "meet",
+          "start": "2026-12-06",
+          "end": "2026-12-06",
+          "timeKnown": false,
+          "venue": "The Greedy Goose",
+          "town": "Long Ashton",
+          "postcode": "",
+          "lat": 51.4296,
+          "lon": -2.6624,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly cars and coffee gathering with a mix of classic and modern classic cars, joined by the Brunel TR group.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/496",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        },
+        {
+          "id": "r0992f745c148ca6721fd69f6",
+          "name": "Brunel TRs at Long Ashton Cars and Coffee (Greedy Goose)",
+          "type": "meet",
+          "start": "2027-01-03",
+          "end": "2027-01-03",
+          "timeKnown": false,
+          "venue": "The Greedy Goose",
+          "town": "Long Ashton",
+          "postcode": "",
+          "lat": 51.4296,
+          "lon": -2.6624,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly cars and coffee gathering with a mix of classic and modern classic cars, joined by the Brunel TR group.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/496",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        },
+        {
+          "id": "rf7cda47a55d7c6f0271e0b6d",
+          "name": "Brunel TRs at Long Ashton Cars and Coffee (Greedy Goose)",
+          "type": "meet",
+          "start": "2027-02-07",
+          "end": "2027-02-07",
+          "timeKnown": false,
+          "venue": "The Greedy Goose",
+          "town": "Long Ashton",
+          "postcode": "",
+          "lat": 51.4296,
+          "lon": -2.6624,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly cars and coffee gathering with a mix of classic and modern classic cars, joined by the Brunel TR group.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/496",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        },
+        {
+          "id": "r355d18ddce0f879574379f66",
+          "name": "Brunel and Old Crocks Klub Classic Car Meet",
+          "type": "classic",
+          "start": "2026-12-13T09:30",
+          "end": "2026-12-13",
+          "timeKnown": true,
+          "venue": "Carriages Garden Park",
+          "town": "Weston-super-Mare",
+          "postcode": "BS24 6TA",
+          "lat": 51.37059,
+          "lon": -2.85616,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Small informal morning gathering of classic car enthusiasts at a garden park on the A370 at Hewish.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        },
+        {
+          "id": "re9285dda44000ab605d464b3",
+          "name": "Brunel and Old Crocks Klub Classic Car Meet",
+          "type": "classic",
+          "start": "2026-12-27T09:30",
+          "end": "2026-12-27",
+          "timeKnown": true,
+          "venue": "Carriages Garden Park",
+          "town": "Weston-super-Mare",
+          "postcode": "BS24 6TA",
+          "lat": 51.37059,
+          "lon": -2.85616,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Small informal morning gathering of classic car enthusiasts at a garden park on the A370 at Hewish.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        },
+        {
+          "id": "r947b5105139b0da043e68298",
+          "name": "Brunel and Old Crocks Klub Classic Car Meet",
+          "type": "classic",
+          "start": "2027-01-10T09:30",
+          "end": "2027-01-10",
+          "timeKnown": true,
+          "venue": "Carriages Garden Park",
+          "town": "Weston-super-Mare",
+          "postcode": "BS24 6TA",
+          "lat": 51.37059,
+          "lon": -2.85616,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Small informal morning gathering of classic car enthusiasts at a garden park on the A370 at Hewish.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        },
+        {
+          "id": "r9414747582bf9a813e74a92d",
+          "name": "Brunel and Old Crocks Klub Classic Car Meet",
+          "type": "classic",
+          "start": "2027-01-24T09:30",
+          "end": "2027-01-24",
+          "timeKnown": true,
+          "venue": "Carriages Garden Park",
+          "town": "Weston-super-Mare",
+          "postcode": "BS24 6TA",
+          "lat": 51.37059,
+          "lon": -2.85616,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Small informal morning gathering of classic car enthusiasts at a garden park on the A370 at Hewish.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        },
+        {
+          "id": "ra3ee4d3846dfd4f00d3da0dc",
+          "name": "Brunel and Old Crocks Klub Classic Car Meet",
+          "type": "classic",
+          "start": "2027-02-14T09:30",
+          "end": "2027-02-14",
+          "timeKnown": true,
+          "venue": "Carriages Garden Park",
+          "town": "Weston-super-Mare",
+          "postcode": "BS24 6TA",
+          "lat": 51.37059,
+          "lon": -2.85616,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Small informal morning gathering of classic car enthusiasts at a garden park on the A370 at Hewish.",
+          "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+          "source": "TR Register (more)",
+          "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+        }
+      ],
+      "hash": "c642d5213085b0fa68068526",
+      "lastExtract": "2026-11-26T22:17:09.773Z"
+    },
+    "https://www.tr-register.co.uk/motorsport-news/Motorsport-Future-Events": {
+      "lastFetch": "2026-11-26T22:14:51.519Z",
+      "lastOk": "2026-11-26T22:14:51.519Z",
+      "error": null,
+      "events": [],
+      "hash": "5d508be53ff70b37d12755e1",
+      "lastExtract": "2026-11-26T22:17:09.177Z"
+    },
+    "https://www.mgownersclub.co.uk/events/month/2026-12/": {
+      "lastFetch": "2026-11-26T22:14:52.816Z",
+      "lastOk": "2026-11-26T22:14:52.816Z",
+      "error": null,
+      "events": [],
+      "hash": "d097d4e5e6319c1c25f92391",
+      "lastExtract": "2026-11-26T22:17:09.774Z"
+    },
+    "https://www.mgownersclub.co.uk/events/list/": {
+      "lastFetch": "2026-11-26T22:14:52.855Z",
+      "lastOk": "2026-11-26T22:14:52.855Z",
+      "error": null,
+      "events": [
+        {
+          "id": "ra5ab5c4aa24cc5cbcbc25982",
+          "name": "Rose of the Shires – Northants MGOC",
+          "type": "classic",
+          "start": "2027-05-09",
+          "end": "2027-05-09",
+          "timeKnown": false,
+          "venue": "Wellingborough Rugby Club",
+          "town": "Wellingborough",
+          "postcode": "",
+          "lat": 52.30217,
+          "lon": -0.6921,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "enter",
+          "desc": "Classic car charity run in aid of the local air ambulance, starting at Wellingborough Rugby Club and finishing at Kelmarsh Hall & Gardens.",
+          "url": "https://www.mgownersclub.co.uk/event/rose-of-the-shires-northants-mgoc/",
+          "source": "MG Owners Club (more)",
+          "sourceUrl": "https://www.mgownersclub.co.uk/events/list/"
+        }
+      ],
+      "hash": "fc03afaa4b664b4b90a2a26c",
+      "lastExtract": "2026-11-26T22:17:10.441Z"
+    },
+    "https://www.mgownersclub.co.uk/mg-events-2/": {
+      "lastFetch": "2026-11-26T22:14:54.366Z",
+      "lastOk": "2026-11-26T22:14:54.366Z",
+      "error": null,
+      "events": [
+        {
+          "id": "ra5ab5c4aa24cc5cbcbc25982",
+          "name": "Rose of the Shires – Northants MGOC",
+          "type": "classic",
+          "start": "2027-05-09",
+          "end": "2027-05-09",
+          "timeKnown": false,
+          "venue": "Wellingborough Rugby Club",
+          "town": "Wellingborough",
+          "postcode": "",
+          "lat": 52.30217,
+          "lon": -0.6921,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "enter",
+          "desc": "Classic car charity run in aid of the local air ambulance, starting at Wellingborough Rugby Club and finishing at Kelmarsh Hall & Gardens.",
+          "url": "https://www.mgownersclub.co.uk/event/rose-of-the-shires-northants-mgoc/",
+          "source": "MG Owners Club (more)",
+          "sourceUrl": "https://www.mgownersclub.co.uk/mg-events-2/"
+        }
+      ],
+      "hash": "d93673971e87f59744a4fe73",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.haynesmuseum.org/whats-on/motoring-events/?p=1": {
+      "lastFetch": "2026-11-26T22:14:53.131Z",
+      "lastOk": "2026-11-26T22:14:53.131Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r5a60036d9242cf43318f0568",
+          "name": "Haynes Breakfast Club | December 2026",
+          "type": "meet",
+          "start": "2026-12-06T08:00",
+          "end": "2026-12-06T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet open to all makes of cars and bikes, with festive 'Deck the Halls' cars featured in the Paddock.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-december-2026/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=1"
+        },
+        {
+          "id": "r904d64a8a0ce950e64bf5043",
+          "name": "Haynes Breakfast Club | January 2027",
+          "type": "meet",
+          "start": "2027-01-03T08:00",
+          "end": "2027-01-03T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet for all makes of cars and bikes, with Fords as the Paddock theme.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-january-2027/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=1"
+        },
+        {
+          "id": "r1b3a175153afdb583c51c14d",
+          "name": "Haynes Breakfast Club | February 2027",
+          "type": "meet",
+          "start": "2027-02-07T08:00",
+          "end": "2027-02-07T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet for all makes of cars and bikes, with hot hatches as the Paddock theme.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-february-2027/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=1"
+        },
+        {
+          "id": "ra40b2ef4ecfbb7a162083f76",
+          "name": "Haynes Breakfast Club | March 2027",
+          "type": "meet",
+          "start": "2027-03-07T08:00",
+          "end": "2027-03-07T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet for all makes of cars and bikes, with an Aston Martin versus Porsche Paddock theme.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-march-2027/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=1"
+        },
+        {
+          "id": "r71db08a4cea35744b20661db",
+          "name": "Charterhouse Classic & Vintage Car Auction",
+          "type": "auction",
+          "start": "2027-03-18T09:00",
+          "end": "2027-03-18",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "spectate",
+          "desc": "Charterhouse auction of classic and vintage cars held at the museum.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/charterhouse-classic-vintage-car-auction/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=1"
+        }
+      ],
+      "hash": "e293fac0eb181117dd81f0bd",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252": {
+      "lastFetch": "2026-11-26T22:14:53.046Z",
+      "lastOk": "2026-11-26T22:14:53.046Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r5a60036d9242cf43318f0568",
+          "name": "Haynes Breakfast Club | December 2026",
+          "type": "meet",
+          "start": "2026-12-06T08:00",
+          "end": "2026-12-06T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet open to all makes of cars and bikes. This month's paddock theme is Deck the Halls festive cars.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-december-2026/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252"
+        },
+        {
+          "id": "r904d64a8a0ce950e64bf5043",
+          "name": "Haynes Breakfast Club | January 2027",
+          "type": "meet",
+          "start": "2027-01-03T08:00",
+          "end": "2027-01-03T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet open to all makes of cars and bikes, with a Ford theme in the paddock.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-january-2027/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252"
+        },
+        {
+          "id": "r1b3a175153afdb583c51c14d",
+          "name": "Haynes Breakfast Club | February 2027",
+          "type": "meet",
+          "start": "2027-02-07T08:00",
+          "end": "2027-02-07T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet open to all makes of cars and bikes, with hot hatches featured in the paddock.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-february-2027/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252"
+        },
+        {
+          "id": "ra40b2ef4ecfbb7a162083f76",
+          "name": "Haynes Breakfast Club | March 2027",
+          "type": "meet",
+          "start": "2027-03-07T08:00",
+          "end": "2027-03-07T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet open to all makes of cars and bikes, with an Aston Martin versus Porsche paddock theme.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-march-2027/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252"
+        },
+        {
+          "id": "r69c5ad0122785bd77d19344f",
+          "name": "Haynes Breakfast Club | April 2027",
+          "type": "meet",
+          "start": "2027-04-04T08:00",
+          "end": "2027-04-04T11:00",
+          "timeKnown": true,
+          "venue": "Haynes Motor Museum",
+          "town": "Sparkford",
+          "postcode": "",
+          "lat": 51.03262,
+          "lon": -2.5613,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly breakfast meet open to all makes of cars and bikes, with Japanese cars featured in the paddock.",
+          "url": "https://www.haynesmuseum.org/whats-on/motoring-events/haynes-breakfast-club-april-2027/",
+          "source": "Haynes Motor Museum (more)",
+          "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252"
+        }
+      ],
+      "hash": "eff7ad2c93fa17659067635e",
+      "lastExtract": "2026-11-26T22:17:10.441Z"
+    },
+    "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3251": {
+      "lastFetch": "2026-11-26T22:14:53.506Z",
+      "lastOk": "2026-11-26T22:14:53.506Z",
+      "error": null,
+      "events": [],
+      "hash": "60d7b4f5182d1f18658d7e49",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.tssc.org.uk/tssc/events_archive.asp?month=3&year=2027": {
+      "lastFetch": "2026-11-26T22:14:53.422Z",
+      "lastOk": "2026-11-26T22:14:53.422Z",
+      "error": null,
+      "events": [],
+      "hash": "5f9a4b1238f11de544c374c1",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.tssc.org.uk/tssc/events_archive.asp?month=4&year=2027": {
+      "lastFetch": "2026-11-26T22:14:53.421Z",
+      "lastOk": "2026-11-26T22:14:53.421Z",
+      "error": null,
+      "events": [
+        {
+          "id": "ree5dd72a6c1b165dbd507446",
+          "name": "Isle of Wight Triumph Weekend",
+          "type": "classic",
+          "start": "2027-04-30",
+          "end": "2027-05-03",
+          "timeKnown": false,
+          "venue": "Waverley Park Caravan Park",
+          "town": "Cowes",
+          "postcode": "",
+          "lat": 50.76243,
+          "lon": -1.29791,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "enter",
+          "desc": "Triumph Sports Six Club weekend on the Isle of Wight over the May bank holiday, based at a caravan park in Cowes. Owners book their own accommodation and Red Funnel ferry crossing.",
+          "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=3403",
+          "source": "Triumph Sports Six Club (more)",
+          "sourceUrl": "https://www.tssc.org.uk/tssc/events_archive.asp?month=4&year=2027"
+        }
+      ],
+      "hash": "4665566c997e46a3259bff92",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.gtm.org.uk/events/category/pop-up-event": {
+      "lastFetch": "2026-11-26T22:14:55.653Z",
+      "lastOk": "2026-11-26T22:14:55.653Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r027c10c851f8a70e051ee220",
+          "name": "Spring Autojumble",
+          "type": "auction",
+          "start": "2027-04-11",
+          "end": "2027-04-11",
+          "timeKnown": false,
+          "venue": "Grampian Transport Museum",
+          "town": "Alford",
+          "postcode": "",
+          "lat": 57.2319,
+          "lon": -2.70206,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "spectate",
+          "desc": "Spring autojumble at the transport museum with stalls selling motoring parts and items. Stall bookings open soon.",
+          "url": "https://www.gtm.org.uk/events/spring-autojumble-27",
+          "source": "Grampian Transport Museum (more)",
+          "sourceUrl": "https://www.gtm.org.uk/events/category/pop-up-event"
+        },
+        {
+          "id": "rd663c8574612a90e788042b1",
+          "name": "AllFord at Alford",
+          "type": "classic",
+          "start": "2027-08-15",
+          "end": "2027-08-15",
+          "timeKnown": false,
+          "venue": "Grampian Transport Museum",
+          "town": "Alford",
+          "postcode": "",
+          "lat": 57.2319,
+          "lon": -2.70206,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Ford-themed car show at the Grampian Transport Museum. Online entries for cars open soon.",
+          "url": "https://www.gtm.org.uk/events/allford-at-alford-27",
+          "source": "Grampian Transport Museum (more)",
+          "sourceUrl": "https://www.gtm.org.uk/events/category/pop-up-event"
+        },
+        {
+          "id": "rc530155eadfeb93d65d9b6d0",
+          "name": "Autumn Autojumble",
+          "type": "auction",
+          "start": "2027-09-19",
+          "end": "2027-09-19",
+          "timeKnown": false,
+          "venue": "Grampian Transport Museum",
+          "town": "Alford",
+          "postcode": "",
+          "lat": 57.2319,
+          "lon": -2.70206,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "spectate",
+          "desc": "Autumn autojumble at the transport museum with stalls selling motoring parts and items. Stall bookings open soon.",
+          "url": "https://www.gtm.org.uk/events/autumn-autojumble-27",
+          "source": "Grampian Transport Museum (more)",
+          "sourceUrl": "https://www.gtm.org.uk/events/category/pop-up-event"
+        }
+      ],
+      "hash": "7f19521a471500614432e428",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.tssc.org.uk/tssc/events_archive.asp?month=5&year=2027": {
+      "lastFetch": "2026-11-26T22:14:54.497Z",
+      "lastOk": "2026-11-26T22:14:54.497Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r96b2ba5386728e69c444e856",
+          "name": "TSSC South of England Meet (SEM27)",
+          "type": "classic",
+          "start": "2027-05-07",
+          "end": "2027-05-09",
+          "timeKnown": false,
+          "venue": "Leatherhead Leisure Centre",
+          "town": "Leatherhead",
+          "postcode": "KT22 9BL",
+          "lat": 51.29013,
+          "lon": -0.33546,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "All-Triumph car show and concours on Sunday 9 May, with autojumble, stalls and the TSSC club shop. Camping is available from Friday afternoon to Sunday afternoon.",
+          "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=3437",
+          "source": "Triumph Sports Six Club (more)",
+          "sourceUrl": "https://www.tssc.org.uk/tssc/events_archive.asp?month=5&year=2027"
+        }
+      ],
+      "hash": "2c12f1db449115793e44ab9f",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.shmc.co.uk/events-calendar/": {
+      "lastFetch": "2026-11-26T22:14:54.890Z",
+      "lastOk": "2026-11-26T22:14:54.890Z",
+      "error": null,
+      "events": [],
+      "hash": "54c0586ad35cc6492d92bf2a",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.shmc.co.uk/events/": {
+      "lastFetch": "2026-11-26T22:14:54.956Z",
+      "lastOk": "2026-11-26T22:14:54.956Z",
+      "error": null,
+      "events": [],
+      "hash": "dfa2a18c0c0482a850b979bc",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.mgccsw.com/event/month/": {
+      "lastFetch": "2026-11-26T22:14:54.698Z",
+      "lastOk": "2026-11-26T22:14:54.698Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r6002051ba8d7065013ee6315",
+          "name": "Cars and Coffee Meet – Rowdey Cow",
+          "type": "meet",
+          "start": "2026-11-28T10:00",
+          "end": "2026-11-28T12:00",
+          "timeKnown": true,
+          "venue": "The Rowdey Cow, Lower Farm",
+          "town": "Devizes",
+          "postcode": "SN10 2LX",
+          "lat": 51.36278,
+          "lon": -2.01941,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "MG Car Club South West Centre Saturday breakfast meet at the Rowdey Cow on the A342 Devizes to Chippenham road, with cars gathering and breakfast available.",
+          "url": "https://www.mgccsw.com/event/cars-and-coffee-meet-rowdey-cow-28th-november-2026/",
+          "source": "MG Car Club South West Centre (more)",
+          "sourceUrl": "https://www.mgccsw.com/event/month/"
+        }
+      ],
+      "hash": "31d39d058a061882c477f9e6",
+      "lastExtract": "2026-11-26T22:17:10.442Z"
+    },
+    "https://www.vmccsomerset.co.uk/events": {
+      "error": "fetch failed",
+      "lastFetch": "2026-11-26T22:14:54.620Z"
+    },
+    "https://sidmouthclassiccarshow.co.uk/local-events-list": {
+      "lastFetch": "2026-11-26T22:14:56.507Z",
+      "lastOk": "2026-11-26T22:14:56.507Z",
+      "error": null,
+      "events": [],
+      "hash": "96b5591b7f12e675219a584d",
+      "lastExtract": "2026-11-26T22:17:12.442Z"
+    },
+    "https://www.comptonairfield.com/events/month/": {
+      "lastFetch": "2026-11-26T22:14:56.963Z",
+      "lastOk": "2026-11-26T22:14:56.963Z",
+      "error": null,
+      "events": [],
+      "hash": "79f31f1afc23981d3f90eaf9",
+      "lastExtract": "2026-11-26T22:17:12.442Z"
+    },
+    "https://www.comptonairfield.com/events/": {
+      "lastFetch": "2026-11-26T22:14:56.078Z",
+      "lastOk": "2026-11-26T22:14:56.078Z",
+      "error": null,
+      "events": [],
+      "hash": "aee6cf6b5f0e6f9d2a11c898",
+      "lastExtract": "2026-11-26T22:17:12.442Z"
+    },
+    "https://www.concourshouse.co.uk/calendar?category=Auction": {
+      "lastFetch": "2026-11-26T22:14:56.183Z",
+      "lastOk": "2026-11-26T22:14:56.183Z",
+      "error": null,
+      "events": [
+        {
+          "id": "rcfede677aca3259d77be69e9",
+          "name": "DRIVEN. Cars and Coffee",
+          "type": "meet",
+          "start": "2026-12-06T10:00",
+          "end": "2026-12-06T13:00",
+          "timeKnown": true,
+          "venue": "Concours House",
+          "town": "Bradford-on-Avon",
+          "postcode": "BA15 1TS",
+          "lat": 51.34768,
+          "lon": -2.23446,
+          "priceLook": 0,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Monthly cars and coffee morning with a mixed line-up of sports cars and classics, with coffee from Bobbie's Diner.",
+          "url": "https://www.concourshouse.co.uk/calendar",
+          "source": "Concours House (more)",
+          "sourceUrl": "https://www.concourshouse.co.uk/calendar?category=Auction"
+        }
+      ],
+      "hash": "608b17ee501b589a901dee55",
+      "lastExtract": "2026-11-26T22:17:12.442Z"
+    },
+    "https://www.wiltonlegends.co.uk/whats-on/": {
+      "lastFetch": "2026-11-26T22:14:56.377Z",
+      "lastOk": "2026-11-26T22:14:56.377Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r6d420aa6860e0f50086b501d",
+          "name": "Wilton Legends",
+          "type": "classic",
+          "start": "2027-06-18T10:00",
+          "end": "2027-06-20",
+          "timeKnown": true,
+          "venue": "Wilton House",
+          "town": "Wilton",
+          "postcode": "",
+          "lat": 55.42883,
+          "lon": -2.78922,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Three-day motoring show in the grounds of Wilton House. Visitors can buy tickets, and owners can apply to enter their cars for display.",
+          "url": "https://www.wiltonlegends.co.uk/whats-on/",
+          "source": "Wilton Legends (more)",
+          "sourceUrl": "https://www.wiltonlegends.co.uk/whats-on/"
+        }
+      ],
+      "hash": "5e60b1f6b579ce0aebeaaac1",
+      "lastExtract": "2026-11-26T22:17:12.442Z"
+    },
+    "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/": {
+      "lastFetch": "2026-11-26T22:14:55.785Z",
+      "lastOk": "2026-11-26T22:14:55.785Z",
+      "error": null,
+      "events": [
+        {
+          "id": "rc69e7f6cd3258fec93bf005b",
+          "name": "Lancashire Coast Classic & Performance Motor Show at Lytham Hall",
+          "type": "classic",
+          "start": "2027-05-16",
+          "end": "2027-05-16",
+          "timeKnown": false,
+          "venue": "Lytham Hall",
+          "town": "Lytham",
+          "postcode": "",
+          "lat": 53.74061,
+          "lon": -2.95764,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic and performance car show in the grounds of Lytham Hall on the Lancashire coast.",
+          "url": "https://greatbritishmotorshows.com/event/lytham-hall-classic-car-and-motorcycle-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+        },
+        {
+          "id": "r3da67987afbfa32fca4393c7",
+          "name": "Weston Park Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-05-22",
+          "end": "2027-05-22",
+          "timeKnown": false,
+          "venue": "Weston Park",
+          "town": "Weston Park",
+          "postcode": "",
+          "lat": 51.39105,
+          "lon": -2.38278,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic and performance car show held at Weston Park.",
+          "url": "https://greatbritishmotorshows.com/event/weston-park-classic-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+        },
+        {
+          "id": "r3b22ff436034c1cbdf21e584",
+          "name": "Yorkshire Classic & Performance Motor Show at Ripley Castle",
+          "type": "classic",
+          "start": "2027-05-31",
+          "end": "2027-05-31",
+          "timeKnown": false,
+          "venue": "Ripley Castle",
+          "town": "Ripley",
+          "postcode": "",
+          "lat": 54.04103,
+          "lon": -1.56661,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic and performance car show in the grounds of Ripley Castle in Yorkshire.",
+          "url": "https://greatbritishmotorshows.com/event/yorkshire-classic-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+        },
+        {
+          "id": "r9cc89da56e46a2fa58cf6d91",
+          "name": "Classic & Performance Motor Show at Hoghton Tower",
+          "type": "classic",
+          "start": "2027-07-25",
+          "end": "2027-07-25",
+          "timeKnown": false,
+          "venue": "Hoghton Tower",
+          "town": "Hoghton",
+          "postcode": "",
+          "lat": 53.73606,
+          "lon": -2.59306,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic and performance car show at Hoghton Tower in Lancashire.",
+          "url": "https://greatbritishmotorshows.com/event/classic-and-performance-motor-show-at-hoghton-tower/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+        },
+        {
+          "id": "r52dd7b244fa268408540cde4",
+          "name": "Northumberland Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-08-15",
+          "end": "2027-08-15",
+          "timeKnown": false,
+          "venue": "Tynedale Rugby Park",
+          "town": "Corbridge",
+          "postcode": "",
+          "lat": 54.97421,
+          "lon": -2.0175,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic and performance car show at Tynedale Rugby Park in Corbridge, with camping available.",
+          "url": "https://greatbritishmotorshows.com/event/northumberland-classic-vehicle-and-north-east-modified-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+        },
+        {
+          "id": "rb60a36f9179826a08d4cd6da",
+          "name": "Ripon Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-08-29",
+          "end": "2027-08-29",
+          "timeKnown": false,
+          "venue": "Ripon Racecourse",
+          "town": "Ripon",
+          "postcode": "",
+          "lat": 54.13603,
+          "lon": -1.52342,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic and performance car show held at Ripon Racecourse.",
+          "url": "https://greatbritishmotorshows.com/event/ripon-classic-and-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+        }
+      ],
+      "hash": "0ce3a04bc0fc07b7d73f9bcf",
+      "lastExtract": "2026-11-26T22:17:12.442Z"
+    },
+    "https://greatbritishmotorshows.com/event/": {
+      "lastFetch": "2026-11-26T22:14:56.981Z",
+      "lastOk": "2026-11-26T22:14:56.981Z",
+      "error": null,
+      "events": [
+        {
+          "id": "rc69e7f6cd3258fec93bf005b",
+          "name": "Lancashire Coast Classic & Performance Motor Show at Lytham Hall",
+          "type": "classic",
+          "start": "2027-05-16T10:00",
+          "end": "2027-05-16",
+          "timeKnown": true,
+          "venue": "Lytham Hall",
+          "town": "Lytham",
+          "postcode": "",
+          "lat": 53.74061,
+          "lon": -2.95764,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Show of classic, modified and performance cars and bikes in the grounds of Lytham Hall. Visitor tickets plus exhibit, club and trader entries available.",
+          "url": "https://greatbritishmotorshows.com/event/lytham-hall-classic-car-and-motorcycle-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event/"
+        },
+        {
+          "id": "r3da67987afbfa32fca4393c7",
+          "name": "Weston Park Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-05-22T11:00",
+          "end": "2027-05-23",
+          "timeKnown": true,
+          "venue": "Weston Park",
+          "town": "Telford",
+          "postcode": "",
+          "lat": 52.6754,
+          "lon": -2.44875,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "New two-day classic and performance car show near Telford with historic rally action and arena displays. Owners can exhibit their cars.",
+          "url": "https://greatbritishmotorshows.com/event/weston-park-classic-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event/"
+        },
+        {
+          "id": "r3b22ff436034c1cbdf21e584",
+          "name": "Yorkshire Classic & Performance Motor Show at Ripley Castle",
+          "type": "classic",
+          "start": "2027-05-31T10:00",
+          "end": "2027-05-31",
+          "timeKnown": true,
+          "venue": "Ripley Castle",
+          "town": "Ripley",
+          "postcode": "",
+          "lat": 54.04103,
+          "lon": -1.56661,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic, modified and sports car and bike show at Ripley Castle. Visitor tickets plus exhibit, club and trader entries available.",
+          "url": "https://greatbritishmotorshows.com/event/yorkshire-classic-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event/"
+        },
+        {
+          "id": "r52dd7b244fa268408540cde4",
+          "name": "Northumberland Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-08-15T10:00",
+          "end": "2027-08-15",
+          "timeKnown": true,
+          "venue": "Tynedale Rugby Park",
+          "town": "Corbridge",
+          "postcode": "",
+          "lat": 54.97421,
+          "lon": -2.0175,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic, modified and performance car and bike show at Tynedale Rugby Park. Visitor tickets plus exhibit, club and trader entries available.",
+          "url": "https://greatbritishmotorshows.com/event/northumberland-classic-vehicle-and-north-east-modified-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event/"
+        },
+        {
+          "id": "rb60a36f9179826a08d4cd6da",
+          "name": "Ripon Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-08-29T10:00",
+          "end": "2027-08-29",
+          "timeKnown": true,
+          "venue": "Ripon Racecourse",
+          "town": "Ripon",
+          "postcode": "",
+          "lat": 54.13603,
+          "lon": -1.52342,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic, modified and performance car and bike show at Ripon Racecourse. Visitor tickets and car entry options available.",
+          "url": "https://greatbritishmotorshows.com/event/ripon-classic-and-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event/"
+        }
+      ],
+      "hash": "e28117a3c909b92c37b9c999",
+      "lastExtract": "2026-11-26T22:17:12.815Z"
+    },
+    "https://greatbritishmotorshows.com/location/south-west/?post_type=event": {
+      "lastFetch": "2026-11-26T22:14:59.696Z",
+      "lastOk": "2026-11-26T22:14:59.696Z",
+      "error": null,
+      "events": [],
+      "hash": "fa99f4e7e68a62510cb0e2e2",
+      "lastExtract": "2026-11-26T22:17:13.293Z"
+    },
+    "https://greatbritishmotorshows.com/event-category/historic-racing-sportscar-classic-show/?post_type=event": {
+      "lastFetch": "2026-11-26T22:14:59.471Z",
+      "lastOk": "2026-11-26T22:14:59.471Z",
+      "error": null,
+      "events": [
+        {
+          "id": "rf009b3f0749fd47f8d1c8248",
+          "name": "Longleat Motor Show Weekender 2027",
+          "type": "classic",
+          "start": "2027-07-03",
+          "end": "2027-07-04",
+          "timeKnown": false,
+          "venue": "Longleat",
+          "town": "Warminster",
+          "postcode": "",
+          "lat": 51.20492,
+          "lon": -2.18119,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Two-day motor show at Longleat covering historic racing, sports, supercars, classic and modified cars, with club and individual car displays. Visitor day tickets are sold directly by Longleat.",
+          "url": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event-category/historic-racing-sportscar-classic-show/?post_type=event"
+        }
+      ],
+      "hash": "fa99f4e7e68a62510cb0e2e2",
+      "lastExtract": "2026-11-26T22:17:13.044Z"
+    },
+    "https://greatbritishmotorshows.com/event-category/sports-and-supercars/?post_type=event": {
+      "lastFetch": "2026-11-26T22:14:59.537Z",
+      "lastOk": "2026-11-26T22:14:59.537Z",
+      "error": null,
+      "events": [
+        {
+          "id": "rc69e7f6cd3258fec93bf005b",
+          "name": "Lancashire Coast Classic & Performance Motor Show at Lytham Hall",
+          "type": "classic",
+          "start": "2027-05-16T10:00",
+          "end": "2027-05-16",
+          "timeKnown": true,
+          "venue": "Lytham Hall",
+          "town": "Lytham",
+          "postcode": "",
+          "lat": 53.74061,
+          "lon": -2.95764,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic, modified and performance car and bike show in the grounds of Lytham Hall. Visitor tickets plus exhibit and club entries available.",
+          "url": "https://greatbritishmotorshows.com/event/lytham-hall-classic-car-and-motorcycle-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event-category/sports-and-supercars/?post_type=event"
+        },
+        {
+          "id": "r3b22ff436034c1cbdf21e584",
+          "name": "Yorkshire Classic & Performance Motor Show at Ripley Castle",
+          "type": "classic",
+          "start": "2027-05-31T10:00",
+          "end": "2027-05-31",
+          "timeKnown": true,
+          "venue": "Ripley Castle",
+          "town": "Ripley",
+          "postcode": "",
+          "lat": 54.04103,
+          "lon": -1.56661,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic, modified and sports car and bike show at Ripley Castle. Visitors can buy tickets, and owners can book exhibit or club entry.",
+          "url": "https://greatbritishmotorshows.com/event/yorkshire-classic-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event-category/sports-and-supercars/?post_type=event"
+        },
+        {
+          "id": "r52dd7b244fa268408540cde4",
+          "name": "Northumberland Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-08-15T10:00",
+          "end": "2027-08-15",
+          "timeKnown": true,
+          "venue": "Tynedale Rugby Park",
+          "town": "Corbridge",
+          "postcode": "",
+          "lat": 54.97421,
+          "lon": -2.0175,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic, modified and performance car and bike show at Tynedale Rugby Park. Visitor tickets and exhibit/club entries available.",
+          "url": "https://greatbritishmotorshows.com/event/northumberland-classic-vehicle-and-north-east-modified-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event-category/sports-and-supercars/?post_type=event"
+        },
+        {
+          "id": "rb60a36f9179826a08d4cd6da",
+          "name": "Ripon Classic & Performance Motor Show 2027",
+          "type": "classic",
+          "start": "2027-08-29T10:00",
+          "end": "2027-08-29",
+          "timeKnown": true,
+          "venue": "Ripon Racecourse",
+          "town": "Ripon",
+          "postcode": "",
+          "lat": 54.13603,
+          "lon": -1.52342,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Classic, modified and sports car and bike show at Ripon Racecourse. Visitor tickets and exhibit entries available.",
+          "url": "https://greatbritishmotorshows.com/event/ripon-classic-and-performance-motor-show/",
+          "source": "Great British Motor Shows (more)",
+          "sourceUrl": "https://greatbritishmotorshows.com/event-category/sports-and-supercars/?post_type=event"
+        }
+      ],
+      "hash": "6f34ec617e0af3be4e20e6ed",
+      "lastExtract": "2026-11-26T22:17:13.293Z"
+    },
+    "https://cotswoldclassiccarclub.com/?page_id=50": {
+      "error": "fetch failed",
+      "lastFetch": "2026-11-26T22:15:07.448Z"
+    },
+    "https://www.cotswoldbarn.com/events": {
+      "lastFetch": "2026-11-26T22:14:57.082Z",
+      "lastOk": "2026-11-26T22:14:57.082Z",
+      "error": null,
+      "events": [],
+      "hash": "0b99629a3c95a2c9de96327d",
+      "lastExtract": "2026-11-26T22:17:13.044Z"
+    },
+    "https://www.glosvintageextravaganza.co.uk/": {
+      "lastFetch": "2026-11-26T22:15:07.925Z",
+      "lastOk": "2026-11-26T22:15:07.925Z",
+      "error": null,
+      "events": [
+        {
+          "id": "r61a68d63b25dbf2889cb4f70",
+          "name": "Gloucestershire Vintage & Country Extravaganza 2027",
+          "type": "classic",
+          "start": "2027-08-06",
+          "end": "2027-08-08",
+          "timeKnown": false,
+          "venue": "South Cerney Airfield",
+          "town": "Cirencester",
+          "postcode": "",
+          "lat": 51.717,
+          "lon": -1.96838,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Three-day heritage transport show with thousands of exhibits including steam engines, classic cars, military vehicles, commercials, buses and tractors, plus live arenas and countryside attractions.",
+          "url": "https://www.glosvintageextravaganza.co.uk/",
+          "source": "Stroud Vintage Transport & Engine Club (Gloucestershire Vintage & Country Extrav",
+          "sourceUrl": "https://www.glosvintageextravaganza.co.uk/"
+        }
+      ],
+      "hash": "48d62ac7ca60a5e6cfe60f3f",
+      "lastExtract": "2026-11-26T22:17:13.435Z"
     }
   },
   "geo": {
@@ -7126,8 +8266,72 @@
       51.20491570953971,
       -2.181192816923463,
       "Warminster"
+    ],
+    "place:long ashton": [
+      51.429595650141344,
+      -2.662395218332757,
+      "Long Ashton"
+    ],
+    "pc:BS24 6TA": [
+      51.370592,
+      -2.856161,
+      "North Somerset"
+    ],
+    "place:anglesey abbey": null,
+    "place:great central railway": null,
+    "place:wellingborough": [
+      52.302172885029975,
+      -0.6920981339253466,
+      "Wellingborough"
+    ],
+    "place:lytham": [
+      53.740607268475905,
+      -2.9576413928642658,
+      "Lytham"
+    ],
+    "place:weston park": [
+      51.39104573598395,
+      -2.382776140650149,
+      "Weston Park"
+    ],
+    "place:ripley": [
+      54.0410349258722,
+      -1.5666098643280415,
+      "Ripley"
+    ],
+    "place:hutton in the forest": null,
+    "place:longleat": null,
+    "place:leighton hall": null,
+    "place:chatsworth": null,
+    "place:hoghton": [
+      53.73606368291056,
+      -2.593064305703217,
+      "Hoghton"
+    ],
+    "place:corbridge": [
+      54.97421226714378,
+      -2.0174976323489404,
+      "Corbridge"
+    ],
+    "place:ripon": [
+      54.13603249088548,
+      -1.5234227164697332,
+      "Ripon"
+    ],
+    "place:telford": [
+      52.67540427052161,
+      -2.448752046528618,
+      "Telford"
+    ],
+    "place:hoghton tower": null,
+    "place:cotswold barn": null,
+    "place:arley hall": null,
+    "place:cirencester": [
+      51.717002616934735,
+      -1.9683824607848088,
+      "Cirencester"
     ]
   },
   "pendingBatch": null,
-  "discoverIndex": 5
+  "discoverIndex": 6
 }

@@ -830,6 +830,174 @@
       "added": "followed",
       "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
       "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Cotswold Classic Car Club",
+      "url": "https://cotswoldclassiccarclub.com/?page_id=50",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Gloucestershire"
+    },
+    {
+      "name": "Cotswold Barn",
+      "url": "https://www.cotswoldbarn.com/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Gloucestershire"
+    },
+    {
+      "name": "Stroud Vintage Transport & Engine Club (Gloucestershire Vintage & Country Extrav",
+      "url": "https://www.glosvintageextravaganza.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Gloucestershire"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/news-events/club-events",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2026-12",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-01",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-02",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/events/month/2027-02/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/events/month/2027-01/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/events/list/?tribe-bar-date=2026-12-01",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/events/month/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252&p=2",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3253",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3251&p=2",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Car Club South West Centre (more)",
+      "url": "https://www.mgccsw.com/printable-2026-event-calendar/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgccsw.com/event/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/month/2026-12/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/list/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/event/page/2/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/event-category/modified-custom-cars-and-bikes/?post_type=event",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/event-category/sports-car-show/?post_type=event",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
     }
   ]
 }
