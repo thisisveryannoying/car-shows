@@ -1484,6 +1484,57 @@ a{color:var(--accent)}
 .ef-price span{font-size:0.75rem;line-height:1rem;color:var(--muted)}
 .ev-foot .btn-2{width:auto;flex:1;max-width:210px;margin-left:auto;min-height:50px}
 .pt,.ev-rows{border-radius:var(--R)}
+/* No photo fades: on every card the text sits on a solid panel that overlaps the bottom of the photo a little, its top
+   corners rounded so the picture shows around them (like the show page's box) */
+.lc-box::before,.fc-img::before,.ev-img::before,.un-img::before{display:none!important}
+.list .sq .lc-body,.feat-card .fc-body,.un-body,.list .sq .lc-body.sv-body{position:relative;z-index:3;background:var(--surface);border-radius:16px 16px 0 0}
+.list .sq .lc-body{margin-top:-16px}
+.feat-card .fc-body{margin-top:-18px}
+.list .sq .lc-body.sv-body{margin-top:-18px}
+.un-body{margin-top:-22px;border-radius:20px 20px 0 0}
+.text-lg .list .sq .lc-body{margin-top:-18px}
+
+/* Names on every card stop after two lines with "…"; the show's page always shows the whole name */
+.fc-name,.list .sq .name .name-btn,.un-name .name-btn{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;overflow-wrap:anywhere}
+
+/* ---------- A show's page, laid out like a listing page ----------
+   The photo runs edge to edge from the very top, with round back and share buttons on it. A panel with large rounded
+   top corners rises over its bottom edge: the full name centred, a short line under it, three key facts in a row,
+   then rows with an icon each, then About. The foot has the price on the left and Save on the right. */
+.evcard{top:0!important;border-radius:0!important;--ev-r:0px}
+.ev-img{height:min(46vh,420px)}
+.ev-x{top:calc(12px + env(safe-area-inset-top));left:12px;width:48px;height:48px}
+.ev-x span{width:42px;height:42px;background:var(--surface);color:var(--silver);box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.ev-x .ic{width:19px;height:19px;stroke-width:2.3}
+.ev-share{left:auto;right:12px}
+.ev-share .ic{margin:0 0 2px}
+#evImg .ev-cap{top:auto;bottom:40px}
+.ev-body{padding:0!important}
+.evp{position:relative;z-index:3;margin-top:-28px;padding:30px 24px 24px;border-radius:28px 28px 0 0;background:var(--surface)}
+.evp-title{text-align:center;font-size:1.75rem;line-height:2.125rem;font-weight:800;letter-spacing:-.03em;color:var(--silver);overflow-wrap:anywhere}
+.evp-sub{margin-top:10px;text-align:center;font-size:0.9375rem;line-height:1.4rem;color:var(--silver-2)}
+.evp-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:24px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.evp-stats > div{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:2px 8px;text-align:center}
+.evp-stats > div + div{border-left:1px solid var(--line)}
+.evp-stats b{font-size:1.375rem;line-height:1.6rem;font-weight:800;letter-spacing:-.025em;color:var(--silver)}
+.evp-stats span{font-size:0.8125rem;line-height:1.05rem;color:var(--silver-2);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.evp-row{display:grid;grid-template-columns:28px minmax(0,1fr);gap:18px;align-items:start;padding:20px 0;border-bottom:1px solid var(--line)}
+.evp-row > .ic{width:26px;height:26px;margin-top:1px;color:var(--silver);stroke-width:1.7}
+.evp-row b{display:block;font-size:1.0625rem;line-height:1.4rem;font-weight:700;letter-spacing:-.012em;color:var(--silver)}
+.evp-row span{display:block;margin-top:2px;font-size:0.9375rem;line-height:1.35rem;color:var(--silver-2)}
+.evp-row .ev-tl{margin-top:10px}
+.evp-row .ev-tl b{display:inline;font-size:inherit;line-height:inherit;color:inherit}
+.evp-row .ev-org{margin-top:4px}
+.evp-loc{display:block;width:100%;text-align:left}
+.evp-loc u{text-underline-offset:2px}
+.evp-about h3{margin:22px 0 6px;font-size:1.25rem;line-height:1.6rem;font-weight:800;letter-spacing:-.02em;color:var(--silver)}
+.evp-about p{font-size:0.9375rem;line-height:1.45rem;color:var(--silver-2)}
+.ev-foot{gap:16px;padding:14px 20px calc(14px + env(safe-area-inset-bottom,0px))}
+.ev-foot .ef-price{flex:1;min-width:0;display:flex;flex-direction:column}
+.ev-foot .ef-price b{font-size:1.375rem;line-height:1.7rem;font-weight:800;letter-spacing:-.03em;color:var(--silver)}
+.ev-foot .ef-price span{font-size:0.8125rem;line-height:1.1rem;color:var(--silver-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ev-foot .btn-2.ef-save{flex:none!important;width:auto!important;min-width:148px;padding:0 28px;min-height:54px;border-radius:999px}
+
 /* Real listings: a link to the organiser's page under the description; no timeline when the times aren't known */
 .ev-org{display:inline-flex;align-items:center;gap:4px;margin-top:10px;font-size:0.9375rem;font-weight:600;color:var(--action);text-decoration:none}
 .ev-tl:empty{display:none}
@@ -1683,11 +1734,12 @@ a{color:var(--accent)}
 <!-- Event card -->
 <div class="evcard metal" id="evCard" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="evTitle" hidden>
   <button class="ev-x" id="evClose" aria-label="Back"><span></span></button>
+  <button class="ev-x ev-share" id="evShare" aria-label="Share" hidden><span></span></button>
   <div class="ev-scroll">
     <div class="ev-img" id="evImg"></div>
     <div class="ev-body" id="evBody"></div>
   </div>
-  <div class="ev-foot"><button class="btn-2 ef-save" id="evSave" aria-pressed="false">Save</button></div>
+  <div class="ev-foot"><div class="ef-price" id="evFootP"></div><button class="btn-2 ef-save" id="evSave" aria-pressed="false">Save</button></div>
 </div>
 
 <!-- Settings -->
@@ -1872,6 +1924,7 @@ const I = {
   chev:   ic('<path d="m6 9 6 6 6-6"/>'),
   arrow:  ic('<path d="M5 12h14M13 6l6 6-6 6"/>'),
   back:   ic('<path d="M15 5l-7 7 7 7"/>'),
+  share:  ic('<path d="M12 15V3.5M7.5 8 12 3.5 16.5 8"/><path d="M5 12.5V19a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19v-6.5"/>'),
   search: ic('<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>'),
   list:   ic('<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>'),
   map:    ic('<path d="M9 4 3 6.5v14L9 18l6 2.5 6-2.5v-14L15 6 9 4Z"/><path d="M9 4v14M15 6v14.5"/>'),
@@ -1886,6 +1939,8 @@ $('#legalMark').innerHTML = I.flag;
 $('#searchBox').insertAdjacentHTML('afterbegin', I.search);   // magnifier first, filters at the end
 $('#sClose span').innerHTML = I.back;
 $('#evClose span').innerHTML = I.back;
+$('#evShare span').innerHTML = I.share;
+$('#evShare').hidden = !navigator.share;   // only where the phone's own share sheet exists
 $('#filterBtn').innerHTML = I.sliders;
 $('#locBtn').innerHTML = I.pin;
 $('#tabList').innerHTML = `${ic('<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v11h5v-6h4v6h5V9"/>')}<span>Home</span>`;
@@ -3802,30 +3857,35 @@ function fillEvent(e){
   // What it costs, in one line: "£15 per person", "£5 to look, £10 per car", "Free"
   const what = ps.unknown ? 'Price not listed yet, check with the organiser' : ps.free && !ps.small ? 'Free' : ps.free ? `Free to look, £${p.bring} per car`
     : p.look != null && p.bring != null ? `£${p.look} to look, £${p.bring} per car` : `${ps.big} ${ps.small}`;
-  const steps = schedule(e);
-  /* Three plain sections in one box, nothing else: When (the date and the day's timeline), Where (the venue and how
-     far, with Directions under it), What (the name and type, the price, a short description) */
+  const steps = schedule(e), desc = e.real ? e.desc : DESC[e.type];
+  const t0 = new Date(); t0.setHours(0, 0, 0, 0);
+  const n = Math.max(0, Math.round((new Date(e.date).setHours(0, 0, 0, 0) - t0) / 86400000));
+  const dayStr = `${fDow(e.date)} ${e.date.getDate()} ${fMon(e.date)}`;
+  const where = [e.real ? e.town : '', `${fDist(e.miles)} ${dUnit()} away`].filter(Boolean).join(' · ');
+  /* Like a listing page: the full name centred at the top with a short line under it, three key facts side by side
+     (price, how soon, how far), then rows with an icon each (when, where, who can come, who runs it), then About */
   $('#evBody').innerHTML = `
-    <div class="ev-grp">
-      <section class="ev-row">
-        <span class="ev-k">When</span>
-        <b class="ev-v">${fDow(e.date)} ${e.date.getDate()} ${fMon(e.date)}, ${fRange(e)}</b>
-        <ol class="ev-tl">${steps.map(s => `<li class="${s.key ? 'key' : ''}"><b class="num">${s.t}</b> ${esc(s.what)}</li>`).join('')}</ol>
-      </section>
-      <section class="ev-row">
-        <button class="ev-split ev-loc" id="evLoc" type="button" aria-label="Show ${esc(e.name)} on the map, ${fDist(e.miles)} ${dUnit()} away"><span><span class="ev-k">Where</span><b class="ev-v">${esc(e.venue)}</b></span><span class="ev-r yel num">${fDist(e.miles)} ${dUnit()}</span></button>
-        <button class="ev-dirbtn" id="evDir" type="button">${I.pin}Directions</button>
-      </section>
-      <section class="ev-row">
-        <span class="ev-k">What</span>
-        <h2 class="ev-what-n" id="evTitle">${esc(e.name)}</h2>
-        <span class="ev-what-t">${esc(TYPES[e.type])}</span>
-        <b class="ev-what-p num">${what}</b>
-        ${(e.real ? e.desc : DESC[e.type]) ? `<p class="ev-what-d">${esc(e.real ? e.desc : DESC[e.type])}</p>` : ''}
-        ${orgUrl && e.real ? `<a class="ev-org" href="${esc(orgUrl)}" target="_blank" rel="noopener noreferrer" aria-label="More from the organiser, ${esc(e.source || '')}">More from the organiser ›</a>` : ''}
-      </section>
+    <div class="evp">
+      <h2 class="evp-title" id="evTitle">${esc(e.name)}</h2>
+      <p class="evp-sub">${esc(TYPES[e.type])}${e.real && e.town ? ' in ' + esc(e.town) : ''}<br>${dayStr} · ${fRange(e)}</p>
+      <div class="evp-stats">
+        <div><b class="num">${ps.unknown ? 'TBC' : ps.big}</b><span>${ps.unknown ? 'price' : ps.free && !ps.small ? 'entry' : esc(ps.small || 'entry')}</span></div>
+        <div><b class="num">${n === 0 ? 'Today' : n}</b><span>${n === 0 ? 'it’s on' : n === 1 ? 'day to go' : 'days to go'}</span></div>
+        <div><b class="num">${fDist(e.miles)}</b><span>${dUnit()} away</span></div>
+      </div>
+      <div class="evp-rows">
+        <section class="evp-row">${I.cal}<div><b>${fDateL(e.date)}</b><span>${fRange(e)}</span>
+          ${steps.length ? `<ol class="ev-tl">${steps.map(s => `<li class="${s.key ? 'key' : ''}"><b class="num">${s.t}</b> ${esc(s.what)}</li>`).join('')}</ol>` : ''}</div></section>
+        <section class="evp-row">${I.pin}<div>
+          <button class="evp-loc" id="evLoc" type="button" aria-label="Show ${esc(e.name)} on the map, ${fDist(e.miles)} ${dUnit()} away"><b>${esc(e.venue)}</b><span>${where} · <u>Show on map</u></span></button>
+          <button class="ev-dirbtn" id="evDir" type="button">${I.pin}Directions</button></div></section>
+        <section class="evp-row">${I.car}<div><b>${WHO[e.mode]}</b><span>${what}</span></div></section>
+        ${e.real && e.source ? `<section class="evp-row">${I.flag}<div><b>Organised by ${esc(e.source)}</b>${orgUrl ? `<a class="ev-org" href="${esc(orgUrl)}" target="_blank" rel="noopener noreferrer">More from the organiser ›</a>` : ''}</div></section>` : ''}
+      </div>
+      ${desc ? `<div class="evp-about"><h3>About</h3><p>${esc(desc)}</p></div>` : ''}
     </div>`;
-  // The foot: Save and Add to calendar
+  // The foot: the price on the left with the day under it, Save on the right
+  $('#evFootP').innerHTML = `<b class="num">${ps.unknown ? 'Price TBC' : ps.big}</b><span>${ps.small && !ps.unknown ? esc(ps.small) + ' · ' : ''}${dayStr}</span>`;
   const sb = $('#evSave'), on = saved.has(e.id);
   sb.classList.toggle('on', on); sb.setAttribute('aria-pressed', on); sb.innerHTML = `${I.bookmark}<span>${on ? 'Saved' : 'Save'}</span>`;
 }
@@ -4003,6 +4063,7 @@ $('#evCard').addEventListener('click', e => {
   if (id === 'evDir') window.open(`https://www.google.com/maps/search/${encodeURIComponent(evCurrent.venue)}`, '_blank', 'noopener,noreferrer');
   if (id === 'evCal') downloadIcs(evCurrent);
   if (id === 'evLoc') showOnMap(evCurrent);
+  if (id === 'evShare') navigator.share?.({title:evCurrent.name, text:`${evCurrent.name}, ${fDateL(evCurrent.date)} at ${evCurrent.venue}`, ...(evCurrent.url ? {url:evCurrent.url} : {})}).catch(() => {});
   if (id === 'evSave'){
     const k = evCurrent.id; saved.has(k) ? saved.delete(k) : saved.add(k); store.set('cs.saved', [...saved]); haptic();
     b.classList.toggle('on', saved.has(k)); b.setAttribute('aria-pressed', saved.has(k)); b.querySelector('span').textContent = saved.has(k) ? 'Saved' : 'Save'; popHeart(b);

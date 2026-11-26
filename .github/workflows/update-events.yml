@@ -1,6 +1,7 @@
 # Keeps events.json up to date with real UK car events.
-# Runs every 6 hours. Pages that haven't changed cost nothing; changed ones are read by Claude at batch (half) price.
-# Mondays' early run also looks for new organiser pages. You can run it by hand from the Actions tab.
+# Runs every 6 hours: one search for new organisers in a different part of the UK each time, then every page is
+# checked. Pages that haven't changed (or have no dates) cost nothing; changed ones are read by Claude at batch price.
+# You can run it by hand from the Actions tab.
 name: Update events
 
 on:
@@ -39,14 +40,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.CAR_SHOW_REFRESH }}   # the repository secret holding the Anthropic API key
           MODE: ${{ github.event.inputs.mode || 'normal' }}
         run: |
-          ARGS=""
+          # Every run also searches one new area or kind of event (it rotates through about 110, so the whole UK is
+          # covered about once a month). "discover" by hand does four searches at once.
+          ARGS="--discover"
           case "$MODE" in
             dry-run)    ARGS="--dry-run" ;;
             quick-test) ARGS="--sync --limit=2" ;;
-            discover)   ARGS="--discover" ;;
+            discover)   ARGS="--discover=4" ;;
           esac
-          # Monday's 03:17 scheduled run also looks for new sources
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%u)" = "1" ] && [ "$(date -u +%H)" = "03" ]; then ARGS="$ARGS --discover"; fi
           node scripts/update-events.mjs $ARGS
 
       - name: Save the results
