@@ -36,7 +36,7 @@ jobs:
 
       - name: Update events
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.CAR_SHOW_REFRESH }}   # the repository secret holding the Anthropic API key
           MODE: ${{ github.event.inputs.mode || 'normal' }}
         run: |
           ARGS=""
