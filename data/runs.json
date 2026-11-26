@@ -1,5 +1,15 @@
 [
   {
+    "at": "2026-11-26T17:36:04.568Z",
+    "read": 0,
+    "events": 51,
+    "added": 0,
+    "tokensIn": 0,
+    "tokensOut": 0,
+    "searches": 0,
+    "costUsd": 0
+  },
+  {
     "at": "2026-11-26T16:35:59.191Z",
     "read": 10,
     "events": 51,
