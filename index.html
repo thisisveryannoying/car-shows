@@ -380,6 +380,9 @@ a{color:var(--accent)}
 .x{width:44px;height:44px;margin:0 -8px 0 0;flex:none;display:grid;place-items:center;color:var(--silver-2)}
 .x span{width:30px;height:30px;border-radius:50%;background:var(--fill);display:grid;place-items:center}
 .x .ic{width:13px;height:13px;stroke-width:2.2}
+/* Filters: no swipe to close; a back arrow sits top left, before the title */
+.sheet{padding-top:14px}
+.x.s-back .ic{width:17px;height:17px;stroke-width:2.4;margin-left:-2px}
 .sbody{max-height:60vh;max-height:60dvh;overscroll-behavior:contain;overflow-y:auto;scrollbar-width:none;margin:0 -4px;padding:0 4px}
 .sbody::-webkit-scrollbar{display:none}
 .sec-h{font-size:1.0625rem;line-height:1.4375rem;font-weight:700;letter-spacing:-.014em;color:var(--silver);margin:20px 4px 4px}
@@ -863,10 +866,10 @@ a{color:var(--accent)}
 .fc-sub,.fc-note,.meta,.ev-sub,.ev-status,.ev-date,.feat-card .lc-meta,.er-t b,.olink,.desc,.in-step p,.ob p,.opt,.sloc,.row-t,.prose p,.prose li,
 .acc-v,.ev-line,.tk-t b,.ev-place-t b,.dd-opt,.sug-n,.dz-l input,.dz-val,.in-field input,.agree,.links .linkbtn,.in-rad b,.in-cal b,.in-opt{font-size:0.9375rem}   /* quick type filters removed: types live in Filters */
 
-/* Event card: no close button; it's pulled down to close, so the handle is bigger and sits on a soft shade */
-.ev-x{display:none!important}
-.ev-grab::before{content:"";position:absolute;left:0;right:0;top:0;height:64px;background:linear-gradient(rgba(0,0,0,.38),transparent);pointer-events:none}
-.ev-grab::after{top:10px;width:52px;height:6px;margin-left:-26px;border-radius:3px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.45)}
+/* Event card: no swipe to close; a glass back arrow sits top left over the photo */
+.ev-x{left:8px;right:auto;top:8px}
+.ev-x span{width:36px;height:36px}
+.ev-x .ic{width:18px;height:18px;stroke-width:2.4;margin-left:-2px}
 #evCard:focus{outline:none}
 @media (prefers-reduced-transparency:reduce){.topbar .sbar,.topbar .circle,.chips .chip:not([aria-pressed="true"]){background:var(--surface)!important}}
 
@@ -1373,7 +1376,7 @@ a{color:var(--accent)}
 /* ---------- Filters screen ---------- */
 .shead{justify-content:center;position:relative}
 .shead h2{font-size:1.125rem;line-height:1.5rem;letter-spacing:-.01em}
-.shead .x{position:absolute;right:0;top:50%;margin:-22px -8px 0 0}
+.shead .x{position:absolute;left:0;top:50%;margin:-22px 0 0 -8px}
 .sbody{max-height:66vh;max-height:66dvh}
 .fs-sec{padding:12px 0;border-top:1px solid var(--line)}
 .fs-sec:first-child{border-top:0;padding-top:6px}
@@ -1481,6 +1484,45 @@ a{color:var(--accent)}
 .ef-price span{font-size:0.75rem;line-height:1rem;color:var(--muted)}
 .ev-foot .btn-2{width:auto;flex:1;max-width:210px;margin-left:auto;min-height:50px}
 .pt,.ev-rows{border-radius:var(--R)}
+
+/* ================= Solid, flat look: no glass anywhere =================
+   Every floating layer is a solid surface from the palette with a soft shadow; no blur, rims, glints or lenses.
+   The dock becomes a full-width tab bar on a hairline: icon over label, the current tab in yellow. */
+:root,:root[data-theme="dark"]{--material:var(--surface);--material-thick:var(--surface);--blur:none;--blur-thick:none;
+  --tint:var(--surface);--mat-edge:transparent;--mat-border:var(--line);--lg-tint:var(--surface);--lg-glow:transparent;
+  --pill-bg:var(--seg-sel);--pill-sh:0 1px 3px rgba(0,0,0,.25);--lens-bg:var(--seg-sel);--lens-sh:var(--pill-sh);
+  --float-sh:0 2px 6px rgba(0,0,0,.28),0 8px 24px rgba(0,0,0,.22)}
+:root[data-theme="light"]{--material:var(--surface);--material-thick:var(--surface);--tint:var(--surface);--mat-edge:transparent;--mat-border:var(--line);
+  --lg-tint:var(--surface);--pill-bg:#fff;--pill-sh:0 1px 3px rgba(21,23,26,.12);--lens-bg:#fff;--lens-sh:var(--pill-sh);
+  --float-sh:0 1px 2px rgba(21,23,26,.06),0 6px 20px rgba(21,23,26,.1)}
+*,*::before,*::after{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+.metal::before,.topbar .sbar::after,.topbar .circle::after,.botbar .tabs::after,.botbar .sbar::after,.sheet::after{display:none!important}
+/* Floating bits (map buttons, labels on photos, the show page's back button): solid, softly lifted */
+.sbar,.circle,.legend,.mstatus,.toast,.maplibregl-ctrl-group,.back,.ev-x span,.fc-cap,.sq-date,.ev-cap{box-shadow:var(--float-sh)}
+.ev-x span{background:var(--surface);color:var(--silver)}
+.page.scrolled .phead{background:var(--bg);box-shadow:0 1px 0 var(--line)}
+.pc-back{background:var(--bg)}
+.ls-full .topbar::before{background:var(--bg);-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+/* Filters: a plain solid sheet */
+.sheet{--surface:#1F2226;--surface-2:#2A2E33;background:var(--surface)!important;box-shadow:var(--float-sh)!important}
+:root[data-theme="light"] .sheet{--surface:#FFFFFF;--surface-2:#EEF0F2}
+/* Switches and segmented controls: a solid knob that doesn't turn into a lens when pressed */
+.sw:active::after,.in-opt:active .in-sw::after{scale:1;background-color:#fff;box-shadow:0 3px 8px rgba(0,0,0,.15)}
+.botbar .tabs.press .tab-ind,.seg:active .seg-ind{scale:1;background-color:var(--pill-bg);box-shadow:var(--pill-sh)}
+
+/* The floating dock (tabs capsule + round search button), now solid: the palette's panel colour with a soft lift */
+.topbar .sbar,.topbar .circle,.botbar .tabs,.botbar .sbar{background:var(--surface)!important;box-shadow:0 0 0 1px var(--line),var(--float-sh)!important}
+.botbar .sbar .sb-filter{background:var(--surface-2);box-shadow:none}
+
+/* Saved / Home with the list pulled up: cards slide under the title through a long, smooth fade to the page colour,
+   not a solid band with a hard edge */
+.ls-full .topbar::before{-webkit-mask-image:none;mask-image:none;top:calc(-12px - env(safe-area-inset-top));bottom:auto;left:-12px;right:-12px;
+  height:calc(150px + env(safe-area-inset-top));
+  background:linear-gradient(to bottom,var(--bg) 0,var(--bg) calc(54px + env(safe-area-inset-top)),
+    color-mix(in srgb,var(--bg) 90%,transparent) calc(70px + env(safe-area-inset-top)),
+    color-mix(in srgb,var(--bg) 70%,transparent) calc(90px + env(safe-area-inset-top)),
+    color-mix(in srgb,var(--bg) 42%,transparent) calc(110px + env(safe-area-inset-top)),
+    color-mix(in srgb,var(--bg) 16%,transparent) calc(130px + env(safe-area-inset-top)),transparent)}
 </style>
 </head>
 <body class="view-map">
@@ -1630,15 +1672,14 @@ a{color:var(--accent)}
 
 <!-- Filters -->
 <div class="sheet metal" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sTitle">
-  <div class="grab drag-zone"></div>
-  <div class="shead drag-zone"><h2 id="sTitle"></h2><button class="x" id="sClose" aria-label="Close"><span></span></button></div>
+  <div class="shead"><button class="x s-back" id="sClose" aria-label="Back"><span></span></button><h2 id="sTitle"></h2></div>
   <div class="sbody" id="sBody"></div>
   <div class="actions" id="sActions"></div>
 </div>
 
 <!-- Event card -->
 <div class="evcard metal" id="evCard" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="evTitle" hidden>
-  <button class="ev-x" id="evClose" aria-label="Close"><span></span></button>
+  <button class="ev-x" id="evClose" aria-label="Back"><span></span></button>
   <div class="ev-scroll">
     <div class="ev-img" id="evImg"></div>
     <div class="ev-body" id="evBody"></div>
@@ -1840,8 +1881,8 @@ $('#pcLoc').innerHTML = ic('<path d="M21 3 3 10.5l7.5 3L13.5 21Z"/>');
 $('#pcCancel').innerHTML = I.x;
 $('#legalMark').innerHTML = I.flag;
 $('#searchBox').insertAdjacentHTML('afterbegin', I.search);   // magnifier first, filters at the end
-$('#sClose span').innerHTML = I.x;
-$('#evClose span').innerHTML = I.x;
+$('#sClose span').innerHTML = I.back;
+$('#evClose span').innerHTML = I.back;
 $('#filterBtn').innerHTML = I.sliders;
 $('#locBtn').innerHTML = I.pin;
 $('#tabList').innerHTML = `${ic('<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v11h5v-6h4v6h5V9"/>')}<span>Home</span>`;
@@ -3609,17 +3650,6 @@ function closeSheet(){
   $('#scrim').classList.remove('open'); $('#sheet').classList.remove('open');
   if (sheetOpener && document.contains(sheetOpener)) sheetOpener.focus(); else $('#filterBtn').focus();
 }
-// Drag the sheet down by its handle or title. On release it carries on at the finger's speed, or springs back up.
-draggable($('#sheet'), '.drag-zone, .sbody', {base:'translate(-50%,0)', cssReturn:true, scroller:$('#sBody'), onDismiss:(y, v) => {
-  const sh = $('#sheet'), ms = handoffMs(sh.offsetHeight + 24 - y, v);
-  sh.style.transition = `transform ${ms}ms var(--ease),visibility ${ms}ms`;
-  closeSheet(); sh.style.transform = '';
-  setTimeout(() => { sh.style.transition = ''; }, ms);
-}});
-// On a phone, when the options are already at the top and the finger moves down, stop them scrolling so the sheet can follow it
-{ const sb = $('#sBody'); let ty = 0;
-  sb.addEventListener('touchstart', e => { ty = e.touches[0].clientY; }, {passive:true});
-  sb.addEventListener('touchmove', e => { if (sb.scrollTop <= 0 && e.touches[0].clientY > ty) e.preventDefault(); }, {passive:false}); }
 $('#sBody').addEventListener('click', e => {
   const l = e.target.closest('.sloc'); if (l){ showPostcode(l); return; }   // "Where to?" grows out of this row and returns to it
   const h = e.target.closest('.acc-h'); if (h){ toggleAcc(h.parentNode.dataset.sec); return; }
@@ -3724,7 +3754,7 @@ function initEvMap(e){
 function fillEvent(e){
   const free = e.price === 0, orgUrl = e.url && /^https:\/\//.test(e.url) ? e.url : '', p = prices(e);
   $('#evImg').classList.add('skel');
-  $('#evImg').innerHTML = `<img onload="imgIn(this)" src="${photoFor(e).src}" alt="Photo from a UK car event of the kind of car you might see (${esc(TYPES[e.type])}), not this event" width="800" height="533" decoding="async" data-ev="${e.id}" onerror="artFallback(this)"><a class="ev-cap" href="${photoFor(e).page}" target="_blank" rel="noopener noreferrer">Photo · ${esc(photoFor(e).by)} · ${photoFor(e).lic}</a><div class="ev-grab drag-zone" aria-hidden="true"></div>`;
+  $('#evImg').innerHTML = `<img onload="imgIn(this)" src="${photoFor(e).src}" alt="Photo from a UK car event of the kind of car you might see (${esc(TYPES[e.type])}), not this event" width="800" height="533" decoding="async" data-ev="${e.id}" onerror="artFallback(this)"><a class="ev-cap" href="${photoFor(e).page}" target="_blank" rel="noopener noreferrer">Photo · ${esc(photoFor(e).by)} · ${photoFor(e).lic}</a>`;
   const ps = priceSummary(e);
   // What it costs, in one line: "£15 per person", "£5 to look, £10 per car", "Free"
   const what = ps.free && !ps.small ? 'Free' : ps.free ? `Free to look, £${p.bring} per car`
@@ -3833,9 +3863,6 @@ function openEvent(e, origin, opts = {}){
   riseIn($('#evBody').children, {y:10, gap:35, delay:from ? 170 : 40, max:7});
   if (!reducedMotion()) $('.ev-foot').animate([{opacity:0, transform:'translateY(100%)'}, {opacity:1, transform:'none'}], {duration:SPR.ui.ms, delay:from ? 200 : 60, easing:SPR.ui.easing, fill:'backwards'});
   setTimeout(() => $('#evCard').focus({preventScroll:true}), 60);
-  // A little tug on the handle as the card lands, to show it pulls down
-  if (!reducedMotion()) $('#evCard .ev-grab')?.animate([{transform:'none'}, {transform:'translateY(7px)', offset:.3}, {transform:'none', offset:.6}, {transform:'translateY(4px)', offset:.8}, {transform:'none'}],
-    {duration:900, delay:from ? 450 : 250, easing:'ease-in-out', pseudoElement:'::after'});
 }
 function closeEvent(o = {}){
   const card = $('#evCard'), morph = $('#morph'); if (card.hidden) return;
@@ -3906,30 +3933,13 @@ function showOnMap(e){
     {transform:'scale(1.45)', boxShadow:`0 0 0 2px ${ring}, 0 0 0 16px ${ring}00`, offset:.45},
     {transform:'scale(1.15)', boxShadow:`0 0 0 2px ${ring}, 0 0 0 2px ${ring}00`}], {duration:700, iterations:3, easing:'ease-out'}), 650);
 }
-// Drag the sheet down, by its picture or anywhere once it's scrolled to the top, the same as Filters.
-// Let go past halfway (or flick) and it carries on down at the finger's speed; otherwise it springs back up.
-draggable($('#evCard'), '.ev-grab, .ev-scroll', {scroller:$('#evCard .ev-scroll'), rest:() => evPeekY,
-  // Lowered over the map: a swipe up brings the page back, a swipe down closes it, anything small settles back half-way
-  onSettle:(Y, v) => {
-    if (!evPeekY) return false;
-    const to = Y + project(v), card = $('#evCard');
-    if (to < evPeekY * .6 || v < -400){ evExpand(Y); return true; }
-    if (to > evPeekY + (card.offsetHeight - evPeekY) * .45 && v > -150){ haptic(); evDrop(Y, v); return true; }   // far enough down: close
-    card.animate([{transform:`translateY(${Y}px)`}, {transform:`translateY(${evPeekY}px)`}], {duration:SPR.sheet.ms, easing:SPR.sheet.easing});
-    card.style.transform = `translateY(${evPeekY}px)`;
-    return true;
-  },
-  onDismiss:(y, v) => evDrop(y, v)});
+// No swipe to close: the back arrow at the top left closes the page
 function evDrop(y, v){
   const card = $('#evCard'), ms = handoffMs(card.offsetHeight - y, v);
   $('#scrim').classList.remove('open');
   card.animate([{transform:`translateY(${y}px)`}, {transform:`translateY(${card.offsetHeight + 24}px)`}], {duration:ms, easing:EASE, fill:'forwards'})
     .onfinish = () => closeEvent({instant:true});
 }
-// On a phone, when the page is already at the top and the finger moves down, stop it scrolling so the sheet can follow
-{ const sc = $('#evCard .ev-scroll'); let ty = 0;
-  sc.addEventListener('touchstart', e => { ty = e.touches[0].clientY; }, {passive:true});
-  sc.addEventListener('touchmove', e => { if (sc.scrollTop <= 0 && e.touches[0].clientY > ty) e.preventDefault(); }, {passive:false}); }
 // Lowered over the map, a tap anywhere on the page (other than its buttons) brings it back up
 { let ty = 0;
   $('#evCard').addEventListener('pointerdown', e => { ty = e.clientY; });
