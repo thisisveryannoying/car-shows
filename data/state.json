@@ -1,0 +1,147 @@
+{
+  "pages": {
+    "https://www.britishmotormuseum.co.uk/whats-on": {
+      "lastFetch": "2026-11-26T16:28:43.818Z",
+      "lastOk": "2026-11-26T16:28:43.818Z",
+      "events": [
+        {
+          "id": "rf74962c8f94b412de274e930",
+          "name": "Jaguar Breakfast Club - December",
+          "type": "meet",
+          "start": "2026-12-05",
+          "end": "2026-12-05",
+          "timeKnown": false,
+          "venue": "British Motor Museum",
+          "town": "Gaydon",
+          "postcode": "CV35 0BJ",
+          "lat": 52.18888,
+          "lon": -1.48098,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "A breakfast meet at the museum for Jaguar owners and enthusiasts.",
+          "url": "https://www.britishmotormuseum.co.uk/whats-on/jaguar-breakfast-12",
+          "source": "British Motor Museum, Gaydon",
+          "sourceUrl": "https://www.britishmotormuseum.co.uk/whats-on"
+        },
+        {
+          "id": "r028ebdea537db678608c4beb",
+          "name": "Ultimate BMW Meet",
+          "type": "meet",
+          "start": "2027-04-25",
+          "end": "2027-04-25",
+          "timeKnown": false,
+          "venue": "British Motor Museum",
+          "town": "Gaydon",
+          "postcode": "CV35 0BJ",
+          "lat": 52.18888,
+          "lon": -1.48098,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "A large BMW gathering at the museum, now in its sixth year. The date is marked with an asterisk on the listing, so check before travelling.",
+          "url": "https://www.britishmotormuseum.co.uk/whats-on/ultimate-bmw-meet",
+          "source": "British Motor Museum, Gaydon",
+          "sourceUrl": "https://www.britishmotormuseum.co.uk/whats-on"
+        }
+      ],
+      "hash": "f507a4ae059359225870ab5f",
+      "lastExtract": "2026-11-26T16:29:07.929Z",
+      "error": null
+    },
+    "https://www.brooklandsmuseum.com/whats-on/calendar/": {
+      "lastFetch": "2026-11-26T16:28:44.642Z",
+      "lastOk": "2026-11-26T16:28:44.642Z",
+      "events": [
+        {
+          "id": "r53d38ce05d4242249f183eab",
+          "name": "New Year's Day Classic Gathering",
+          "type": "classic",
+          "start": "2027-01-01T09:00",
+          "end": "2027-01-01T16:00",
+          "timeKnown": true,
+          "venue": "Brooklands Museum",
+          "town": "Weybridge",
+          "postcode": "KT13 0SL",
+          "lat": 51.35311,
+          "lon": -0.47068,
+          "priceLook": null,
+          "priceCar": null,
+          "mode": "both",
+          "desc": "Annual New Year's Day gathering with a large display of classic vehicles, plus food, music and stalls.",
+          "url": "https://www.brooklandsmuseum.com/whats-on/calendar/new-years-day-classic-gathering/",
+          "source": "Brooklands Museum",
+          "sourceUrl": "https://www.brooklandsmuseum.com/whats-on/calendar/"
+        }
+      ],
+      "hash": "1b58c69959d7e4bfd0c414b4",
+      "lastExtract": "2026-11-26T16:29:08.075Z",
+      "error": null
+    },
+    "https://bicestermotion.com/calendar": {
+      "lastFetch": "2026-11-26T16:28:45.665Z",
+      "lastOk": "2026-11-26T16:28:45.665Z"
+    },
+    "https://www.beaulieu.co.uk/events/": {
+      "lastFetch": "2026-11-26T16:28:46.489Z",
+      "lastOk": "2026-11-26T16:28:46.489Z"
+    },
+    "https://www.goodwood.com/motorsport/": {
+      "lastFetch": "2026-11-26T16:28:47.540Z",
+      "lastOk": "2026-11-26T16:28:47.540Z"
+    },
+    "https://www.silverstone.co.uk/events": {
+      "lastFetch": "2026-11-26T16:28:48.026Z",
+      "lastOk": "2026-11-26T16:28:48.026Z"
+    },
+    "https://japfest.co.uk/": {
+      "lastFetch": "2026-11-26T16:28:48.851Z",
+      "lastOk": "2026-11-26T16:28:48.851Z"
+    },
+    "https://greatbritishcarjourney.com/whats-on/": {
+      "lastFetch": "2026-11-26T16:28:48.910Z",
+      "lastOk": "2026-11-26T16:28:48.910Z"
+    },
+    "https://caffeineandmachine.com/events/": {
+      "error": "HTTP 403",
+      "lastFetch": "2026-11-26T16:28:49.024Z"
+    },
+    "https://www.ace-cafe-london.com/events/": {
+      "lastFetch": "2026-11-26T16:28:49.481Z",
+      "lastOk": "2026-11-26T16:28:49.481Z"
+    },
+    "https://www.iconicauctioneers.com/": {
+      "lastFetch": "2026-11-26T16:28:49.849Z",
+      "lastOk": "2026-11-26T16:28:49.849Z",
+      "error": "almost no text (page probably built by scripts)"
+    },
+    "https://angliacarauctions.co.uk/auctions": {
+      "lastFetch": "2026-11-26T16:28:50.877Z",
+      "lastOk": "2026-11-26T16:28:50.877Z"
+    },
+    "https://msvtrackdays.com/": {
+      "error": "robots.txt asks bots not to read this page"
+    },
+    "https://thruxtonracing.co.uk/": {
+      "lastFetch": "2026-11-26T16:28:52.326Z",
+      "lastOk": "2026-11-26T16:28:52.326Z"
+    },
+    "https://www.lakelandmotormuseum.co.uk/about/events": {
+      "lastFetch": "2026-11-26T16:28:57.189Z",
+      "lastOk": "2026-11-26T16:28:57.189Z"
+    }
+  },
+  "geo": {
+    "pc:CV35 0BJ": [
+      52.188877,
+      -1.480979,
+      "Stratford-on-Avon"
+    ],
+    "pc:KT13 0SL": [
+      51.353108,
+      -0.470676,
+      "Elmbridge"
+    ]
+  },
+  "pendingBatch": null
+}
