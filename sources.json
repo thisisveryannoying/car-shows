@@ -438,6 +438,398 @@
       "added": "followed",
       "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
       "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Idle Car Club",
+      "url": "https://www.idlecarclub.co.uk/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Devon"
+    },
+    {
+      "name": "South Hams Motor Club",
+      "url": "https://www.shmc.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Devon"
+    },
+    {
+      "name": "LNCMC",
+      "url": "https://www.lncmc.co.uk/events/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Devon"
+    },
+    {
+      "name": "Sidmouth Chamber of Commerce",
+      "url": "https://sidmouthclassiccarshow.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Devon"
+    },
+    {
+      "name": "Devon and Cornwall Motor Caravan Section",
+      "url": "https://www.devonandcornwallmcs.com/events-2-1",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Devon"
+    },
+    {
+      "name": "River Dart Rotary Club",
+      "url": "https://tcvs.riverdartrotary.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Devon"
+    },
+    {
+      "name": "Somerset and Wiltshire Land Rover Club",
+      "url": "https://www.somersetandwiltshirelrc.co.uk/event-calender",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Somerset"
+    },
+    {
+      "name": "VMCC Somerset Section",
+      "url": "https://www.vmccsomerset.co.uk/annual-events/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Somerset"
+    },
+    {
+      "name": "MG Car Club South West Centre",
+      "url": "https://www.mgccsw.com/event/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Somerset"
+    },
+    {
+      "name": "IVCVC",
+      "url": "https://www.ivcvc.co.uk/events-calendar",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Somerset"
+    },
+    {
+      "name": "Vintage Sports-Car Club",
+      "url": "https://www.vscc.co.uk/page/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Somerset"
+    },
+    {
+      "name": "John Haynes Classic Motor Show",
+      "url": "https://www.johnhaynesclassic.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Somerset"
+    },
+    {
+      "name": "Compton Abbas Airfield",
+      "url": "https://www.comptonairfield.com/events/page/2/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Dorset"
+    },
+    {
+      "name": "Transport Of Yesteryear",
+      "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Dorset"
+    },
+    {
+      "name": "Dorset Classic Vehicle Club (DCVC)",
+      "url": "https://www.dcvc.co.uk/club-diary.html",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Dorset"
+    },
+    {
+      "name": "JEC Dorset",
+      "url": "https://jecdorset.com/events-page/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Dorset"
+    },
+    {
+      "name": "Aperta Events",
+      "url": "https://apertaevents.com/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Dorset"
+    },
+    {
+      "name": "Despatch Rally (Hinton Admiral Events)",
+      "url": "https://www.despatchrally.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Dorset"
+    },
+    {
+      "name": "Wilton Legends",
+      "url": "https://www.wiltonlegends.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Wiltshire"
+    },
+    {
+      "name": "Concours House",
+      "url": "https://www.concourshouse.co.uk/calendar",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Wiltshire"
+    },
+    {
+      "name": "White Horse Classic Vehicle Enthusiasts",
+      "url": "https://www.whitehorse-cve.com/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Wiltshire"
+    },
+    {
+      "name": "Great British Motor Shows",
+      "url": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Wiltshire"
+    },
+    {
+      "name": "Vintage Nostalgia Festival",
+      "url": "https://www.vintagenostalgiafestival.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-26",
+      "focus": "car shows, meets and motoring events in Wiltshire"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/news-events/local-events",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/motorsport-news/Motorsport-Future-Events",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/events/month/2026-12/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/events/list/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Owners Club (more)",
+      "url": "https://www.mgownersclub.co.uk/mg-events-2/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgownersclub.co.uk/events",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?p=1",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Haynes Motor Museum (more)",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3251",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.haynesmuseum.org/whats-on/motoring-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events_archive.asp?month=3&year=2027",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events_archive.asp?month=4&year=2027",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Grampian Transport Museum (more)",
+      "url": "https://www.gtm.org.uk/events/category/pop-up-event",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.gtm.org.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Triumph Sports Six Club (more)",
+      "url": "https://www.tssc.org.uk/tssc/events_archive.asp?month=5&year=2027",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=607",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "South Hams Motor Club (more)",
+      "url": "https://www.shmc.co.uk/events-calendar/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.shmc.co.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "South Hams Motor Club (more)",
+      "url": "https://www.shmc.co.uk/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.shmc.co.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "MG Car Club South West Centre (more)",
+      "url": "https://www.mgccsw.com/event/month/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.mgccsw.com/event/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "VMCC Somerset Section (more)",
+      "url": "https://www.vmccsomerset.co.uk/events",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.vmccsomerset.co.uk/annual-events/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Sidmouth Chamber of Commerce (more)",
+      "url": "https://sidmouthclassiccarshow.co.uk/local-events-list",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://sidmouthclassiccarshow.co.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/month/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Concours House (more)",
+      "url": "https://www.concourshouse.co.uk/calendar?category=Auction",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.concourshouse.co.uk/calendar",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Wilton Legends (more)",
+      "url": "https://www.wiltonlegends.co.uk/whats-on/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.wiltonlegends.co.uk/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/event/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/location/south-west/?post_type=event",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/event-category/historic-racing-sportscar-classic-show/?post_type=event",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Great British Motor Shows (more)",
+      "url": "https://greatbritishmotorshows.com/event-category/sports-and-supercars/?post_type=event",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
+      "addedOn": "2026-11-26"
     }
   ]
 }
