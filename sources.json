@@ -1086,6 +1086,94 @@
       "added": "followed",
       "from": "https://www.bathmotorclub.co.uk/club-events/archives/",
       "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Concorde Classics",
+      "url": "https://www.concordeclassics.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Hampshire"
+    },
+    {
+      "name": "Daily Driven Events",
+      "url": "https://www.dailydrivenevents.com/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Hampshire"
+    },
+    {
+      "name": "41 Club",
+      "url": "https://41club.org/club_event/national-classic-car-weekend/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Hampshire"
+    },
+    {
+      "name": "Basingstoke Classic Car Club",
+      "url": "https://www.basingstokeclassiccarclub.org.uk/calendar.html",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Hampshire"
+    },
+    {
+      "name": "Bath Motor Club (more)",
+      "url": "https://www.bathmotorclub.co.uk/club-events/autosolo/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.bathmotorclub.co.uk/club-events/archives/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Bath Motor Club (more)",
+      "url": "https://www.bathmotorclub.co.uk/club-events/rallys/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.bathmotorclub.co.uk/club-events/archives/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Bath Motor Club (more)",
+      "url": "https://www.bathmotorclub.co.uk/club-events/tours/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.bathmotorclub.co.uk/club-events/archives/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/month/2027-02/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-04",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/list/page/3/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "41 Club (more)",
+      "url": "https://41club.org/41-club-events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://41club.org/club_event/national-classic-car-weekend/",
+      "addedOn": "2026-11-27"
     }
   ]
 }
