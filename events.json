@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T22:17:13.438Z",
-  "count": 282,
+  "updated": "2026-11-27T04:29:44.347Z",
+  "count": 297,
   "events": [
     {
       "id": "r47eabbddff0bf7fa61817950",
@@ -17,7 +17,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "enter",
-      "desc": "The skid pan is open for bookable experiences where you learn car control on a low-grip surface. Call 01264 882222 for availability.",
+      "desc": "Bookable skid pan sessions to practise car control on a low-grip surface. Call 01264 882222 for availability.",
       "url": "https://thruxtonracing.co.uk/driving-experiences/skidpan",
       "source": "Thruxton",
       "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -37,7 +37,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "enter",
-      "desc": "Bookable 4x4 off-road driving experiences over purpose-built terrain. Call 01264 882222 for availability.",
+      "desc": "Bookable 4x4 off-road driving experiences over challenging terrain in the circuit's own vehicles.",
       "url": "https://thruxtonracing.co.uk/driving-experiences/4x4-offroad",
       "source": "Thruxton",
       "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -77,7 +77,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "MG Car Club South West Centre breakfast meet at a farm café on the A342 between Devizes and Chippenham. Bring your car along or come to chat and look.",
+      "desc": "MG Car Club South West Centre breakfast meet at the Rowdey Cow farm café on the A342 between Devizes and Chippenham.",
       "url": "https://www.mgccsw.com/event/cars-and-coffee-meet-rowdey-cow-28th-november-2026/",
       "source": "MG Car Club South West Centre",
       "sourceUrl": "https://www.mgccsw.com/event/"
@@ -117,7 +117,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "enter",
-      "desc": "The skid pan is open for bookable experiences where you learn car control on a low-grip surface. Call 01264 882222 for availability.",
+      "desc": "Bookable skid pan sessions to practise car control on a low-grip surface. Call 01264 882222 for availability.",
       "url": "https://thruxtonracing.co.uk/driving-experiences/skidpan",
       "source": "Thruxton",
       "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -137,7 +137,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "enter",
-      "desc": "Bookable 4x4 off-road driving experiences over purpose-built terrain. Call 01264 882222 for availability.",
+      "desc": "Bookable 4x4 off-road driving experiences over challenging terrain in the circuit's own vehicles.",
       "url": "https://thruxtonracing.co.uk/driving-experiences/4x4-offroad",
       "source": "Thruxton",
       "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -157,7 +157,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "spectate",
-      "desc": "Rally stages run around Croft Circuit in the run-up to Christmas, with rally cars competing against the clock.",
+      "desc": "Rally cars tackle stages around Croft Circuit in this annual Christmas rally, open for spectators to watch.",
       "url": "https://croftcircuit.co.uk/racing/christmas-stages-rally",
       "source": "Croft Circuit",
       "sourceUrl": "https://www.croftcircuit.co.uk/"
@@ -301,6 +301,26 @@
       "url": "https://lyddenhill.co.uk/events/car-track-day-dec26/",
       "source": "Lydden Hill",
       "sourceUrl": "https://www.lyddenhill.co.uk/"
+    },
+    {
+      "id": "rbe09a60fbd656957b3a78a92",
+      "name": "Queen Square Car Club Meet",
+      "type": "meet",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "timeKnown": false,
+      "venue": "Easter Compton Farm Shop",
+      "town": "Bristol",
+      "postcode": "",
+      "lat": 51.45313,
+      "lon": -2.60098,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly Queen Square Car Club gathering at Easter Compton Farm Shop, where members and visitors bring and view a mix of cars.",
+      "url": "https://www.qscarclub.com/events",
+      "source": "Queen Square Car Club",
+      "sourceUrl": "https://www.qscarclub.com/events"
     },
     {
       "id": "r0c91baa0f3234f83c8c9afee",
@@ -583,6 +603,26 @@
       "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
     },
     {
+      "id": "r26b0018bcb5577e8ae2de427",
+      "name": "Brunel and Old Crocks Klub Sunday Meet",
+      "type": "classic",
+      "start": "2026-12-13T09:30",
+      "end": "2026-12-13",
+      "timeKnown": true,
+      "venue": "Carriages Garden Park",
+      "town": "Weston-super-Mare",
+      "postcode": "BS24 6TA",
+      "lat": 51.37059,
+      "lon": -2.85616,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Small informal gathering of classic car enthusiasts on the A370 at Hewish.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2026-12"
+    },
+    {
       "id": "r6e312ee2786e61c57cf2b6b2",
       "name": "Car Trackday Open Session 4hrs",
       "type": "track",
@@ -803,6 +843,26 @@
       "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
     },
     {
+      "id": "r122e87eda5aef3bec1fce739",
+      "name": "Brunel and Old Crocks Klub Sunday Meet",
+      "type": "classic",
+      "start": "2026-12-27T09:30",
+      "end": "2026-12-27",
+      "timeKnown": true,
+      "venue": "Carriages Garden Park",
+      "town": "Weston-super-Mare",
+      "postcode": "BS24 6TA",
+      "lat": 51.37059,
+      "lon": -2.85616,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Small informal gathering of classic car enthusiasts on the A370 at Hewish.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2026-12"
+    },
+    {
       "id": "r981dbe2522913c8917f4e21a",
       "name": "West Wales Rally Spares Jaffa Stages",
       "type": "track",
@@ -903,6 +963,26 @@
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
     },
     {
+      "id": "rec8346c0a5631a027bb71aa8",
+      "name": "London Group - Brooklands New Year's Day Classic Gathering",
+      "type": "classic",
+      "start": "2027-01-01",
+      "end": "2027-01-01",
+      "timeKnown": false,
+      "venue": "Brooklands Museum",
+      "town": "Weybridge",
+      "postcode": "",
+      "lat": 51.37244,
+      "lon": -0.45915,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "The TR Register London Group attends the Brooklands New Year's Day classic car gathering. More details to follow.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/602",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-01"
+    },
+    {
       "id": "r53d38ce05d4242249f183eab",
       "name": "New Year's Day Classic Gathering",
       "type": "classic",
@@ -921,6 +1001,26 @@
       "url": "https://www.brooklandsmuseum.com/whats-on/calendar/new-years-day-classic-gathering/",
       "source": "Brooklands Museum",
       "sourceUrl": "https://www.brooklandsmuseum.com/whats-on/calendar/"
+    },
+    {
+      "id": "rd3ce66c6e9b87a936280891f",
+      "name": "New Year's Day Meeting at Shuttleworth",
+      "type": "meet",
+      "start": "2027-01-01T10:30",
+      "end": "2027-01-01",
+      "timeKnown": true,
+      "venue": "Shuttleworth",
+      "town": "Old Warden",
+      "postcode": "",
+      "lat": 52.08544,
+      "lon": -0.34013,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Lea Valley Group New Year's Day gathering at Shuttleworth with breakfast or tea and coffee; TRs brought if the weather is fine.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/630",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-01"
     },
     {
       "id": "r3312f1f6e0c1b15ce4f2aa9b",
@@ -1103,6 +1203,26 @@
       "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
     },
     {
+      "id": "r9be03ababf2952cfb178dc3f",
+      "name": "Brunel and Old Crocks Klub Sunday Meet",
+      "type": "classic",
+      "start": "2027-01-10T09:30",
+      "end": "2027-01-10",
+      "timeKnown": true,
+      "venue": "Carriages Garden Park",
+      "town": "Weston-super-Mare",
+      "postcode": "BS24 6TA",
+      "lat": 51.37059,
+      "lon": -2.85616,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Small informal gathering of classic car enthusiasts on the A370 at Hewish.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2026-12"
+    },
+    {
       "id": "r1e72da2f8871e13642e2964e",
       "name": "Drift What Ya Brung",
       "type": "track",
@@ -1203,6 +1323,46 @@
       "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
     },
     {
+      "id": "r6a335fa2d71eaffd3582e839",
+      "name": "Brunel and Old Crocks Klub Sunday Meet",
+      "type": "classic",
+      "start": "2027-01-24T09:30",
+      "end": "2027-01-24",
+      "timeKnown": true,
+      "venue": "Carriages Garden Park",
+      "town": "Weston-super-Mare",
+      "postcode": "BS24 6TA",
+      "lat": 51.37059,
+      "lon": -2.85616,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Small informal gathering of classic car enthusiasts on the A370 at Hewish.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2026-12"
+    },
+    {
+      "id": "r385ce5b38c20b1c5f0eb4c1e",
+      "name": "TR Wensum Group Whitwell Station Monthly Meeting",
+      "type": "meet",
+      "start": "2027-01-26",
+      "end": "2027-01-26",
+      "timeKnown": false,
+      "venue": "Whitwell Station",
+      "town": "Reepham",
+      "postcode": "",
+      "lat": 53.25108,
+      "lon": -0.44401,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly lunchtime get-together of the TR Wensum Group at Whitwell Station, with food and drinks from the cafe.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/137",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-01"
+    },
+    {
       "id": "r18aac61b1592189f442d50fe",
       "name": "Drift What Ya Brung",
       "type": "track",
@@ -1263,6 +1423,26 @@
       "sourceUrl": "https://www.threecounties.co.uk/events"
     },
     {
+      "id": "rcb49d6a6733537ea92b30891",
+      "name": "Devon TR Monthly Meeting",
+      "type": "meet",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "timeKnown": false,
+      "venue": "The Travellers Rest",
+      "town": "Whitestone",
+      "postcode": "",
+      "lat": 57.02149,
+      "lon": -2.59113,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly drop-in gathering of the TR Register Devon group for a chat with fellow Triumph TR owners and news of upcoming events.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/537",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-02"
+    },
+    {
       "id": "rf728b7b8cfe948f5d0af67c8",
       "name": "Classic Car Meet at The Bakers Arms",
       "type": "classic",
@@ -1281,6 +1461,26 @@
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
+    },
+    {
+      "id": "r7d3b9fc1238e84981e4be05e",
+      "name": "London Group 1st Monthly Meeting",
+      "type": "meet",
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "timeKnown": false,
+      "venue": "The Star",
+      "town": "Malden Rushett",
+      "postcode": "",
+      "lat": 51.3405,
+      "lon": -0.32,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "The TR Register London group's first monthly pub meeting to talk about all things Triumph TR.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/617",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-02"
     },
     {
       "id": "r8c7c539ab1f9ad22cdc61b75",
@@ -1403,6 +1603,26 @@
       "sourceUrl": "https://www.ivcvc.co.uk/events-calendar"
     },
     {
+      "id": "rec7adf8c56d4d9b4619f37b7",
+      "name": "Wensum TR Group Bird in Hand Monthly Meeting",
+      "type": "meet",
+      "start": "2027-02-08T18:00",
+      "end": "2027-02-08",
+      "timeKnown": true,
+      "venue": "Bird in Hand",
+      "town": "Wreningham",
+      "postcode": "",
+      "lat": 52.54241,
+      "lon": 1.18012,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly evening meeting of the TR Wensum Group at a pub; food from 18:00 for those who want to eat, with the meeting itself at 19:30.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/156",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-02"
+    },
+    {
       "id": "rf9ca948d5de32533c1a20abf",
       "name": "Drift What Ya Brung",
       "type": "track",
@@ -1423,6 +1643,26 @@
       "sourceUrl": "https://santapod.co.uk/events/"
     },
     {
+      "id": "rcfeaff14719aad453778cfd2",
+      "name": "Snowdrop Run – Cambridge and District MG Owners Club",
+      "type": "classic",
+      "start": "2027-02-13",
+      "end": "2027-02-13",
+      "timeKnown": false,
+      "venue": "Anglesey Abbey",
+      "town": "Cambridge",
+      "postcode": "",
+      "lat": 53.90086,
+      "lon": -1.68188,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "enter",
+      "desc": "Annual MG club tour of around 60 miles, starting from Anglesey Abbey and finishing at a destination still to be confirmed. Entry details are on the Cambridge MGOC website.",
+      "url": "https://www.mgownersclub.co.uk/event/snowdrop-run-cambridge-and-district-mg-owners-club/",
+      "source": "MG Owners Club (more)",
+      "sourceUrl": "https://www.mgownersclub.co.uk/events/month/2027-02/"
+    },
+    {
       "id": "ra3ee4d3846dfd4f00d3da0dc",
       "name": "Brunel and Old Crocks Klub Classic Car Meet",
       "type": "classic",
@@ -1441,6 +1681,26 @@
       "url": "https://www.tr-register.co.uk/news-events/local-events/500",
       "source": "TR Register (more)",
       "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events"
+    },
+    {
+      "id": "r1e3f9eadf241a9ceddd2a301",
+      "name": "Brunel and Old Crocks Klub Sunday Meet",
+      "type": "classic",
+      "start": "2027-02-14T09:30",
+      "end": "2027-02-14",
+      "timeKnown": true,
+      "venue": "Carriages Garden Park",
+      "town": "Weston-super-Mare",
+      "postcode": "BS24 6TA",
+      "lat": 51.37059,
+      "lon": -2.85616,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Small informal gathering of classic car enthusiasts on the A370 at Hewish.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/500",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2026-12"
     },
     {
       "id": "rfbac6feb68edce5092665bb9",
@@ -1563,6 +1823,26 @@
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
     },
     {
+      "id": "r0a37d477dde7ddc78393d3a9",
+      "name": "TR Wensum Group Whitwell Station Monthly Meeting",
+      "type": "meet",
+      "start": "2027-02-23",
+      "end": "2027-02-23",
+      "timeKnown": false,
+      "venue": "Whitwell Station",
+      "town": "Reepham",
+      "postcode": "",
+      "lat": 53.25108,
+      "lon": -0.44401,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly lunchtime meet of the TR Wensum Group at Whitwell Station, with a cafe serving snacks and drinks.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/138",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-02"
+    },
+    {
       "id": "r3e04aff8fc3c4cd2dbaacc4d",
       "name": "Drift What Ya Brung",
       "type": "track",
@@ -1641,6 +1921,26 @@
       "url": "https://www.excel.london/whats-on/car-culture-uk",
       "source": "ExCeL London",
       "sourceUrl": "https://www.excel.london/whats-on"
+    },
+    {
+      "id": "r0f3ad2845e3f319f453e8343",
+      "name": "East Saxons Breakfast Meet",
+      "type": "meet",
+      "start": "2027-02-27",
+      "end": "2027-02-27",
+      "timeKnown": false,
+      "venue": "Poplars Garden Centre",
+      "town": "Marks Tey",
+      "postcode": "CO6 1HR",
+      "lat": 51.87738,
+      "lon": 0.75559,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Breakfast meet for the TR Register East Saxons (North Essex) group at Poplars Nurseries on Coggeshall Road.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/569",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-02"
     },
     {
       "id": "r3498690210be987497d12e1b",
@@ -2817,10 +3117,10 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic and performance car show in the grounds of Lytham Hall on the Lancashire coast.",
+      "desc": "Show of classic, modified and performance cars and bikes in the grounds of Lytham Hall. Visitor tickets plus exhibit, club and trader entries available.",
       "url": "https://greatbritishmotorshows.com/event/lytham-hall-classic-car-and-motorcycle-show/",
       "source": "Great British Motor Shows (more)",
-      "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+      "sourceUrl": "https://greatbritishmotorshows.com/event/"
     },
     {
       "id": "rfa7c33dc095b97c0613e3776",
@@ -2930,17 +3230,17 @@
       "end": "2027-05-23",
       "timeKnown": true,
       "venue": "Weston Park",
-      "town": "Weston Park",
+      "town": "Telford",
       "postcode": "",
-      "lat": 51.39105,
-      "lon": -2.38278,
+      "lat": 52.6754,
+      "lon": -2.44875,
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic and performance car show held at Weston Park.",
+      "desc": "New two-day classic and performance car show near Telford with historic rally action and arena displays. Owners can exhibit their cars.",
       "url": "https://greatbritishmotorshows.com/event/weston-park-classic-performance-motor-show/",
       "source": "Great British Motor Shows (more)",
-      "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+      "sourceUrl": "https://greatbritishmotorshows.com/event/"
     },
     {
       "id": "r3f175749358d2ad48e50d98f",
@@ -3097,10 +3397,10 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic and performance car show in the grounds of Ripley Castle in Yorkshire.",
+      "desc": "Classic, modified and sports car and bike show at Ripley Castle. Visitor tickets plus exhibit, club and trader entries available.",
       "url": "https://greatbritishmotorshows.com/event/yorkshire-classic-performance-motor-show/",
       "source": "Great British Motor Shows (more)",
-      "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+      "sourceUrl": "https://greatbritishmotorshows.com/event/"
     },
     {
       "id": "rabfe4655ac095cf834640544",
@@ -3257,7 +3557,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "spectate",
-      "desc": "Three-day 90s-themed festival with classic racing on track, a 90s car display from Retro Rides, live music and a fairground. Kids 12 and under go free.",
+      "desc": "Three-day 90s-themed festival with classic racing on track, a 90s car display by Retro Rides, live music and a fairground. Kids 12 and under go free.",
       "url": "https://thruxtonracing.co.uk/racing/thruxton-retro",
       "source": "Thruxton",
       "sourceUrl": "https://thruxtonracing.co.uk/"
@@ -3903,6 +4203,26 @@
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
     },
     {
+      "id": "re6232da38c2edce6f55cfdff",
+      "name": "Cars 'N' Cracklin'",
+      "type": "meet",
+      "start": "2027-07-16",
+      "end": "2027-07-16",
+      "timeKnown": false,
+      "venue": "Haynes Motor Museum",
+      "town": "Sparkford",
+      "postcode": "",
+      "lat": 51.03262,
+      "lon": -2.5613,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "An evening car meet at the museum; booking is required.",
+      "url": "https://www.haynesmuseum.org/whats-on/motoring-events/cars-n-cracklin/",
+      "source": "Haynes Motor Museum (more)",
+      "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/?category=3252&p=2"
+    },
+    {
       "id": "r3e672071d66b58612019eb4b",
       "name": "Mustang Nationals",
       "type": "muscle",
@@ -4081,26 +4401,6 @@
       "url": "https://www.gtm.org.uk/events/made-in-japan",
       "source": "Grampian Transport Museum (more)",
       "sourceUrl": "https://www.gtm.org.uk/events"
-    },
-    {
-      "id": "r9cc89da56e46a2fa58cf6d91",
-      "name": "Classic & Performance Motor Show at Hoghton Tower",
-      "type": "classic",
-      "start": "2027-07-25",
-      "end": "2027-07-25",
-      "timeKnown": false,
-      "venue": "Hoghton Tower",
-      "town": "Hoghton",
-      "postcode": "",
-      "lat": 53.73606,
-      "lon": -2.59306,
-      "priceLook": null,
-      "priceCar": null,
-      "mode": "both",
-      "desc": "Classic and performance car show at Hoghton Tower in Lancashire.",
-      "url": "https://greatbritishmotorshows.com/event/classic-and-performance-motor-show-at-hoghton-tower/",
-      "source": "Great British Motor Shows (more)",
-      "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
     },
     {
       "id": "rf758ac34fbcdf6716b1dd09f",
@@ -4317,7 +4617,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "spectate",
-      "desc": "The British Touring Car Championship race weekend at Croft, marking 30 years of BTCC at the circuit.",
+      "desc": "The British Touring Car Championship race weekend at Croft, marking 30 years of BTCC at the circuit. Early bird tickets available.",
       "url": "https://croftcircuit.co.uk/racing/btcc",
       "source": "Croft Circuit",
       "sourceUrl": "https://www.croftcircuit.co.uk/"
@@ -4397,10 +4697,10 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic and performance car show at Tynedale Rugby Park in Corbridge, with camping available.",
+      "desc": "Classic, modified and performance car and bike show at Tynedale Rugby Park. Visitor tickets plus exhibit, club and trader entries available.",
       "url": "https://greatbritishmotorshows.com/event/northumberland-classic-vehicle-and-north-east-modified-show/",
       "source": "Great British Motor Shows (more)",
-      "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+      "sourceUrl": "https://greatbritishmotorshows.com/event/"
     },
     {
       "id": "r6eec1dee8786eaee27535bd9",
@@ -4637,10 +4937,10 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic and performance car show held at Ripon Racecourse.",
+      "desc": "Classic, modified and performance car and bike show at Ripon Racecourse. Visitor tickets and car entry options available.",
       "url": "https://greatbritishmotorshows.com/event/ripon-classic-and-performance-motor-show/",
       "source": "Great British Motor Shows (more)",
-      "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
+      "sourceUrl": "https://greatbritishmotorshows.com/event/"
     },
     {
       "id": "r254437e04afcb31397bebe7a",

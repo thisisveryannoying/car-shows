@@ -998,6 +998,94 @@
       "added": "followed",
       "from": "https://greatbritishmotorshows.com/event/longleat-motor-show-weekender/",
       "addedOn": "2026-11-26"
+    },
+    {
+      "name": "Bristol Motor Club",
+      "url": "https://bristolmc.org.uk/category/calendar/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Bristol and Bath"
+    },
+    {
+      "name": "Bath Motor Club",
+      "url": "https://www.bathmotorclub.co.uk/club-events/archives/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Bristol and Bath"
+    },
+    {
+      "name": "Queen Square Car Club",
+      "url": "https://www.qscarclub.com/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Bristol and Bath"
+    },
+    {
+      "name": "VMCC Somerset Section (more)",
+      "url": "https://www.vmccsomerset.co.uk/events/month/2026-12/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.vmccsomerset.co.uk/annual-events/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "VMCC Somerset Section (more)",
+      "url": "https://www.vmccsomerset.co.uk/events/list/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.vmccsomerset.co.uk/annual-events/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "TR Register (more)",
+      "url": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-03",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.tr-register.co.uk/events",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/list/page/2/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Compton Abbas Airfield (more)",
+      "url": "https://www.comptonairfield.com/events/month/2027-01/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.comptonairfield.com/events/page/2/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Bristol Motor Club (more)",
+      "url": "https://bristolmc.org.uk/year-calendar/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://bristolmc.org.uk/category/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Bristol Motor Club (more)",
+      "url": "https://bristolmc.org.uk/category/current/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://bristolmc.org.uk/category/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Bath Motor Club (more)",
+      "url": "https://www.bathmotorclub.co.uk/club-events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.bathmotorclub.co.uk/club-events/archives/",
+      "addedOn": "2026-11-27"
     }
   ]
 }
