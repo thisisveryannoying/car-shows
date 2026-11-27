@@ -1174,6 +1174,142 @@
       "added": "followed",
       "from": "https://41club.org/club_event/national-classic-car-weekend/",
       "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Isle of Wight Classic Cars",
+      "url": "https://isleofwightclassiccars.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Isle of Wight"
+    },
+    {
+      "name": "Isle of Wight Classic Cars",
+      "url": "https://isleofwightclassiccars.co.uk/events/isle-of-wight-takeover/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Isle of Wight"
+    },
+    {
+      "name": "Isle of Wight Classic Cars (Jaguar Enthusiasts Club IoW)",
+      "url": "https://isleofwightclassiccars.co.uk/events/auto-fest-iow/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Isle of Wight"
+    },
+    {
+      "name": "Isle of Wight Classic Cars",
+      "url": "https://isleofwightclassiccars.co.uk/events/motor-meet-at-goddards-brewery-3/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Isle of Wight"
+    },
+    {
+      "name": "Isle of Wight Austins",
+      "url": "https://isleofwightaustins.org/events",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Isle of Wight"
+    },
+    {
+      "name": "The Wight Hill",
+      "url": "https://thewighthill.co.uk/classic-car-extravaganza/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Isle of Wight"
+    },
+    {
+      "name": "Isle of Wight Classic Cars (more)",
+      "url": "https://isleofwightclassiccars.co.uk/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://isleofwightclassiccars.co.uk/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "British Motor Museum, Gaydon (more)",
+      "url": "https://www.britishmotormuseum.co.uk/whats-on/tag/dec",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.britishmotormuseum.co.uk/whats-on",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Brooklands Museum (more)",
+      "url": "https://www.brooklandsmuseum.com/whats-on/calendar/?p=2",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.brooklandsmuseum.com/whats-on/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Brooklands Museum (more)",
+      "url": "https://www.brooklandsmuseum.com/whats-on/calendar/?p=3",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.brooklandsmuseum.com/whats-on/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Brooklands Museum (more)",
+      "url": "https://www.brooklandsmuseum.com/whats-on/calendar/?p=4",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.brooklandsmuseum.com/whats-on/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Brooklands Museum (more)",
+      "url": "https://www.brooklandsmuseum.com/whats-on/calendar/?category=3091",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.brooklandsmuseum.com/whats-on/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Great British Car Journey (more)",
+      "url": "https://greatbritishcarjourney.com/themed-events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishcarjourney.com/whats-on/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Great British Car Journey (more)",
+      "url": "https://greatbritishcarjourney.com/members-events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishcarjourney.com/whats-on/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Silverstone (more)",
+      "url": "https://www.silverstone.co.uk/silverstone-racing-club/manage-my-membership/my-src-benefits/race-calendar",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.silverstone.co.uk/events",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Silverstone (more)",
+      "url": "https://www.silverstone.co.uk/experiences/drive/upcoming-dates",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.silverstone.co.uk/events",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Anglia Car Auctions (more)",
+      "url": "https://angliacarauctions.co.uk/auctions/calendar-of-classic-auctions",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://angliacarauctions.co.uk/auctions",
+      "addedOn": "2026-11-27"
     }
   ]
 }
