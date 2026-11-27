@@ -1310,6 +1310,62 @@
       "added": "followed",
       "from": "https://angliacarauctions.co.uk/auctions",
       "addedOn": "2026-11-27"
+    },
+    {
+      "name": "West Berkshire Classic Vehicle Club",
+      "url": "https://classicvehicles.org.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Berkshire"
+    },
+    {
+      "name": "Classic Saturdays",
+      "url": "https://www.classicsaturdays.co.uk/events-1",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Berkshire"
+    },
+    {
+      "name": "West Berkshire Cars & Coffee",
+      "url": "https://www.westberkscarsandcoffee.com/home",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-27",
+      "focus": "car shows, meets and motoring events in Berkshire"
+    },
+    {
+      "name": "Great British Car Journey (more)",
+      "url": "https://greatbritishcarjourney.com/events-calendar/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://greatbritishcarjourney.com/whats-on/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Brooklands Museum (more)",
+      "url": "https://www.brooklandsmuseum.com/whats-on/calendar/?p=1",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.brooklandsmuseum.com/whats-on/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Brooklands Museum (more)",
+      "url": "https://www.brooklandsmuseum.com/whats-on/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.brooklandsmuseum.com/whats-on/calendar/",
+      "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Classic Saturdays (more)",
+      "url": "https://www.classicsaturdays.co.uk/pub-meets-1",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://www.classicsaturdays.co.uk/events-1",
+      "addedOn": "2026-11-27"
     }
   ]
 }
