@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-28T10:11:47.273Z",
-  "count": 408,
+  "updated": "2026-11-28T16:08:45.496Z",
+  "count": 423,
   "events": [
     {
       "id": "r47eabbddff0bf7fa61817950",
@@ -78,7 +78,7 @@
       "priceCar": null,
       "mode": "both",
       "desc": "Morning classic car meet at Bradmoor Farm. Just turn up with a classic or come to look.",
-      "url": "https://haddenhamclassics.com/hc-club-calendar",
+      "url": "https://haddenhamclassics.com/",
       "source": "Haddenham Classics",
       "sourceUrl": "https://haddenhamclassics.com/hc-club-calendar"
     },
@@ -257,7 +257,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly first-Wednesday evening classic car meet at a pub near Poole.",
+      "desc": "Monthly evening classic car meet at a pub near Poole, held on the first Wednesday of the month.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -377,7 +377,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Morning cars and coffee meet at a pub, all cars welcome.",
+      "desc": "Morning cars and coffee meet at a pub in Corfe Mullen; all cars welcome.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -401,6 +401,26 @@
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
+    },
+    {
+      "id": "r04e3c7830e98120c8e10bfaf",
+      "name": "TSSC Christmas Open Day",
+      "type": "classic",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "timeKnown": false,
+      "venue": "TSSC HQ",
+      "town": "Lubenham",
+      "postcode": "",
+      "lat": 52.47977,
+      "lon": -0.96299,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Christmas open day at the Triumph Sports Six Club headquarters.",
+      "url": "https://www.tssc.org.uk/tssc/events.asp",
+      "source": "Triumph Sports Six Club (more)",
+      "sourceUrl": "https://www.tssc.org.uk/tssc/events.asp"
     },
     {
       "id": "rdb003e1f118da8808a791b39",
@@ -457,7 +477,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic car meet held on the first and third Sunday of the month between Long Sutton and Podimore; no booking needed.",
+      "desc": "Morning classic car meet between Long Sutton and Podimore on the first and third Sundays of the month; no booking needed.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -737,7 +757,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Breakfast meet for pre-1986 classic cars at The Yachtsman in Hamworthy.",
+      "desc": "Breakfast meet for classic cars built before 1986 at The Yachtsman in Hamworthy.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -817,7 +837,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic car meet held on the first and third Sunday of the month between Long Sutton and Podimore; no booking needed.",
+      "desc": "Morning classic car meet between Long Sutton and Podimore on the first and third Sundays of the month; no booking needed.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -937,7 +957,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "New Year's Day run for classic vehicles; details to follow.",
+      "desc": "New Year's Day vehicle run from Sturminster Newton; details to follow.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -981,6 +1001,26 @@
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
+    },
+    {
+      "id": "re3078b8a08340ed0645675d3",
+      "name": "Brooklands New Year's Day Classic Car Rally",
+      "type": "classic",
+      "start": "2027-01-01",
+      "end": "2027-01-01",
+      "timeKnown": false,
+      "venue": "Brooklands",
+      "town": "Brooklands",
+      "postcode": "",
+      "lat": 53.81822,
+      "lon": -1.46965,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Annual New Year's Day gathering of classic cars at Brooklands. Not run by RREC Surrey, so book directly with the organisers.",
+      "url": "https://www.rrec-surrey.uk/section-events-2026",
+      "source": "RREC Surrey Section",
+      "sourceUrl": "https://www.rrec-surrey.uk/section-events-2026"
     },
     {
       "id": "r53d38ce05d4242249f183eab",
@@ -1137,7 +1177,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Early morning cars and coffee meet at a pub in Godshill.",
+      "desc": "Early morning cars and coffee meet at The Fighting Cocks pub.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1157,7 +1197,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic car meet held on the first and third Sunday of the month between Long Sutton and Podimore; no booking needed.",
+      "desc": "Morning classic car meet between Long Sutton and Podimore on the first and third Sundays of the month; no booking needed.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1217,7 +1257,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly first-Wednesday evening classic car meet at a pub near Poole.",
+      "desc": "Monthly evening classic car meet at a pub near Poole, held on the first Wednesday of the month.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1377,7 +1417,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic car meet held on the first and third Sunday of the month between Long Sutton and Podimore; no booking needed.",
+      "desc": "Morning classic car meet between Long Sutton and Podimore on the first and third Sundays of the month; no booking needed.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1537,7 +1577,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly first-Wednesday evening classic car meet at a pub near Poole.",
+      "desc": "Monthly evening classic car meet at a pub near Poole, held on the first Wednesday of the month.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1657,7 +1697,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic car meet held on the first and third Sunday of the month between Long Sutton and Podimore; no booking needed.",
+      "desc": "Morning classic car meet between Long Sutton and Podimore on the first and third Sundays of the month; no booking needed.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1797,7 +1837,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic car meet held on the first and third Sunday of the month between Long Sutton and Podimore; no booking needed.",
+      "desc": "Morning classic car meet between Long Sutton and Podimore on the first and third Sundays of the month; no booking needed.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1857,7 +1897,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday car gathering at the Hall & Woodhouse Brewery.",
+      "desc": "Monthly car gathering at the Hall & Woodhouse Brewery on the third Sunday (not December or January).",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1877,7 +1917,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -1937,7 +1977,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "spectate",
-      "desc": "An indoor exhibition about motorsport at ExCeL London.",
+      "desc": "Indoor motorsport exhibition at ExCeL London covering racing cars and the motorsport scene.",
       "url": "https://www.excel.london/whats-on/motorsport-expo",
       "source": "ExCeL London",
       "sourceUrl": "https://www.excel.london/whats-on"
@@ -1957,7 +1997,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "spectate",
-      "desc": "A three-day indoor motor show at ExCeL London.",
+      "desc": "Indoor motor show at ExCeL London with new and prestige cars on display from manufacturers and dealers.",
       "url": "https://www.excel.london/whats-on/london-international-motor-show",
       "source": "ExCeL London",
       "sourceUrl": "https://www.excel.london/whats-on"
@@ -2017,7 +2057,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "spectate",
-      "desc": "A weekend car culture show held indoors at ExCeL London.",
+      "desc": "Weekend car culture show at ExCeL London featuring modified and enthusiast cars.",
       "url": "https://www.excel.london/whats-on/car-culture-uk",
       "source": "ExCeL London",
       "sourceUrl": "https://www.excel.london/whats-on"
@@ -2081,6 +2121,46 @@
       "url": "https://www.knockhill.com/events/fixture-Border-Access-Rally-2027-id1116",
       "source": "Knockhill (more)",
       "sourceUrl": "https://www.knockhill.com/events/Knockhill-Racing-fixtures"
+    },
+    {
+      "id": "r16b54134d20053c4fa9fae83",
+      "name": "TR Register Devon Monthly Meeting – March",
+      "type": "classic",
+      "start": "2027-03-03",
+      "end": "2027-03-03",
+      "timeKnown": false,
+      "venue": "The Travellers Rest",
+      "town": "Whitestone",
+      "postcode": "",
+      "lat": 57.02149,
+      "lon": -2.59113,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Informal monthly get-together of the TR Register Devon group; just turn up for a chat with fellow Triumph TR owners and hear what's coming up.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/538",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-03"
+    },
+    {
+      "id": "r9bd8e2b48b30bc70757716b8",
+      "name": "TR Register London Group 1st Monthly Meeting",
+      "type": "classic",
+      "start": "2027-03-04",
+      "end": "2027-03-04",
+      "timeKnown": false,
+      "venue": "The Star",
+      "town": "Malden Rushett",
+      "postcode": "",
+      "lat": 51.3405,
+      "lon": -0.32,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "The London group's first monthly club night at a pub, for a chat about all things Triumph TR.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/618",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-03"
     },
     {
       "id": "rbb778b3e34093e7099480d6b",
@@ -2463,6 +2543,26 @@
       "sourceUrl": "https://www.haynesmuseum.org/whats-on/motoring-events/"
     },
     {
+      "id": "re7f9ac0e32397e60f3617d2e",
+      "name": "Wensum TR Group Bird in Hand Monthly Meeting",
+      "type": "classic",
+      "start": "2027-03-08T18:00",
+      "end": "2027-03-08",
+      "timeKnown": true,
+      "venue": "Bird in Hand",
+      "town": "Wreningham",
+      "postcode": "",
+      "lat": 52.54241,
+      "lon": 1.18012,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly evening meeting of the TR Wensum Group at a pub; food from 18:00 for those who want to eat, with the meeting itself starting at 19:30.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/157",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-03"
+    },
+    {
       "id": "r0a7bc5608340adee7b11fa3d",
       "name": "Drift What Ya Brung",
       "type": "track",
@@ -2817,7 +2917,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Early morning cars and coffee meet at a pub in Godshill.",
+      "desc": "Early morning cars and coffee meet at The Fighting Cocks pub.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -2977,10 +3077,30 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
+    },
+    {
+      "id": "r1405a65964da59a77a8abf92",
+      "name": "TR Wensum Group Whitwell Station Monthly Meeting",
+      "type": "classic",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "timeKnown": false,
+      "venue": "Whitwell Station",
+      "town": "Reepham",
+      "postcode": "",
+      "lat": 53.25108,
+      "lon": -0.44401,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly lunchtime meet of the TR Wensum Group at Whitwell Station, with food and drinks available from the cafe.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/139",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-03"
     },
     {
       "id": "r934e422252a7964a7b89bb22",
@@ -3081,6 +3201,26 @@
       "url": "https://castlecombecircuit.co.uk/2026/10/30/castle-combe-circuit-unveils-initial-2027-race-show-dates/",
       "source": "Castle Combe Circuit",
       "sourceUrl": "https://www.castlecombecircuit.co.uk/"
+    },
+    {
+      "id": "rd5ee3210005b9704a77aa539",
+      "name": "London Group 1st Monthly Meeting - The Star, Malden Rushett",
+      "type": "meet",
+      "start": "2027-04-01",
+      "end": "2027-04-01",
+      "timeKnown": false,
+      "venue": "The Star",
+      "town": "Malden Rushett",
+      "postcode": "",
+      "lat": 51.3405,
+      "lon": -0.32,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly pub meeting of the TR Register London Group for TR owners and fans to chat about the cars.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/619",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-04"
     },
     {
       "id": "r5dfe9f9ba667496e2d1ebde1",
@@ -3803,6 +3943,26 @@
       "sourceUrl": "https://greatbritishcarjourney.com/whats-on/"
     },
     {
+      "id": "r411b286811675703ad3c4f28",
+      "name": "Wensum TR Group Bird in Hand Monthly Meeting",
+      "type": "meet",
+      "start": "2027-04-12T18:00",
+      "end": "2027-04-12",
+      "timeKnown": true,
+      "venue": "Bird in Hand",
+      "town": "Wreningham",
+      "postcode": "",
+      "lat": 52.54241,
+      "lon": 1.18012,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly evening meeting of the TR Wensum Group at the pub; the meeting proper starts at 19:30, with earlier arrival for those eating in the restaurant.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/158",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-04"
+    },
+    {
       "id": "rd1e4c73e46943243eaeb6e9c",
       "name": "Doune Hill Climb – April Meeting (RS Interclub)",
       "type": "track",
@@ -4023,6 +4183,26 @@
       "sourceUrl": "https://www.bathmotorclub.co.uk/club-events/"
     },
     {
+      "id": "re0e96e3549450443be5ae8f8",
+      "name": "Marque in the Park - Bath",
+      "type": "classic",
+      "start": "2027-04-18",
+      "end": "2027-04-18",
+      "timeKnown": false,
+      "venue": "Bath",
+      "town": "Bath",
+      "postcode": "",
+      "lat": 51.3828,
+      "lon": -2.35929,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Charity car show in a Bath park displaying around 100 cars and bikes, with a café on site; the Brunel TR group attends.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/633",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-04"
+    },
+    {
       "id": "r1c3f9f05d001590c197b23e9",
       "name": "Simply Audi",
       "type": "classic",
@@ -4077,7 +4257,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -4203,6 +4383,26 @@
       "sourceUrl": "https://www.vscc.co.uk/page/events"
     },
     {
+      "id": "r595a05c57641ff384ce29cff",
+      "name": "Concours House Drive-It Day 2027",
+      "type": "classic",
+      "start": "2027-04-25T09:00",
+      "end": "2027-04-25T16:00",
+      "timeKnown": true,
+      "venue": "Concours House",
+      "town": "Bradford on Avon",
+      "postcode": "BA15 1TS",
+      "lat": 51.34768,
+      "lon": -2.23446,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Drive It Day gathering where car clubs and individual owners bring classic, vintage and performance cars to display, and visitors can come along to look.",
+      "url": "https://www.fbhvc.co.uk/events",
+      "source": "FBHVC (historic vehicle clubs)",
+      "sourceUrl": "https://www.fbhvc.co.uk/events"
+    },
+    {
       "id": "ree1a68e288b156a95e6ab62d",
       "name": "Great British Car Shows: Drive It Day 2027",
       "type": "classic",
@@ -4221,6 +4421,46 @@
       "url": "https://greatbritishcarjourney.com/gbcj-event/great-british-car-shows-drive-it-day-2027/",
       "source": "Great British Car Journey",
       "sourceUrl": "https://greatbritishcarjourney.com/whats-on/"
+    },
+    {
+      "id": "rf9b0d9199988d546890ee661",
+      "name": "LMCCC Drive It Day 2027",
+      "type": "classic",
+      "start": "2027-04-25T10:00",
+      "end": "2027-04-25T14:00",
+      "timeKnown": true,
+      "venue": "Wright's of Willingham, Ashgrove Farm",
+      "town": "Market Rasen",
+      "postcode": "LN8 3RA",
+      "lat": 53.37896,
+      "lon": -0.25547,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "National Drive It Day meet open to classic, vintage, modern sports and other vehicles, with owners showing their cars and enthusiasts meeting up. Visitors are asked to buy a Drive It Day fundraising plate in advance.",
+      "url": "https://www.fbhvc.co.uk/events",
+      "source": "FBHVC (historic vehicle clubs)",
+      "sourceUrl": "https://www.fbhvc.co.uk/events"
+    },
+    {
+      "id": "rd26f2d5baca86479247f0829",
+      "name": "TR Wensum Group Whitwell Station Monthly Meeting",
+      "type": "meet",
+      "start": "2027-04-27",
+      "end": "2027-04-27",
+      "timeKnown": false,
+      "venue": "Whitwell Station",
+      "town": "Reepham",
+      "postcode": "",
+      "lat": 53.25108,
+      "lon": -0.44401,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Monthly lunchtime gathering of the TR Wensum Group at Whitwell Station, with food and drinks from the station café.",
+      "url": "https://www.tr-register.co.uk/news-events/local-events/140",
+      "source": "TR Register (more)",
+      "sourceUrl": "https://www.tr-register.co.uk/news-events/local-events?type=local&date=2027-04"
     },
     {
       "id": "r595f9e905224d8d299b47c92",
@@ -4257,7 +4497,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "enter",
-      "desc": "Triumph owners' weekend on the Isle of Wight based at a caravan park in Cowes; accommodation and ferry booked separately.",
+      "desc": "Triumph owners' weekend based at a caravan park on the Isle of Wight; accommodation and ferry booked separately.",
       "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=3403",
       "source": "Triumph Sports Six Club (more)",
       "sourceUrl": "https://www.tssc.org.uk/tssc/events.asp"
@@ -4277,7 +4517,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Multi-day steam rally with vintage vehicles at Yeovil Showground.",
+      "desc": "Multi-day steam and vintage vehicle rally at Yeovil Showground.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -4317,7 +4557,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Early morning cars and coffee meet at a pub in Godshill.",
+      "desc": "Early morning cars and coffee meet at The Fighting Cocks pub.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -4343,6 +4583,26 @@
       "sourceUrl": "https://www.castlecombecircuit.co.uk/"
     },
     {
+      "id": "r2d9de77046c5dbbb7a6911fd",
+      "name": "TSSC South of England Meet",
+      "type": "classic",
+      "start": "2027-05-07",
+      "end": "2027-05-09",
+      "timeKnown": false,
+      "venue": "Leatherhead Leisure Centre",
+      "town": "Leatherhead",
+      "postcode": "KT22 9BL",
+      "lat": 51.29013,
+      "lon": -0.33546,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "All-Triumph car show and concours on the Sunday, with autojumble, stalls, the club shop and camping from Friday.",
+      "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=3437",
+      "source": "Triumph Sports Six Club (more)",
+      "sourceUrl": "https://www.tssc.org.uk/tssc/events.asp"
+    },
+    {
       "id": "r96b2ba5386728e69c444e856",
       "name": "TSSC South of England Meet (SEM27)",
       "type": "classic",
@@ -4357,10 +4617,10 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "All-Triumph car show and concours on Sunday 9 May with autojumble, stalls and the club shop; camping from Friday.",
+      "desc": "All-Triumph car show and concours on Sunday 9 May, with autojumble, stalls and the TSSC club shop. Camping is available from Friday afternoon to Sunday afternoon.",
       "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=3437",
       "source": "Triumph Sports Six Club (more)",
-      "sourceUrl": "https://www.tssc.org.uk/tssc/events.asp"
+      "sourceUrl": "https://www.tssc.org.uk/tssc/events_archive.asp?month=5&year=2027"
     },
     {
       "id": "rfd1444b3b209cc6354720e9b",
@@ -4517,7 +4777,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Annual two-day vintage rally at Shillingstone.",
+      "desc": "Annual two-day vintage vehicle rally at Shillingstone.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -4603,6 +4863,26 @@
       "sourceUrl": "https://southoxoncarclub.co.uk/"
     },
     {
+      "id": "r832532b6739d9ee6b6e12b35",
+      "name": "SOCC Regularity Run 2027",
+      "type": "track",
+      "start": "2027-05-16",
+      "end": "2027-05-16",
+      "timeKnown": false,
+      "venue": "Bicester",
+      "town": "Bicester",
+      "postcode": "",
+      "lat": 51.89665,
+      "lon": -1.15188,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "enter",
+      "desc": "South Oxon Car Club's navigational regularity run of about 80 miles, starting near Bicester. Suited to beginners and novices interested in historic navigation rallies.",
+      "url": "https://southoxoncarclub.co.uk/socc-regularity-run",
+      "source": "South Oxon Car Club (more)",
+      "sourceUrl": "https://southoxoncarclub.co.uk/socc-regularity-run"
+    },
+    {
       "id": "rc69e7f6cd3258fec93bf005b",
       "name": "Lancashire Coast Classic & Performance Motor Show at Lytham Hall",
       "type": "classic",
@@ -4657,7 +4937,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -4801,6 +5081,26 @@
       "url": "https://www.vscc.co.uk/page/events?eventID=2088",
       "source": "Vintage Sports-Car Club",
       "sourceUrl": "https://www.vscc.co.uk/page/events"
+    },
+    {
+      "id": "rcb742d9567afa3f47447b181",
+      "name": "South of England Rally",
+      "type": "classic",
+      "start": "2027-05-23",
+      "end": "2027-05-23",
+      "timeKnown": false,
+      "venue": "Loseley Park",
+      "town": "Guildford",
+      "postcode": "",
+      "lat": 51.74465,
+      "lon": -4.91131,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Rolls-Royce Enthusiasts' Club rally at Loseley Park near Guildford, run by the Central South, Southeastern and Surrey sections.",
+      "url": "https://www.rrec-surrey.uk/section-events-2026",
+      "source": "RREC Surrey Section",
+      "sourceUrl": "https://www.rrec-surrey.uk/section-events-2026"
     },
     {
       "id": "rd34380ec8fed190d6e8a49ac",
@@ -5217,7 +5517,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Two-day vintage vehicle rally at West Bay, Bridport.",
+      "desc": "Two-day vintage vehicle rally at West Bay near Bridport.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -5497,7 +5797,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -5757,7 +6057,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Weekend steam and vintage vehicle show at Moor Farm.",
+      "desc": "Two-day steam and vintage vehicle show at Moor Farm.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -5837,7 +6137,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Early morning cars and coffee meet at a pub in Godshill.",
+      "desc": "Early morning cars and coffee meet at The Fighting Cocks pub.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -5917,7 +6217,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Weekend Triumph nationals at Gaydon with Club Triumph and the TR Drivers Club, alongside the BMC & Leyland Show; camping available.",
+      "desc": "Triumph nationals weekend with Club Triumph and the TR Drivers Club alongside the BMC & Leyland Show, with camping.",
       "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=3604",
       "source": "Triumph Sports Six Club (more)",
       "sourceUrl": "https://www.tssc.org.uk/tssc/events.asp"
@@ -5937,7 +6237,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Multi-day transport heritage show near Wimborne.",
+      "desc": "Multi-day transport heritage show with vintage vehicles near Wimborne.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -6097,7 +6397,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Three-day steam rally with vintage vehicles.",
+      "desc": "Three-day steam and vintage vehicle rally at Netley Marsh.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -6237,7 +6537,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -6297,7 +6597,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "The club's national weekend at its Lubenham HQ celebrating 50 years of the TSSC; details to follow.",
+      "desc": "The club's national weekend at its HQ, celebrating 50 years of the Triumph Sports Six Club.",
       "url": "https://www.tssc.org.uk/tssc/events_final.asp?event_ID=3583",
       "source": "Triumph Sports Six Club (more)",
       "sourceUrl": "https://www.tssc.org.uk/tssc/events.asp"
@@ -6623,6 +6923,26 @@
       "sourceUrl": "https://www.beaulieu.co.uk/events/"
     },
     {
+      "id": "rf7203ece0c43a8434d01f648",
+      "name": "Cranleigh Lions Classic Car Festival",
+      "type": "classic",
+      "start": "2027-08-08T09:30",
+      "end": "2027-08-08T17:00",
+      "timeKnown": true,
+      "venue": "Cranleigh",
+      "town": "Cranleigh",
+      "postcode": "",
+      "lat": 51.14132,
+      "lon": -0.49007,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "A one-day festival with over 1,000 classic vehicles, plus arena events, a large autojumble, trade stands and family attractions.",
+      "url": "https://www.cranleighlions.org/events/classic-car-festival/",
+      "source": "Cranleigh & District Lions Club",
+      "sourceUrl": "https://www.cranleighlions.org/events/classic-car-festival/"
+    },
+    {
       "id": "rad01df65998b745270217b00",
       "name": "Kwik Fit British Touring Car Championship",
       "type": "track",
@@ -6757,7 +7077,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -6841,6 +7161,26 @@
       "url": "https://www.knockhill.com/events/fixture-Scottish-Championship-Car-Racing-amp-Ford-Live-id1154",
       "source": "Knockhill (more)",
       "sourceUrl": "https://www.knockhill.com/events/Knockhill-Racing-fixtures"
+    },
+    {
+      "id": "r50426b0af9ac72bb00c85c5b",
+      "name": "Capel Village Show",
+      "type": "classic",
+      "start": "2027-08-21",
+      "end": "2027-08-21",
+      "timeKnown": false,
+      "venue": "Capel",
+      "town": "Capel",
+      "postcode": "",
+      "lat": 51.68415,
+      "lon": -4.13936,
+      "priceLook": null,
+      "priceCar": null,
+      "mode": "both",
+      "desc": "Village show in Capel where RREC Surrey members display their cars. Bookings usually open in March and must be made directly with the show.",
+      "url": "https://www.rrec-surrey.uk/section-events-2026",
+      "source": "RREC Surrey Section",
+      "sourceUrl": "https://www.rrec-surrey.uk/section-events-2026"
     },
     {
       "id": "r6ac8715feec02c990ad721a1",
@@ -6943,26 +7283,6 @@
       "sourceUrl": "https://haddenhamclassics.com/hc-club-calendar"
     },
     {
-      "id": "r9038ef03e05bd2e87cf03dd4",
-      "name": "Sherborne School Car Rally",
-      "type": "classic",
-      "start": "2027-08-29",
-      "end": "2027-08-29",
-      "timeKnown": false,
-      "venue": "Sherborne School",
-      "town": "Sherborne",
-      "postcode": "",
-      "lat": 51.83246,
-      "lon": -1.76152,
-      "priceLook": null,
-      "priceCar": null,
-      "mode": "both",
-      "desc": "Car rally at Sherborne School; to be confirmed.",
-      "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
-      "source": "Transport Of Yesteryear",
-      "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
-    },
-    {
       "id": "rcf1f7b9fc0a52fcc6905e469",
       "name": "Honiton Hill Rally",
       "type": "classic",
@@ -6977,7 +7297,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Bank holiday weekend vintage rally near Honiton.",
+      "desc": "Two-day vintage vehicle rally near Honiton over the bank holiday weekend.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -7021,26 +7341,6 @@
       "url": "https://greatbritishmotorshows.com/event/ripon-classic-and-performance-motor-show/",
       "source": "Great British Motor Shows (more)",
       "sourceUrl": "https://greatbritishmotorshows.com/classic-car-show-calendar-uk/"
-    },
-    {
-      "id": "re9f30ab4d0fc2f5110c0429c",
-      "name": "Abbotsbury Gardens Static Display",
-      "type": "classic",
-      "start": "2027-08-30",
-      "end": "2027-08-30",
-      "timeKnown": false,
-      "venue": "Abbotsbury Gardens",
-      "town": "Abbotsbury",
-      "postcode": "",
-      "lat": 50.53296,
-      "lon": -3.61246,
-      "priceLook": null,
-      "priceCar": null,
-      "mode": "both",
-      "desc": "Static display of club classic vehicles at Abbotsbury Gardens; to be confirmed.",
-      "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
-      "source": "Transport Of Yesteryear",
-      "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
     },
     {
       "id": "rd2fc389623eb362bbc1a452c",
@@ -7123,8 +7423,8 @@
       "sourceUrl": "https://santapod.co.uk/events/"
     },
     {
-      "id": "r754f3fe3fd488de739cd0ad6",
-      "name": "MotoFest Coventry - TSSC 50th",
+      "id": "r4aa95ac2c9ac96e7dfa351cb",
+      "name": "MotoFest Coventry",
       "type": "classic",
       "start": "2027-09-04",
       "end": "2027-09-05",
@@ -7237,7 +7537,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic and steam vehicle show raising money for the Swanage Railway.",
+      "desc": "Three-day classic and steam vehicle show at Norden raising money for the Swanage Railway.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -7337,7 +7637,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Early morning cars and coffee meet at a pub in Godshill.",
+      "desc": "Early morning cars and coffee meet at The Fighting Cocks pub.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -7517,7 +7817,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -7564,7 +7864,7 @@
     },
     {
       "id": "rc2794a01d3d0eaa83d534899",
-      "name": "Somerset Festival of Transport",
+      "name": "Somerset Festival Of Transport",
       "type": "classic",
       "start": "2027-09-25",
       "end": "2027-09-26",
@@ -7577,7 +7877,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Weekend transport festival with classic and vintage vehicles in Frome.",
+      "desc": "Two-day transport festival with classic and vintage vehicles in Frome.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -7883,8 +8183,8 @@
       "sourceUrl": "https://www.knockhill.com/events/Knockhill-Racing-fixtures"
     },
     {
-      "id": "r85670681786817b1db4fa530",
-      "name": "Classic Cars at Weymouth Beach Motocross",
+      "id": "re731b0a079fed2101f340b42",
+      "name": "Weymouth Beach Motocross - Classic Cars at the Jubilee Clock",
       "type": "classic",
       "start": "2027-10-17T10:00",
       "end": "2027-10-17T16:00",
@@ -7897,7 +8197,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Classic car display at the Jubilee Clock alongside the Weymouth Beach Motocross.",
+      "desc": "Classic car display at the Jubilee Clock alongside the Weymouth beach motocross.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -7917,7 +8217,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -8097,7 +8397,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Early morning cars and coffee meet at a pub in Godshill.",
+      "desc": "Early morning cars and coffee meet at The Fighting Cocks pub.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"
@@ -8137,7 +8437,7 @@
       "priceLook": null,
       "priceCar": null,
       "mode": "both",
-      "desc": "Monthly third-Sunday afternoon car show at Wimborne Football Club.",
+      "desc": "Monthly afternoon car show at Wimborne Football Club.",
       "url": "https://www.transportofyesteryear.org.uk/event-calendar.html",
       "source": "Transport Of Yesteryear",
       "sourceUrl": "https://www.transportofyesteryear.org.uk/event-calendar.html"

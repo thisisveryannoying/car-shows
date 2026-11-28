@@ -1470,6 +1470,46 @@
       "added": "followed",
       "from": "https://southoxoncarclub.co.uk/",
       "addedOn": "2026-11-28"
+    },
+    {
+      "name": "RREC Surrey Section",
+      "url": "https://www.rrec-surrey.uk/section-events-2026",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-28",
+      "focus": "car shows, meets and motoring events in Surrey"
+    },
+    {
+      "name": "Cranleigh & District Lions Club",
+      "url": "https://www.cranleighlions.org/events/classic-car-festival/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-28",
+      "focus": "car shows, meets and motoring events in Surrey"
+    },
+    {
+      "name": "Surrey and Sussex BMW Owners Club",
+      "url": "https://surreysussexbmwoc.co.uk/event/fairmile-monthly-meeting-13/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-28",
+      "focus": "car shows, meets and motoring events in Surrey"
+    },
+    {
+      "name": "Haddenham Classics (more)",
+      "url": "https://haddenhamclassics.com/classic-cars-at-the-7",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://haddenhamclassics.com/hc-club-calendar",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "Surrey and Sussex BMW Owners Club (more)",
+      "url": "https://surreysussexbmwoc.co.uk/events/",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://surreysussexbmwoc.co.uk/event/fairmile-monthly-meeting-13/",
+      "addedOn": "2026-11-28"
     }
   ]
 }

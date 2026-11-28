@@ -1,5 +1,16 @@
 [
   {
+    "at": "2026-11-28T16:08:45.501Z",
+    "read": 28,
+    "events": 423,
+    "sources": 206,
+    "added": 3,
+    "tokensIn": 249960,
+    "tokensOut": 35528,
+    "searches": 7,
+    "costUsd": 0.711
+  },
+  {
     "at": "2026-11-28T10:11:47.278Z",
     "read": 6,
     "events": 408,
