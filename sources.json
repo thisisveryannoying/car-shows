@@ -1390,6 +1390,86 @@
       "added": "followed",
       "from": "https://southoxoncarclub.co.uk/",
       "addedOn": "2026-11-28"
+    },
+    {
+      "name": "Haddenham Classics",
+      "url": "https://haddenhamclassics.com/hc-club-calendar",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-28",
+      "focus": "car shows, meets and motoring events in Buckinghamshire"
+    },
+    {
+      "name": "Classics on the Crick",
+      "url": "https://classicsonthecrick.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-28",
+      "focus": "car shows, meets and motoring events in Buckinghamshire"
+    },
+    {
+      "name": "Haddenham Classics (more)",
+      "url": "https://haddenhamclassics.com/non-club-events",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://haddenhamclassics.com/hc-club-calendar",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "Haddenham Classics (more)",
+      "url": "https://haddenhamclassics.com/hc-meets-at-bradmoor-farm",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://haddenhamclassics.com/hc-club-calendar",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "Haddenham Classics (more)",
+      "url": "https://haddenhamclassics.com/hc-at-car-shows",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://haddenhamclassics.com/hc-club-calendar",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "South Oxon Car Club (more)",
+      "url": "https://southoxoncarclub.co.uk/socc-12-car-championship",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://southoxoncarclub.co.uk/",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "South Oxon Car Club (more)",
+      "url": "https://southoxoncarclub.co.uk/socc-autotest-championship",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://southoxoncarclub.co.uk/",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "South Oxon Car Club (more)",
+      "url": "https://southoxoncarclub.co.uk/autocross",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://southoxoncarclub.co.uk/",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "South Oxon Car Club (more)",
+      "url": "https://southoxoncarclub.co.uk/socc-scenic-sunday",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://southoxoncarclub.co.uk/",
+      "addedOn": "2026-11-28"
+    },
+    {
+      "name": "South Oxon Car Club (more)",
+      "url": "https://southoxoncarclub.co.uk/socc-regularity-run",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://southoxoncarclub.co.uk/",
+      "addedOn": "2026-11-28"
     }
   ]
 }
