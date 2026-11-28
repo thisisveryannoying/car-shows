@@ -1366,6 +1366,30 @@
       "added": "followed",
       "from": "https://www.classicsaturdays.co.uk/events-1",
       "addedOn": "2026-11-27"
+    },
+    {
+      "name": "Adwell Vintage Vehicle Show",
+      "url": "https://adwellvintagevehicleshow.co.uk/home/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-28",
+      "focus": "car shows, meets and motoring events in Oxfordshire"
+    },
+    {
+      "name": "South Oxon Car Club",
+      "url": "https://southoxoncarclub.co.uk/",
+      "enabled": true,
+      "added": "auto",
+      "addedOn": "2026-11-28",
+      "focus": "car shows, meets and motoring events in Oxfordshire"
+    },
+    {
+      "name": "South Oxon Car Club (more)",
+      "url": "https://southoxoncarclub.co.uk/444924705",
+      "enabled": true,
+      "added": "followed",
+      "from": "https://southoxoncarclub.co.uk/",
+      "addedOn": "2026-11-28"
     }
   ]
 }
